@@ -1,0 +1,971 @@
+/* ==========================================================================
+   FLAVOUR TRAILS — FORGOTTEN FLAVOURS OF INDIA
+   Exact Editorial Dark Leather & Antique Parchment Design System
+   ========================================================================== */
+
+:root {
+  --bg-deep-umber: #190D07;
+  --bg-dark-wood: #211109;
+  --bg-dark-card: #2B160C;
+  --bg-parchment-deckle: #EFE4D2;
+  --bg-parchment-dark: #381E10;
+
+  --color-gold-amber: #EFA632;
+  --color-gold-bright: #F5B84A;
+  --color-gold-text: #D99B43;
+  --color-gold-muted: #C59963;
+  --color-gold-pale: #F8EFE4;
+
+  --text-ivory: #FDF9F3;
+  --text-cream: #EDE2D4;
+  --text-sepia: #C7B5A3;
+  --text-sepia-muted: #9E8976;
+
+  --border-gold-subtle: rgba(217, 155, 67, 0.22);
+  --border-gold-medium: rgba(217, 155, 67, 0.45);
+  --border-deckle: #DFCEB7;
+
+  --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Base resets & typography */
+.flavour-trails-app {
+  min-height: 100vh;
+  background-color: var(--bg-deep-umber);
+  color: var(--text-cream);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================================================================
+   1. TOP NAVIGATION BAR (FLAVOUR TRAILS)
+   ========================================================================== */
+.flavour-trails-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(25, 13, 7, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border-gold-subtle);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+}
+
+.nav-container {
+  max-width: 1560px;
+  margin: 0 auto;
+  padding: 0.85rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+/* Brand Lockup */
+.nav-brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.nav-logo-art {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-leaf-ornament {
+  margin-bottom: 0.15rem;
+}
+
+.nav-brand-title {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--text-ivory);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.nav-brand-subtitle {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  color: var(--color-gold-muted);
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+
+.nav-brand-pipe {
+  color: var(--border-gold-medium);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/* Center Nav Links */
+.nav-links-center {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-sepia);
+  background: none;
+  border: none;
+  padding: 0.35rem 0.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: var(--color-gold-bright);
+}
+
+.nav-link.active {
+  color: var(--color-gold-bright);
+  font-weight: 600;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--color-gold-amber);
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(239, 166, 50, 0.6);
+}
+
+/* Search Bar on Right */
+.nav-search-wrap {
+  position: relative;
+  width: 280px;
+  flex-shrink: 0;
+}
+
+.nav-search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-sepia-muted);
+  pointer-events: none;
+}
+
+.nav-search-input {
+  width: 100%;
+  padding: 0.55rem 2rem 0.55rem 2.4rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-gold-subtle);
+  border-radius: 9999px;
+  color: var(--text-ivory);
+  font-size: 0.82rem;
+  font-family: var(--font-sans);
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+.nav-search-input::placeholder {
+  color: var(--text-sepia-muted);
+}
+
+.nav-search-input:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--color-gold-amber);
+  box-shadow: 0 0 12px rgba(239, 166, 50, 0.25);
+}
+
+.nav-search-clear {
+  position: absolute;
+  right: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-sepia-muted);
+  font-size: 0.75rem;
+}
+
+/* ==========================================================================
+   2. HERO SECTION — EXACT DESIGN MATCH
+   ========================================================================== */
+.flavour-trails-hero {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  background-color: var(--bg-deep-umber);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Dark Roasted Spices Backdrop Image */
+.hero-dark-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(ellipse at 60% 45%, rgba(68, 34, 16, 0.35) 0%, rgba(25, 13, 7, 0.85) 75%),
+    url('/images/flavour_trails_hero_backdrop.jpg');
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.85;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Vintage Architectural Sepia Etching Overlays */
+.vintage-etching-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0.22;
+  mix-blend-mode: screen;
+}
+
+/* Main Canvas Content: Left Editorial + Center Map Stage */
+.hero-content-canvas {
+  position: relative;
+  z-index: 10;
+  max-width: 1560px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 2.5rem 1rem 2.5rem;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  flex: 1;
+}
+
+/* Left Editorial Content */
+.hero-left-editorial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 420px;
+}
+
+.hero-pill-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.25em;
+  font-weight: 700;
+  color: var(--color-gold-text);
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.diamond-bullet {
+  font-size: 0.65rem;
+  color: var(--color-gold-amber);
+}
+
+.hero-grand-title {
+  font-family: var(--font-display);
+  font-size: 4.2rem;
+  font-weight: 900;
+  line-height: 1.04;
+  color: var(--text-ivory);
+  letter-spacing: -0.015em;
+  margin-bottom: 1.25rem;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.75);
+}
+
+.vintage-ornament-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 220px;
+  margin-bottom: 1.25rem;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-gold-text), transparent);
+}
+
+.divider-diamond {
+  font-size: 0.7rem;
+  color: var(--color-gold-amber);
+}
+
+.hero-editorial-subtext {
+  font-size: 1.12rem;
+  color: var(--text-sepia);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-family: var(--font-sans);
+}
+
+.explore-food-map-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.85rem 1.85rem;
+  background: linear-gradient(135deg, var(--color-gold-bright), var(--color-gold-amber));
+  color: #170C06;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(239, 166, 50, 0.35);
+  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.explore-food-map-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 26px rgba(239, 166, 50, 0.5);
+  background: #F8B84B;
+}
+
+.btn-arrow {
+  transition: transform 0.2s ease;
+}
+
+.explore-food-map-btn:hover .btn-arrow {
+  transform: translateX(4px);
+}
+
+/* ==========================================================================
+   3. CENTER MAP & PINNED POLAROIDS STAGE
+   ========================================================================== */
+.hero-map-stage {
+  position: relative;
+  width: 100%;
+  height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Connecting Curved Dashed Lines */
+.connecting-lines-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.curved-dash-line {
+  fill: none;
+  stroke: #C99754;
+  stroke-width: 1.6;
+  stroke-dasharray: 4 4;
+  opacity: 0.85;
+}
+
+/* India Map SVG in Warm Parchment Tones */
+.map-svg-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  height: auto;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vintage-india-svg {
+  width: 100%;
+  height: auto;
+  max-height: 590px;
+  filter: drop-shadow(0 18px 36px rgba(0, 0, 0, 0.85));
+}
+
+/* Parchment leather state path styling */
+.hero-state-path {
+  fill: #9E6430;
+  stroke: #613B17;
+  stroke-width: 0.8;
+  stroke-linejoin: round;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  outline: none;
+}
+
+.hero-state-path.is-pinned {
+  fill: #B57437;
+}
+
+.hero-state-path:hover,
+.hero-state-path.hovered {
+  fill: #E59837 !important;
+  stroke: #FFF0D6 !important;
+  stroke-width: 1.8 !important;
+  filter: drop-shadow(0 0 10px rgba(245, 184, 74, 0.75));
+}
+
+/* Glowing Location Pins */
+.hero-map-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pin-marker-core {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #FFE194, #EFA632 70%);
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 0 12px rgba(245, 184, 74, 0.9), 0 3px 8px rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1A0D06;
+  transition: transform 0.2s ease;
+}
+
+.hero-map-pin:hover .pin-marker-core {
+  transform: scale(1.25);
+}
+
+.pin-icon {
+  width: 13px;
+  height: 13px;
+  stroke-width: 2.5;
+}
+
+.pin-beacon-ripple {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-gold-bright);
+  animation: ripple 2.2s infinite cubic-bezier(0.2, 0.8, 0.2, 1);
+  pointer-events: none;
+}
+
+@keyframes ripple {
+  0% { transform: scale(0.6); opacity: 1; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+/* ==========================================================================
+   4. DECKLE-EDGED POLAROID CARDS (EXACT MATCH)
+   ========================================================================== */
+.deckle-polaroid-card {
+  position: absolute;
+  z-index: 15;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  outline: none;
+}
+
+.deckle-polaroid-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  z-index: 25;
+}
+
+/* Individual Card Placements (matching the reference image layout) */
+.card-rajasthan {
+  top: 5%;
+  left: 2%;
+  width: 175px;
+}
+
+.card-assam {
+  top: 4%;
+  right: 14%;
+  width: 170px;
+}
+
+.card-bengal {
+  top: 36%;
+  right: 4%;
+  width: 175px;
+}
+
+.card-karnataka {
+  bottom: 8%;
+  left: 3%;
+  width: 175px;
+}
+
+.card-tamilnadu {
+  bottom: 6%;
+  right: 18%;
+  width: 195px;
+}
+
+/* Deckle Edge Paper Frame */
+.deckle-paper-frame {
+  background: var(--bg-parchment-deckle);
+  border: 3.5px solid var(--border-deckle);
+  border-radius: 6px;
+  padding: 6px 6px 10px 6px;
+  box-shadow: 
+    0 12px 28px rgba(0, 0, 0, 0.65),
+    inset 0 0 10px rgba(180, 140, 100, 0.25);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.deckle-img-holder {
+  width: 100%;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.5rem;
+}
+
+.deckle-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.deckle-polaroid-card:hover .deckle-photo {
+  transform: scale(1.06);
+}
+
+.deckle-caption {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.deckle-territory-tag {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  color: #9E5B1D;
+  text-transform: uppercase;
+  margin-bottom: 0.1rem;
+}
+
+.deckle-dish-name {
+  font-family: var(--font-display);
+  font-size: clamp(0.92rem, 2.2vw, 1.05rem);
+  font-weight: 800;
+  color: #261309;
+  line-height: 1.15;
+  margin-bottom: 0.2rem;
+  overflow-wrap: break-word;
+}
+
+.deckle-tagline {
+  font-size: 0.72rem;
+  color: #634C3C;
+  line-height: 1.35;
+  font-family: var(--font-serif);
+  font-style: italic;
+  margin: 0;
+}
+
+/* Floating Hover Tooltip for any non-pinned state */
+.hero-dynamic-tooltip {
+  position: absolute;
+  z-index: 50;
+  width: 280px;
+  background: rgba(36, 18, 10, 0.95);
+  border: 1px solid var(--border-gold-medium);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  animation: tooltipFadeIn 0.15s ease-out;
+}
+
+.tooltip-top-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: var(--color-gold-bright);
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.tooltip-title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-ivory);
+  margin-bottom: 0.4rem;
+}
+
+.tooltip-dish-label {
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  color: var(--color-gold-muted);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.tooltip-dish {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-gold-bright);
+  margin-bottom: 0.2rem;
+}
+
+.tooltip-tagline {
+  font-size: 0.75rem;
+  color: var(--text-sepia);
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
+}
+
+.tooltip-cta {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-gold-amber);
+}
+
+/* ==========================================================================
+   5. BOTTOM MOUSE SCROLL PROMPTER
+   ========================================================================== */
+.hero-scroll-prompter {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 0 2rem 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.hero-scroll-prompter:hover {
+  opacity: 0.85;
+}
+
+.mouse-scroll-indicator {
+  width: 18px;
+  height: 28px;
+  border: 1.5px solid var(--color-gold-text);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.mouse-wheel {
+  width: 3px;
+  height: 6px;
+  background: var(--color-gold-bright);
+  border-radius: 2px;
+  animation: mouseScroll 1.8s infinite ease-in-out;
+}
+
+@keyframes mouseScroll {
+  0% { transform: translateY(0); opacity: 1; }
+  60% { transform: translateY(8px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 0; }
+}
+
+.prompter-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.68rem;
+  letter-spacing: 0.24em;
+  font-weight: 600;
+  color: var(--text-sepia);
+  line-height: 1.45;
+  text-align: center;
+}
+
+/* ==========================================================================
+   6. FOOD MAP DEEP DIVE SECTION
+   ========================================================================== */
+.food-map-deep-dive {
+  max-width: 1400px;
+  margin: 3rem auto 5rem auto;
+  padding: 0 2rem;
+}
+
+.section-divider-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  font-weight: 700;
+  color: var(--color-gold-muted);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.deep-dive-header {
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.header-subtitle {
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: var(--color-gold-text);
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.header-title {
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--text-ivory);
+  margin-bottom: 0.8rem;
+}
+
+.header-desc {
+  font-size: 1.05rem;
+  color: var(--text-sepia);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.zone-filter-pills {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.zone-pill {
+  padding: 0.45rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-sepia);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-gold-subtle);
+  transition: all 0.2s ease;
+}
+
+.zone-pill:hover {
+  border-color: var(--color-gold-amber);
+  color: var(--color-gold-bright);
+}
+
+.zone-pill.active {
+  background: var(--color-gold-amber);
+  color: #170C06;
+  border-color: var(--color-gold-amber);
+  box-shadow: 0 3px 12px rgba(239, 166, 50, 0.35);
+}
+
+/* ==========================================================================
+   7. FOOTER
+   ========================================================================== */
+.flavour-trails-footer {
+  background: #110804;
+  border-top: 1px solid var(--border-gold-subtle);
+  color: var(--text-sepia);
+  padding: 4rem 2.5rem 2rem 2.5rem;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto 3rem auto;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 3rem;
+}
+
+.footer-brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.85rem;
+}
+
+.footer-brand-lockup h3 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  color: var(--text-ivory);
+  margin: 0;
+}
+
+.footer-mission-statement {
+  color: var(--text-sepia-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.footer-regions-list h4 {
+  font-size: 0.95rem;
+  color: var(--text-ivory);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.footer-region-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer-region-chips span {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-gold-subtle);
+  border-radius: 9999px;
+  color: var(--text-sepia);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footer-region-chips span:hover {
+  background: var(--color-gold-amber);
+  color: #110804;
+  border-color: var(--color-gold-amber);
+}
+
+.footer-bottom-bar {
+  max-width: 1400px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-sepia-muted);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-bottom-links {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--color-gold-bright);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--text-sepia-muted);
+}
+
+/* ==========================================================================
+   8. RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+@media (max-width: 1200px) {
+  .hero-content-canvas {
+    grid-template-columns: 360px 1fr;
+    gap: 1.5rem;
+  }
+  .hero-grand-title {
+    font-size: 3.4rem;
+  }
+  .card-rajasthan { top: 3%; left: 0%; width: 155px; }
+  .card-assam { top: 3%; right: 8%; width: 150px; }
+  .card-bengal { top: 38%; right: 0%; width: 155px; }
+  .card-karnataka { bottom: 6%; left: 0%; width: 155px; }
+  .card-tamilnadu { bottom: 4%; right: 10%; width: 160px; }
+}
+
+@media (max-width: 992px) {
+  .hero-content-canvas {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-left-editorial {
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .hero-map-stage {
+    height: 520px;
+  }
+  .connecting-lines-svg {
+    display: none;
+  }
+  .deckle-polaroid-card {
+    position: static;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0.75rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links-center {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 0.3rem;
+    gap: 1.25rem;
+  }
+  .nav-search-wrap {
+    width: 100%;
+  }
+  .hero-grand-title {
+    font-size: 2.5rem;
+  }
+  .hero-map-stage {
+    height: 440px;
+  }
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

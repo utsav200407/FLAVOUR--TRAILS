@@ -1,0 +1,16 @@
+<USER_REQUEST>
+ similarly for the dishes  mentioned use this data 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-30T05:45:43+05:30.
+
+The user's current state is as follows:
+Active Document: /Users/utsavkumar/Documents/ATTENDANCE/untitled folder/gastro/vite.config.ts (LANGUAGE_UNSPECIFIED)
+Cursor is on line: 1
+Other open documents:
+- /Users/utsavkumar/Documents/ATTENDANCE/untitled folder/gastro/tsconfig.app.json (LANGUAGE_UNSPECIFIED)
+- /Users/utsavkumar/Documents/ATTENDANCE/untitled folder/gastro/src/components/StateDetail.css (LANGUAGE_UNSPECIFIED)
+- /Users/utsavkumar/Documents/ATTENDANCE/untitled folder/gastro/src/components/FlavourTrailsHero.tsx (LANGUAGE_UNSPECIFIED)
+- /Users/utsavkumar/Documents/ATTENDANCE/untitled folder/gastro/src/App.css (LANGUAGE_UNSPECIFIED)
+- /Users/utsavkumar/Documents/ATTENDANCE/untitled folder/gastro/src/index.css (LANGUAGE_UNSPECIFIED)
+</ADDITIONAL_METADATA>
