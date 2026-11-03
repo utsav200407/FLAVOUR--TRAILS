@@ -59,72 +59,72 @@ export const teamMembers: TeamMember[] = [
   {
     id: 'member-khushi',
     name: 'Khushi',
-    role: 'Project Research and Content Development',
-    intro: 'Focuses on secondary research, culinary documentation, and cross-referencing authentic regional recipes and techniques.',
+    role: 'Project Lead & Research Coordinator',
+    intro: 'Leads the project vision, coordinates culinary research workflows, and ensures rigorous documentation across regional cuisines.',
     contributions: [
-      'Comprehensive research synthesis across Northern and Eastern state cuisines',
+      'Project planning, milestone coordination, and research synthesis across regional cuisines',
       'Harmonization of heirloom recipe dossiers, ingredient ratios, and historical contexts',
-      'Liaison for academic source citation and research transparency'
+      'Liaison for academic source citation, team collaboration, and research transparency'
     ],
     photoUrl: '/images/team/khushi.jpg'
   },
   {
     id: 'member-vivinya',
     name: 'Vivinya',
-    role: 'Regional Cuisine Research',
-    intro: 'Dedicated to investigating indigenous terroirs, micro-regional foodways, and traditional agricultural crop cycles.',
+    role: 'Food Culture Researcher',
+    intro: 'Investigates regional food cultures, culinary anthropology, indigenous terroirs, and traditional agricultural foodways.',
     contributions: [
-      'Field analysis of Southern and Western culinary heritage and indigenous ingredients',
+      'Field and secondary analysis of regional culinary heritage and indigenous ingredients',
       'Comparative documentation of heirloom grains, wild botanicals, and seasonal produce',
       'Cross-referencing historical recipe adaptations with oral cooking traditions'
     ],
     photoUrl: '/images/team/vivinya.jpg'
   },
   {
-    id: 'member-rithvik',
-    name: 'Rithvik',
-    role: 'Food Stories and Cultural Documentation',
-    intro: 'Explores oral histories, folklore, ritual associations, and community memory woven into India\'s traditional foodways.',
+    id: 'member-likhit',
+    name: 'Likhit',
+    role: 'Content Writer & Storyteller',
+    intro: 'Creates regional introductions, food stories, dish descriptions, recipes, and oral food narratives.',
     contributions: [
-      'Documentation of ceremonial feast rituals including Kangri Dham and community foodways',
-      'Oral history curation for endangered festival dishes and tribal cooking lore',
-      'Analysis of socio-cultural significance behind community cooking practices'
+      'Authoring evocative regional food stories and historical recipe descriptions',
+      'Drafting comprehensive recipe steps, cooking techniques, and serving rituals',
+      'Oral food narrative curation capturing memories of family kitchens and food traditions'
+    ],
+    photoUrl: '/images/team/likhit.jpg'
+  },
+  {
+    id: 'member-ritwik',
+    name: 'Ritwik',
+    role: 'Media & Documentation Coordinator',
+    intro: 'Manages food photography, audio recordings, oral food stories, visual content, references, and project documentation.',
+    contributions: [
+      'Audio recording curation, audio processing, and oral story archival management',
+      'Food photography, archival imagery collation, and visual asset synchronization',
+      'Management of bibliographic references, academic citations, and project documentation'
     ],
     photoUrl: '/images/team/rithvik.jpg'
   },
   {
     id: 'member-pratyush',
     name: 'Pratyush',
-    role: 'Gastronomic Studies & Editorial Review',
-    intro: 'Focuses on culinary literature synthesis, cultural narratives, and editorial refinement of state archives.',
+    role: 'Web Developer',
+    intro: 'Works on frontend development, website functionality, responsive layouts, navigation, and technical implementation.',
     contributions: [
-      'Editorial review of regional culinary narratives and cultural glossaries',
-      'Synthesis of academic literature and historical references across state chapters',
-      'Content consistency and pedagogical alignment with Gastronomic Studies coursework'
+      'Frontend component engineering, state management, and interactive modals',
+      'Responsive layouts, cross-device optimization, and mobile navigation flow',
+      'Technical feature implementation and cross-browser quality assurance'
     ],
     photoUrl: '/images/team/pratyush.jpg'
   },
   {
-    id: 'member-likhit',
-    name: 'Likhit',
-    role: 'Archival Curation & Field Documentation',
-    intro: 'Specializes in mapping traditional cooking vessels, fire techniques, and regional preservation methodologies.',
-    contributions: [
-      'Documentation of heirloom cookware including soapstone kalchattis, brass urulis, and iron tawas',
-      'Archival collation of forgotten culinary techniques and natural fermentation science',
-      'Preservation assessment of endangered oral recipes and village cooking practices'
-    ],
-    photoUrl: '/images/team/likhit.jpg'
-  },
-  {
     id: 'member-utsav',
     name: 'Utsav',
-    role: 'Website Design and Development',
-    intro: 'Leads the digital architecture, interactive mapping engine, and visual identity for Flavour Trails.',
+    role: 'UI/UX Designer & Lead Web Developer',
+    intro: 'Leads website design and development, creates the user experience, designs interactive elements, and oversees the overall technical implementation.',
     contributions: [
-      'Interactive SVG India culinary map architecture and regional filtering systems',
-      'Editorial interface design echoing Indian manuscript warmth and antique parchment textures',
-      'Full-stack frontend development, performance optimization, and deep linking'
+      'Interactive SVG India culinary map architecture, state filtering, and deep linking',
+      'Editorial interface design echoing Indian manuscript warmth and antique parchment aesthetics',
+      'Full-stack frontend architecture, custom audio player engine, and performance optimization'
     ],
     photoUrl: '/images/team/utsav.jpg'
   }

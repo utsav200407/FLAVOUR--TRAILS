@@ -57,7 +57,7 @@ export const Navbar = ({
             className={`nav-link ${activeTab === 'stories' ? 'active' : ''}`}
             onClick={() => handleTabClick('stories')}
           >
-            Stories
+            Oral Food Stories
           </button>
           <button
             className={`nav-link ${activeTab === 'recipes' ? 'active' : ''}`}

@@ -45,7 +45,7 @@ The application supports native **hash-based routing and deep-linking**:
 | Route / Hash | Destination | Description |
 | :--- | :--- | :--- |
 | `/#` | **Home (Culinary Map)** | Interactive SVG India map with pinned deckle-paper dish cards and state hover tooltips |
-| `/#stories` | **Living Food Stories** | 8 oral histories and personal memories from elders and hereditary cooks |
+| `/#stories` or `/#oral-stories` | **Oral Food Stories** | Authentic voice recordings in people's own voices + living elder memory chronicles |
 | `/#recipes` | **All Recipes** | Filterable compendium of authentic heirloom recipes across all states |
 | `/#about` | **About Us** | Project purpose, faculty guidance tribute, team profiles, and research references |
 | `/#state={id}` | **State Detail Archive** | Comprehensive culinary dossier for a specific state (e.g. `state=rj`, `state=kl`) |
@@ -55,6 +55,15 @@ The application supports native **hash-based routing and deep-linking**:
 
 ## ✨ Key Features
 
+- 🎙️ **Oral Food Stories (Recorded in People's Own Voices)**: A living audio archive dedicated to capturing personal experiences, family kitchen rituals, and emotional food connections directly in people's spoken voices rather than just written texts. Features custom in-browser audio players with scrubbers, animated waveforms, playback speed toggles, and word-for-word spoken transcripts (strictly anonymous, community-attributed without individual names).
+  - *The Midnight Highway & Mom's Hot Lauki Paratha* (1:09) — Traveling 3 hours from Delhi to Mathura past midnight just for fresh mother's parathas.
+  - *The 90-Minute Local Train Quest: The Spiciest Misal Challenge* (0:37) — College friends embarking on a local train journey across Maharashtra hunting fiery misal.
+  - *The 7th Birthday Revelation: Chole Bhature* (0:19) — Childhood birthday celebration falling in love with classic North Indian chickpeas and puffed bhatura.
+  - *Hostel Days & Mom's Crispy Ghee Dosa* (2:20) — Personal reflection on mom's fermented batter as an emotional cure and comfort food.
+  - *The Dum Fragrance That Stole The House: Father’s Sunday Biryani* (0:52) — Paternal cooking rituals, teamwork, and waiting for the dough seal to break.
+  - *Beyond The Famous Restaurants: Why Mom’s Biryani Still Reigns Supreme* (1:19) — Hyderabad food lore on why no restaurant can beat home-cooked maternal biryani.
+  - *The Street-Corner Burst: Childhood Holidays & Pani Puri* (0:40) — The explosion of street-side flavours and the thrill of homecoming holidays.
+  - *Sacred Cow-Dung Embers & Sattu: The Timeless Resilience of Litti Chokha* (1:05) — Rural Magadhan resilience and the earthen nourishment of ember-roasted litti.
 - 🗺️ **Interactive Vector Map of India**: Dynamic SVG map (`@svg-maps/india`) allowing exploratory browsing across all 28 states and union territories with real-time hover cards displaying culinary philosophies, staple grains, and representative dishes.
 - 📜 **Parchment & Leather Manuscript Design**: Aesthetic inspired by classical Indian manuscripts, natural terracotta, antique brass, and deckle-edged polaroid photography.
 - 🥘 **Comprehensive State Archives**: Detailed dossiers for Indian states covering:
@@ -63,7 +72,7 @@ The application supports native **hash-based routing and deep-linking**:
   - Heirloom cookware and traditional vessels (e.g., soapstone *kalchatti*, bronze *uruli*, iron *kavili*, bell-metal *kahi bati*)
   - Signature spices, wild aromatics, and staple heirloom grains
   - Complete step-by-step recipes with precise ingredient ratios and serving rituals
-- 👵 **Oral Food Stories & Living Memories**: Narrative chronicle featuring first-person memories from regional elders, temple *botis*, and foragers detailing sensory nostalgia (aroma, texture, flavor shock) and historical anecdotes.
+- 👵 **Elder Memory Chronicles**: In-depth field narratives featuring first-person memories from regional elders, temple *botis*, and foragers detailing sensory nostalgia (aroma, texture, flavor shock) and historical anecdotes.
 - 🔍 **Universal Real-Time Search**: Cross-database search filtering instantaneously across dishes, native vernacular names, states, spices, and ingredients.
 - 📚 **Annotated Academic Bibliography**: Filterable repository of peer-reviewed books, historical literature (such as K.T. Achaya's historical companions), and culinary papers.
 

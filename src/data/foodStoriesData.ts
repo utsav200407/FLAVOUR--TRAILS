@@ -1,3 +1,33 @@
+export interface OralAudioStory {
+  id: string;
+  title: string;
+  subtitle: string;
+  dishName: string;
+  nativeName?: string;
+  category: 'audio-recording';
+  audioUrl: string;
+  durationSeconds: number;
+  durationFormatted: string;
+  speaker: {
+    name: string;
+    roleOrIdentity: string;
+    location: string;
+    language: string;
+  };
+  region: 'North' | 'South' | 'East' | 'West' | 'Central' | 'Pan-India';
+  themeTag: string;
+  pullQuote: string;
+  fullTranscript: string;
+  culturalStory: string[];
+  sensoryMemories: {
+    label: string;
+    description: string;
+  }[];
+  imageUrl: string;
+  relatedStateId?: string;
+  relatedDishId?: string;
+}
+
 export interface FoodStory {
   id: string;
   title: string;
@@ -25,6 +55,313 @@ export interface FoodStory {
   imageUrl: string;
 }
 
+/**
+ * Authentic Recorded Audio Stories in People's Own Voices
+ * Preserving personal culinary experiences, family memories, and emotional connections.
+ */
+export const oralAudioStories: OralAudioStory[] = [
+  {
+    id: 'oral-audio-dosa',
+    title: 'Hostel Days & Mom’s Crispy Ghee Dosa: The Food That Heals Everything',
+    subtitle: 'A student living away from home on why mom’s fresh fermented dosa is an emotion, a celebration, and a life cure',
+    dishName: 'Mom’s Crispy Ghee Dosa with Gunpowder Podi',
+    nativeName: 'ತುಪ್ಪದ ದೋಸೆ / நெய் தோசை / నేతి దోస',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/moms_crispy_dosa.mp3',
+    durationSeconds: 140,
+    durationFormatted: '2:20',
+    speaker: {
+      name: 'Hostel Student',
+      roleOrIdentity: 'Engineering Student living away from home',
+      location: 'Bengaluru / Coastal Karnataka & Andhra',
+      language: 'English'
+    },
+    region: 'South',
+    themeTag: 'Maternal Love, Comfort Food & Hostel Days',
+    pullQuote: 'Before going home from the hostel, I ask my mother to please keep lots of dosa batter ready! It’s hot, crispy, ghee on top, having it with podi, coconut chutney, and sambar... Whenever I have a bad day or celebrate good news, dosa is the cure for everything.',
+    fullTranscript: `Hey guys, so I think it's pretty obvious that by now Dosa is my actually all-time favourite food. And when I say favourite, I very genuinely mean like I can have dosa literally anytime, like whenever you give, I can just eat it anytime without getting bored of it.
+
+Like, I live in a hostel, so that one thing what I do is when I go home—just before going home, I just ask my mother to please just keep a lot of dosa batter ready so that I can just have it every morning!
+
+There's something really, really special about mom's dosa: like that hot, crispy dosa, like putting ghee on it, and then having it with podi, and then that coconut chutney and the sambar. Like, I swear it's a completely different kind of happiness! And then the moment you take the first bite, you just feel more and more, and before you realise it, you’ve probably lost count.
+
+At this point, I actually think that I have developed kind of an addiction to dosas—I just cannot imagine life without them. The funniest part is, it's the solution to like anything in my life: if I am having a bad day, or something goes wrong, or I'm just feeling low, I just eat dosa and my mood instantly gets better. And if something good happens, I still celebrate—I just eat dosa!
+
+Whatever happens in my life—happy, stressed, excited—dosa is the meaning. I've reached a point where it's no longer just food; it's an emotion, a comfort food, and an essential part of my life. And there's one thing I am absolutely sure of: no matter what happens in life, I will always love eating dosas anytime.`,
+    culturalStory: [
+      'Living away from home in university hostels is a rite of passage for millions of Indian students. The routine mess food leaves a profound sensory longing for the specific alchemy of home: the familiar hum of the stone wet-grinder on weekends, the mild effervescent tang of wild overnight fermented batter, and the crackle of water droplets dancing on a seasoned cast-iron tawa.',
+      'A mother’s dosa is an irreplaceable signature—the proportion of aged raw rice to urad dal, a pinch of golden methi seeds for amber hue, a handful of beaten flattened rice (poha) for crisp porous lightness, and the generous ladle of pure country ghee that fries the bottom into an intricate, golden honeycomb lattice. Standing by the stove as hot dosas slide onto the plate faster than one can count represents unconditional care.'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Desi cow ghee searing on cast iron, fermented rice-dal nuttiness, and freshly crackled mustard-curry leaf tadka' },
+      { label: 'Texture', description: 'Crackling golden-brown lace on the perimeter with a soft, honeycomb-aerated center dipped in spicy podi oil' },
+      { label: 'Emotional Core', description: 'Mother standing by the stove serving hot dosas one after another; food as the ultimate restorative therapy' }
+    ],
+    imageUrl: '/images/stories/ghee_dosa.jpg',
+    relatedStateId: 'ka',
+    relatedDishId: 'ka-ragi-ambli'
+  },
+  {
+    id: 'oral-audio-biryani',
+    title: 'The Dum Fragrance That Stole The House: Father’s Sunday Biryani',
+    subtitle: 'Waiting for the sealed handi to open, kitchen assistants, and the indelible warmth of family meals',
+    dishName: 'Father’s Special Dum Biryani',
+    nativeName: 'दम बिरयानी / దమ్ బిర్యానీ',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/fathers_biryani.mp3',
+    durationSeconds: 52,
+    durationFormatted: '0:52',
+    speaker: {
+      name: 'Family Storyteller',
+      roleOrIdentity: 'Daughter & Home Chronicler',
+      location: 'Deccan Heritage Home',
+      language: 'English'
+    },
+    region: 'South',
+    themeTag: 'Father’s Culinary Rituals & Family Unity',
+    pullQuote: 'He would always need an assistant while cooking, creating such a lovely hustle and bustle around the house. The aroma would distract me so much that concentrating on anything else was impossible!',
+    fullTranscript: `Definitely Biryani. The very first biryani I ever tasted was cooked by my father. And I must say his version is still my favorite.
+
+He would always need an assistant while cooking, and that used to create such a lovely hustle and bustle around the house. I remember how difficult it used to be for me to wait until it was finally ready, because the aroma... the aroma would distract me so much that concentrating on anything else became almost impossible.
+
+And then getting to enjoy all its rich and complex flavors together with my family made it even more special for me.`,
+    culturalStory: [
+      'In countless Indian households, while everyday weekday meals are stewarded with quiet constancy, weekend celebratory dishes—especially slow-cooked Dum Biryani—frequently become the artistic, celebratory domain of fathers. Making a proper biryani is a collaborative family festival: peeling shallots, slicing mounds of red onions for crisp caramelized birista, and hand-grinding green cardamom and mace.',
+      'The Dum method of cooking—sealing the rim of a heavy copper or cast-iron handi with raw wheat dough—is an exercise in anticipation. As the vessel rests over gentle glowing embers, aromatic steam builds until micro-fissures in the dough release intoxicating plumes of saffron, rose water, and clarified ghee throughout the house. When the seal is finally sliced open at the dinner table, the meal becomes a celebration of patience, togetherness, and paternal devotion.'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Distracting, hypnotic plumes of saffron milk, blooming mace, fried onions, and aged basmati escaping the dough seal' },
+      { label: 'Texture', description: 'Feather-light separate rice grains marbled white and saffron-gold, layered with melt-in-the-mouth richness' },
+      { label: 'Emotional Core', description: 'The kitchen bustling with teamwork; the sheer joy of family gathered around a steaming platter' }
+    ],
+    imageUrl: '/images/stories/dum_biryani.jpg',
+    relatedStateId: 'tg',
+    relatedDishId: 'tg-jonna-rotte'
+  },
+  {
+    id: 'oral-audio-panipuri',
+    title: 'The Street-Corner Burst: Childhood Holidays & The Magic of Pani Puri',
+    subtitle: 'A personal reflection on the explosive harmony of street flavours and the joy of stepping back home',
+    dishName: 'Pani Puri (Golgappa / Puchka)',
+    nativeName: 'पानी पूरी / పానీ పూరి',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/pani_puri_nostalgia.mp4',
+    durationSeconds: 40,
+    durationFormatted: '0:40',
+    speaker: {
+      name: 'Hometown Student',
+      roleOrIdentity: 'Vacation Traveler & Street Food Enthusiast',
+      location: 'Hyderabad / Telangana & Andhra',
+      language: 'Bilingual (English & Telugu)'
+    },
+    region: 'South',
+    themeTag: 'Childhood Homecoming & Street Flavours',
+    pullQuote: 'Like whenever you give it, I can just eat it anytime... The multiple flavours burst all at once, and every holiday going back home from childhood, it’s always Pani Puri.',
+    fullTranscript: `Pani Puri, it's something I just love. Like a comforting, soulful, filling snack that I can have from outside.
+
+And in that, the flavorful—chala nachutundi [Telugu: I like it so much], multiple flavors okesari burst ayithe chala baguntundi [when multiple flavors burst all at once, it feels so good].
+
+And I have a lot of memories associated with it. First time having it, like having it every time when I went back home for holidays from childhood... I have a lot associated with it.`,
+    culturalStory: [
+      'Pani Puri is India’s greatest sensory equalizer. Across crowded train stations, street corners, and market bazaars, people from all walks of life stand side-by-side holding small sal-leaf dona bowls, waiting for the vendor’s rhythmic hand to punch a thumb-hole into a golden sphere and dunk it into icy herb waters.',
+      'The magic lies in the instantaneous contrast: the wafer-thin crisp shell shatters on the tongue, immediately followed by the icy rush of fresh coriander, green chilli, and black salt water, colliding with the sweet-tangy syrup of aged dates and tamarind, anchored by warm, spiced chickpeas. For students and travelers returning to their hometowns on vacation, that first plate on the street corner signals that one is truly home.'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Pungent black salt, freshly bruised garden mint, toasted cumin powder, and sun-cooked tamarind' },
+      { label: 'Texture', description: 'Ultra-crisp wafer-thin sphere collapsing into an explosion of chilled spiced water and velvety chickpeas' },
+      { label: 'Emotional Core', description: 'The exhilaration of stepping off the train on school holidays and standing around the neighbourhood cart' }
+    ],
+    imageUrl: '/images/stories/pani_puri.jpg',
+    relatedStateId: 'tg',
+    relatedDishId: 'tg-jonna-rotte'
+  },
+  {
+    id: 'oral-audio-paratha',
+    title: 'The Midnight Highway & Mom’s Hot Lauki Paratha',
+    subtitle: 'Refusing midnight Delhi dinner to endure a 3-hour journey to Mathura just for hot home-cooked parathas',
+    dishName: 'Lauki Paratha & Desi Makhan',
+    nativeName: 'लौकी का पराठा',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/midnight_lauki_paratha.m4a',
+    durationSeconds: 69,
+    durationFormatted: '1:09',
+    speaker: {
+      name: 'North Indian Traveler',
+      roleOrIdentity: 'Student Traveler returning home to Mathura',
+      location: 'Delhi to Mathura, Uttar Pradesh',
+      language: 'English'
+    },
+    region: 'North',
+    themeTag: 'Late-Night Homecoming & Mother’s Griddle',
+    pullQuote: 'I was that crazy that I waited 2 to 3 hours of traveling from Delhi to Mathura just for that paratha. I told my father: no outside dinner, I just want to reach home at 2 AM and have mom make fresh lauki parathas.',
+    fullTranscript: `Being a North Indian, paratha is like all-time favorite... something like anytime.
+
+Recently, when I was going back to my home around 11:00 PM or 12:00 AM, my father asked me, 'Hey, you want to have dinner in Delhi where we were at?' And I was supposed to go to Mathura.
+
+Basically you can think of it—I was that crazy that I could wait that 2 to 3 hours of traveling to Mathura for that paratha! I was like: 'No, no, no, I don't want any outside dinner right now. I just want to go home and have my favorite parathas.'
+
+So I reached home around 1:00 or 2:00 AM, and then I asked my mother, 'Please, let me have a nice paratha, like lauki paratha.' That is a memory of how much love I have for parathas.`,
+    culturalStory: [
+      'Across the northern plains of the Yamuna basin, the stuffed paratha is more than food—it is an unconditional gesture of welcome. Arriving home past midnight to find a mother willing to fire up the iron tawa and knead freshly grated bottle gourd (lauki) into spiced whole-wheat dough speaks to the heart of Indian domestic warmth.',
+      'Lauki paratha is a beloved comfort staple in Braj and Uttar Pradesh households, prized for its cooling digestive lightness, fragrant carom seeds (ajwain), and roasted cumin, best enjoyed steaming hot with fresh homemade white butter (desi makhan).'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Toasted whole wheat and ajwain frying on an iron griddle, mingled with tender spiced bottle gourd' },
+      { label: 'Texture', description: 'Crisp golden-brown spotted exterior layered with tender, spiced soft interior' },
+      { label: 'Emotional Core', description: 'The absolute reassurance of reaching home at 2 AM and eating fresh from mother’s hands' }
+    ],
+    imageUrl: '/images/stories/lauki_paratha.jpg',
+    relatedStateId: 'up',
+    relatedDishId: 'up-vegetable-tehri'
+  },
+  {
+    id: 'oral-audio-chole-bhature',
+    title: 'The 7th Birthday Revelation: The Magic of Chole Bhature',
+    subtitle: 'A childhood birthday memory of falling in love with the classic combination of spiced chickpeas and puffed bhatura',
+    dishName: 'Chole Bhature & Pickled Chilies',
+    nativeName: 'छोले भटूरे',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/birthday_chole_bhature.m4a',
+    durationSeconds: 19,
+    durationFormatted: '0:19',
+    speaker: {
+      name: 'Food Enthusiast',
+      roleOrIdentity: 'Childhood Birthday Storyteller',
+      location: 'Delhi / Punjab',
+      language: 'English'
+    },
+    region: 'North',
+    themeTag: 'Childhood Celebrations & Classic Pairings',
+    pullQuote: 'First ever when I had it, I was around 7 or 8 years old on my birthday. I love the taste of Chole Bhature—not the oil, but the combined combination of chole and bhature.',
+    fullTranscript: `My favorite dish is Chole Bhature. First ever when I had it, I was around 7 or 8 years old.
+
+The memory associated with it was I had my birthday on that day. And I love the taste of Chole Bhature—not the oil, but the combined combination of Chole Bhature.`,
+    culturalStory: [
+      'In North India, Chole Bhature is the undisputed crown of festive indulgence. Slow-cooked dark chickpeas infused with tea decoction, dried pomegranate seeds (anardana), and robust Punjabi garam masala find their perfect counterpart in piping-hot, balloon-puffed fermented bhaturas.',
+      'For a young child tasting it at a birthday celebration, the pairing creates an indelible sensory memory—tearing through the crisp gossamer crust of the bhatura to scoop up the dark spiced gravy along with crunchy pickled onions and sour green chillies.'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Black tea leaves, toasted anardana, and fragrant kasoori methi rising from dark spiced gravy' },
+      { label: 'Texture', description: 'Air-filled, pillowy fermented bhatura bread that tears softly into hearty, melting chickpeas' },
+      { label: 'Emotional Core', description: 'Childhood birthdays where festive food transforms an ordinary morning into pure celebration' }
+    ],
+    imageUrl: '/images/stories/chole_bhature.jpg',
+    relatedStateId: 'pb',
+    relatedDishId: 'pb-amritsari-chole'
+  },
+  {
+    id: 'oral-audio-misal-pav',
+    title: 'The 90-Minute Local Train Quest: The Spiciest Misal Challenge',
+    subtitle: 'Boarding a local train with college friends on an ambitious hunt for legendary fiery Maharashtrian rassa',
+    dishName: 'Kolhapuri & Puneri Misal Pav',
+    nativeName: 'मिसळ पाव',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/spicy_misal_pav_quest.m4a',
+    durationSeconds: 37,
+    durationFormatted: '0:37',
+    speaker: {
+      name: 'College Adventurer',
+      roleOrIdentity: 'Student Traveler & Street Food Explorer',
+      location: 'Mumbai & Pune, Maharashtra',
+      language: 'English'
+    },
+    region: 'West',
+    themeTag: 'Youth Adventures, Spice Challenges & Friendship',
+    pullQuote: 'Me and my friends took a 1.5-hour train to find the spiciest misal. We thought we could handle the spice, but apparently we could not do it! But it was an unforgettable time.',
+    fullTranscript: `My favorite dish is Misal Pav. And one of the memory I would like to share is when me and my friends decided to go and find a place where they serve the spiciest misal.
+
+It took us around one or one and a half hour approx to reach by train. After reaching there and ordering all those different types of misal, we thought we could handle the spice, but apparently we could not do it!
+
+But yeah, it was a fun time spending with them.`,
+    culturalStory: [
+      'Misal Pav in Maharashtra is not merely breakfast; it is a sport, a camaraderie ritual, and a badge of honor. Built upon sprouted moth beans (matki), spicy ginger-garlic gravy (tarri/rassa), crunchy farsan, and finely minced onions served alongside pillow-soft ladi pav, it delivers an adrenaline rush of flavor.',
+      'College expeditions aboard local trains to hunt down famous misal joints in Dadar, Thane, or Pune are cherished memories for youth across Maharashtra. The shared laughter, teary eyes, and breathless gasps from fiery Kolhapuri spice unite friends around the table in unforgettable fellowship.'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Fiery red Kolhapuri chili oil (tarri) sizzling with garlic, cloves, and dry coconut' },
+      { label: 'Texture', description: 'Sprouted moth beans swimming in liquid fire, crunchy farsan, and soft buttery pav soaking up the broth' },
+      { label: 'Emotional Core', description: 'Youthful bravado, college friendships, and memories forged over local train journeys' }
+    ],
+    imageUrl: '/images/stories/misal_pav.jpg',
+    relatedStateId: 'mh',
+    relatedDishId: 'mh-bharli-vangi'
+  },
+  {
+    id: 'oral-audio-hyderabad-biryani',
+    title: 'Beyond The Famous Restaurants: Why Mom’s Biryani Still Reigns Supreme',
+    subtitle: 'A reflection on Hyderabad’s aromatic legacy and why no iconic eatery can match the warmth of home',
+    dishName: 'Hyderabadi Dum Biryani with Raita',
+    nativeName: 'हैदराबादी दम बिरयानी / హైదరాబాదీ దమ్ బిర్యానీ',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/hyderabadi_moms_biryani.mp4',
+    durationSeconds: 79,
+    durationFormatted: '1:19',
+    speaker: {
+      name: 'Deccan Culinary Voice',
+      roleOrIdentity: 'Home Culinary Chronicler',
+      location: 'Hyderabad, Telangana',
+      language: 'English'
+    },
+    region: 'South',
+    themeTag: 'Home Cooking vs Commercial Fame & Maternal Love',
+    pullQuote: 'Many people travel to Hyderabad just to have a taste of it... But if you ask me whether restaurant biryani is better than homemade, my answer will always be my mom’s biryani. For me, biryani is not just food—it’s an emotion, a feeling, and a taste of home.',
+    fullTranscript: `Whenever I think of biryani, the first thing that strikes my mind is its amazing taste and aroma. Hyderabad is famous for its biryani, and honestly, you can find it anywhere and at any time.
+
+The moment you open a plate of Hyderabadi Biryani, the rich aroma of spices fills the air. The perfectly cooked rice, the tender juicy chicken, and its flavorful masala makes every bite so special and delicious. Of course, biryani is never complete without a cool and refreshing raita!
+
+Eating biryani in Hyderabad is truly a remarkable experience; many people travel to Hyderabad just to have a taste of it. But if you ask me whether restaurant biryani is better than homemade biryani, my answer will always be my mom's biryani. There's something special about the biryani made at home by my mom—the love, the flavours, and the warmth taste even better.
+
+No matter how famous a restaurant is or how delicious its biryani tastes, nothing can beat the biryani made by my mom at home, because for me, biryani is not just food; it's an emotion, a feeling, and a taste of home.`,
+    culturalStory: [
+      'Hyderabad’s Nizami and Deccani culinary history made dum biryani a global icon. Yet within the city itself, the truest culinary debates are not between legendary restaurants, but between commercial excess and domestic refinement.',
+      'Home-cooked Hyderabadi biryani relies on precision marination in spiced curd, mint, and fried onions without synthetic essences or heavy oils, allowing the delicate aromatics of aged basmati to shine through with maternal tenderness.'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Intoxicating bouquet of royal shahi jeera, saffron strands, and fresh mint leaves' },
+      { label: 'Texture', description: 'Silken, long-grain basmati separate and feather-light, paired with succulent slow-cooked meat' },
+      { label: 'Emotional Core', description: 'The timeless truth that mother’s hands impart a warmth no commercial kitchen can ever replicate' }
+    ],
+    imageUrl: '/images/stories/dum_biryani.jpg',
+    relatedStateId: 'tg',
+    relatedDishId: 'tg-jonna-rotte'
+  },
+  {
+    id: 'oral-audio-litti-chokha',
+    title: 'Sacred Cow-Dung Embers & Sattu: The Timeless Resilience of Litti Chokha',
+    subtitle: 'Oral lore on how rustic wood-and-dung fires and roasted gram flour nourished Bihar through hardship',
+    dishName: 'Litti Chokha with Charred Baingan & Ghee',
+    nativeName: 'लिट्टी चोखा',
+    category: 'audio-recording',
+    audioUrl: '/audio/stories/bihar_litti_chokha.mp4',
+    durationSeconds: 65,
+    durationFormatted: '1:05',
+    speaker: {
+      name: 'Bhojpuri Heritage Chronicler',
+      roleOrIdentity: 'Rural Cultural Chronicler',
+      location: 'Magadh & Bhojpuri Heartland, Bihar',
+      language: 'Bilingual (Hindi & English)'
+    },
+    region: 'East',
+    themeTag: 'Rural Resilience, Ancestral Fire & Soil Heritage',
+    pullQuote: 'From what my mother and elders taught me, during difficult times when resources were scarce, cow-dung cake fires and roasted sattu gave communities complete nutrition. That is why Litti Chokha is the heartbeat of Bihar.',
+    fullTranscript: `Jaise maine meri mummy aur teachers se suna, purane samay mein jab kathinaiyan chal rahi thi, toh us samay logon ke paas resources aur khane ke utne paise bhi nahi hote the.
+
+Par Bihar mein har gaon aur har ghar mein jo naturally available tha—jaise cow dung cakes (goitha/upala) ki aanch—uspe sattu se bhari hui litti banti thi. Isliye Litti Chokha Bihar ka sabse authentic, nutritious aur shaktishali food hai jo aaj bhi hamari pehchaan hai.`,
+    culturalStory: [
+      'Litti Chokha is ancient Magadhan gastronomy in its purest elemental form: earth, fire, and roasted grains. Whole-wheat dough balls stuffed with spiced roasted black chickpea flour (sattu), pungent mustard oil, carom seeds, and pickled spices are roasted directly over smoldering cow dung cake embers (goitha).',
+      'Historically championed by travelers, farmers, and military garrisons under Sher Shah Suri due to its long shelf-life and high protein content, it requires no fancy utensils—just the heat of the hearth and the gifts of the land, finished with roasted eggplant and tomato chokha and a dip in clarified cow ghee.'
+    ],
+    sensoryMemories: [
+      { label: 'Aroma', description: 'Smoky ash of slow-burning embers, cold-pressed raw mustard oil, and toasted sattu' },
+      { label: 'Texture', description: 'Brittle crust dusted with woodsmoke giving way to a nutty, crumbly, spicy center saturated in warm ghee' },
+      { label: 'Emotional Core', description: 'The earthy pride of rural Bihar—sustenance born of natural wisdom, self-reliance, and ancestral fires' }
+    ],
+    imageUrl: '/images/stories/litti_chokha.jpg',
+    relatedStateId: 'br',
+    relatedDishId: 'br-lauka-jabar'
+  }
+];
+
 export const foodStoriesCollection: FoodStory[] = [
   {
     id: 'story-pazhamkanji',
@@ -37,8 +374,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'kl-pazhamkanji',
     region: 'South',
     narrator: {
-      name: 'Narayanan Pillai',
-      roleOrTitle: 'Elderly Paddy Farmer (72)',
+      name: 'Elderly Paddy Farmer',
+      roleOrTitle: 'Third-Generation Rice Cultivator (72)',
       location: 'Kuttanad, Alappuzha, Kerala'
     },
     eraTag: 'Agrarian Oral Memory',
@@ -68,8 +405,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'hp-siddu',
     region: 'North',
     narrator: {
-      name: 'Kamla Devi',
-      roleOrTitle: 'Pahari Home Cook & Handloom Weaver (68)',
+      name: 'Pahari Home Cook & Weaver',
+      roleOrTitle: 'Mountain Hearth Keeper & Weaver (68)',
       location: 'Naggar Valley, Kullu, Himachal Pradesh'
     },
     eraTag: 'Himalayan Winter Lore',
@@ -99,8 +436,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'hp-kangri-dham',
     region: 'North',
     narrator: {
-      name: 'Pandit Rameshwar Sharma',
-      roleOrTitle: 'Third-Generation Hereditary Boti Master Cook (61)',
+      name: 'Hereditary Boti Master Cook',
+      roleOrTitle: 'Third-Generation Feasting Cook (61)',
       location: 'Jawalamukhi, Kangra, Himachal Pradesh'
     },
     eraTag: 'Centuries-Old Feasting Tradition',
@@ -130,8 +467,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'jh-rugra-futu-curry',
     region: 'East',
     narrator: {
-      name: 'Budhram Munda',
-      roleOrTitle: 'Adivasi Elder & Botanical Forager (75)',
+      name: 'Adivasi Forest Forager',
+      roleOrTitle: 'Tribal Elder & Botanical Guide (75)',
       location: 'Khunti District, Chota Nagpur Plateau, Jharkhand'
     },
     eraTag: 'Indigenous Forest Knowledge',
@@ -161,8 +498,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'rj-ker',
     region: 'West',
     narrator: {
-      name: 'Bhagirath Singh Bhati',
-      roleOrTitle: 'Desert Shepherd & Oral Historian (81)',
+      name: 'Thar Desert Pastoralist',
+      roleOrTitle: 'Caravan Shepherd & Oral Historian (81)',
       location: 'Thar Desert, Barmer, Rajasthan'
     },
     eraTag: 'Desert Survival Wisdom',
@@ -192,8 +529,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'or-enduri-pitha',
     region: 'East',
     narrator: {
-      name: 'Annapurna Das',
-      roleOrTitle: 'Temple Food Historian & Homemaker (69)',
+      name: 'Temple Food Historian',
+      roleOrTitle: 'Ritual Food Archivist & Homemaker (69)',
       location: 'Cuttack, Mahanadi Delta, Odisha'
     },
     eraTag: 'Temple Liturgy & Hearth Rituals',
@@ -223,8 +560,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'ap-panasa-puttu-koora',
     region: 'South',
     narrator: {
-      name: 'Lakshmi Kameshwari',
-      roleOrTitle: 'Traditional Banquet Curator (74)',
+      name: 'Delta Banquet Cook',
+      roleOrTitle: 'Traditional Feast Curator (74)',
       location: 'Rajahmundry, East Godavari, Andhra Pradesh'
     },
     eraTag: 'Godavari Delta Wedding Heritage',
@@ -254,8 +591,8 @@ export const foodStoriesCollection: FoodStory[] = [
     dishId: 'nl-nuoshi-anishi',
     region: 'North-East',
     narrator: {
-      name: 'Imtitemjen Ao',
-      roleOrTitle: 'Clan Elder & Village Chronicler (78)',
+      name: 'Ao Clan Elder',
+      roleOrTitle: 'Highland Elder & Village Chronicler (78)',
       location: 'Mokokchung District, Nagaland'
     },
     eraTag: 'Highland Indigenous Lore',

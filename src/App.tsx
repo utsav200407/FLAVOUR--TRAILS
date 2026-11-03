@@ -46,7 +46,14 @@ export function App() {
         return;
       }
 
-      if (hash === '#stories' || hash === '#/stories' || hash.startsWith('#stories')) {
+      if (
+        hash === '#stories' || 
+        hash === '#/stories' || 
+        hash.startsWith('#stories') ||
+        hash === '#oral-stories' ||
+        hash === '#/oral-stories' ||
+        hash.startsWith('#oral-stories')
+      ) {
         setIsStoriesView(true);
         setIsRecipesView(false);
         setIsAboutView(false);
