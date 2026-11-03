@@ -321,7 +321,7 @@ No matter how famous a restaurant is or how delicious its biryani tastes, nothin
       { label: 'Texture', description: 'Silken, long-grain basmati separate and feather-light, paired with succulent slow-cooked meat' },
       { label: 'Emotional Core', description: 'The timeless truth that mother’s hands impart a warmth no commercial kitchen can ever replicate' }
     ],
-    imageUrl: '/images/stories/dum_biryani.jpg',
+    imageUrl: '/images/stories/hyderabadi_biryani.jpg',
     relatedStateId: 'tg',
     relatedDishId: 'tg-jonna-rotte'
   },
