@@ -20,7 +20,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Foraged high-altitude black morels simmered in a velvety curd and wild Kashmiri spice infusion with aged fragrant mushqbudji rice.',
       preservationStatus: 'Critically Endangered',
       microOrigin: 'Anantnag & Doda Pine Ridges',
-      culturalSignificance: 'Foraged exclusively at 7,000+ feet in coniferous forests following spring snowmelt, this regal dish was served to visiting royal caravans and during the autumn equinox.',
+      culturalSignificance: "In the Pir Panjal and Doda pine forests, villagers say wild black morels (gucchi) sprout only when lightning strikes the mountain soil following spring snowmelt. Grandmothers caution children never to use metal implements when foraging, as the forest spirits will hide the next crop; the morels must be plucked by hand and strung like prayer beads on wild hemp thread to sun-dry under cedar eaves. Simmered in a velvety curd broth perfumed with fennel, dry ginger, and Pampore saffron, this dish was reserved for royal caravans and seasonal equinox feasts.",
+      culturalQuote: "A single gucchi carried into the house smells of five miles of cedar forest after a spring thunderstorm.",
       ingredients: [
         { item: 'Wild Himalayan Gucchi (Black Morels)', amount: '60g dried', indigenousName: 'Kashmiri Gucchi' },
         { item: 'Aromatic Mushqbudji or Aged Basmati Rice', amount: '250g' },
@@ -55,7 +56,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Foraged high-altitude black morels simmered in a velvety curd and wild Kashmiri spice infusion with aged fragrant mushqbudji rice.',
         preservationStatus: 'Critically Endangered',
         microOrigin: 'Anantnag & Doda Pine Ridges',
-        culturalSignificance: 'Foraged exclusively at 7,000+ feet in coniferous forests following spring snowmelt, this regal dish was served to visiting royal caravans and during the autumn equinox.',
+        culturalSignificance: "In the Pir Panjal and Doda pine forests, villagers say wild black morels (gucchi) sprout only when lightning strikes the mountain soil following spring snowmelt. Grandmothers caution children never to use metal implements when foraging, as the forest spirits will hide the next crop; the morels must be plucked by hand and strung like prayer beads on wild hemp thread to sun-dry under cedar eaves. Simmered in a velvety curd broth perfumed with fennel, dry ginger, and Pampore saffron, this dish was reserved for royal caravans and seasonal equinox feasts.",
+        culturalQuote: "A single gucchi carried into the house smells of five miles of cedar forest after a spring thunderstorm.",
         ingredients: [
           { item: 'Wild Himalayan Gucchi', amount: '60g dried' },
           { item: 'Mushqbudji Aromatic Rice', amount: '250g' },
@@ -85,7 +87,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Dense, aromatic flatbread baked on iron tawa and finished with charred poppy seeds, dry coconut, and pure cow ghee.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Kashmir Valley Pandit Kitchens',
-        culturalSignificance: 'Prepared during sacred harvest observances like Pann, honoring divine feminine sustenance and ancestral prosperity.',
+        culturalSignificance: "Deeply embedded in Kashmiri Pandit domestic lore, Roath is baked during the sacred festival of Pann (Punn), dedicated to Vibhavari, the goddess of twilight and hearths. Elders narrate the folk story of Beebagar Maej (the Mother of Wisdom) who saved an impoverished family with a single cup of dry flour when offered with pure devotion. Women chant traditional hymns (Vatsun) while kneading the heavy wheat, sugar, and cardamom dough on walnut-wood platters, and not a single crumb is permitted to touch the floor.",
+        culturalQuote: "When the fragrance of fried roath fills the twilight breeze, even the ancestors pause their journey to inhale.",
         ingredients: [
           { item: 'Whole wheat stone-ground flour', amount: '300g' },
           { item: 'Desi Khandsari sugar or jaggery syrup', amount: '150g' },
@@ -128,7 +131,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Siddu is a well-known Himachali steamed bread, especially associated with the mid-hill regions. A soft, gently fermented wheat dough is filled, sealed, and steamed rather than baked. Fillings vary: crushed walnuts, poppy-seed mixtures, or peas may be used, depending on household preference and availability. Ghee is a familiar accompaniment and helps bring out the bread\'s mild, wheaty flavour.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Mid-Hill Valleys, Kullu, Mandi & Shimla',
-      culturalSignificance: 'A cornerstone of Pahari winter sustenance for over four centuries. Steamed over rolling mountain waters and brushed generously with cow ghee, it provides warmth during severe Himalayan winters.',
+      culturalSignificance: "High in the Parvati and Kullu valleys, Pahari grandmothers describe siddu as the edible hearth that keeps blood warm when snowdrifts seal mountain doorways. Oral tradition holds that the wild sour starter (khameer) is an heirloom passed down from mother to daughter on her wedding day; letting the starter die is considered an omen of losing domestic prosperity. The walnut, poppy seed, and cannabis-seed filling is pounded on river stones while singing folk songs to Lord Shiva before steaming over woodfire cauldrons.",
+      culturalQuote: "Let the blizzard howl against the deodar planks; as long as the siddu steamer whistles, our home is warm.",
       servesCount: 'Yield: 6 medium siddu; serves 3–4',
       approxPrepTime: 'Active 35 min; proofing 1.5–2 hrs; steaming 18–25 min',
       ingredientSections: [
@@ -232,7 +236,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Siddu is a well-known Himachali steamed bread, especially associated with the mid-hill regions. A soft, gently fermented wheat dough is filled, sealed, and steamed rather than baked. Fillings vary: crushed walnuts, poppy-seed mixtures, or peas may be used, depending on household preference and availability. Ghee is a familiar accompaniment and helps bring out the bread\'s mild, wheaty flavour.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Mid-Hill Valleys, Kullu, Mandi & Shimla',
-        culturalSignificance: 'A cornerstone of Pahari winter sustenance for over four centuries. Steamed over rolling mountain waters and brushed generously with cow ghee, it provides warmth during severe Himalayan winters.',
+        culturalSignificance: "High in the Parvati and Kullu valleys, Pahari grandmothers describe siddu as the edible hearth that keeps blood warm when snowdrifts seal mountain doorways. Oral tradition holds that the wild sour starter (khameer) is an heirloom passed down from mother to daughter on her wedding day; letting the starter die is considered an omen of losing domestic prosperity. The walnut, poppy seed, and cannabis-seed filling is pounded on river stones while singing folk songs to Lord Shiva before steaming over woodfire cauldrons.",
+        culturalQuote: "Let the blizzard howl against the deodar planks; as long as the siddu steamer whistles, our home is warm.",
         servesCount: 'Yield: 6 medium siddu; serves 3–4',
         approxPrepTime: 'Active 35 min; proofing 1.5–2 hrs; steaming 18–25 min',
         ingredientSections: [
@@ -334,7 +339,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Dham is not a single curry but a ceremonial meal. In Kangra, it is associated with weddings, religious occasions, and community celebrations. Menus and order of service vary across Himachal; this home-cooking interpretation centres on rajma madra with rice. The key technique is a slow, gentle yogurt-based gravy that coats the beans without splitting.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Kangra Valley Ceremonial Banquets',
-        culturalSignificance: 'Dham is a sacred feast cooked exclusively by hereditary Brahmin cooks known as Botis and served on leaves (pattals). Rajma Madra is the celebrated centerpiece of the entire Kangri banquet.',
+        culturalSignificance: "In the shadow of the Dhauladhars, Kangri Dham is governed by oral codes handed down through generations of 'Boti' (hereditary Brahmin master cooks). Oral lore recounts that Maharaja Jaist Chand of Kangra in the 6th century visited the Mughal courts and, enchanted by the multi-course feasts, vowed to create a pure vegetarian feast without onions or garlic cooked entirely in heavy brass 'charotis'. Botis recite rhythmic verses while balancing wooden paddles over woodfire trenches to gauge the slow boiling of the madra.",
+        culturalQuote: "No man measures the ghee in a Kangri charoti; what is cooked for the community must flow like the Beas in spring.",
         servesCount: 'Yield: 4 servings of a home-style madra component with rice',
         approxPrepTime: 'Soaking 6–8 hrs; cooking 60–90 min',
         ingredientSections: [
@@ -449,7 +455,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Chha gosht is associated with Himachali meat cooking and uses yogurt or buttermilk to create a tangy, tenderising braise. This version aims for a smooth gravy and controlled heat. Traditional recipes can differ in the balance of dairy, whole spices, and aromatics; the technique matters more than rigidly standardising every household\'s masala.',
         preservationStatus: 'Traditional Dish',
         microOrigin: 'Chamba & Kangra Hills',
-        culturalSignificance: 'A historic festive preparation reflecting the Himalayan tradition of slow-braising mountain meats in cultured dairy over charcoal hearths, yielding an ultra-tender texture and a mild, aromatic broth.',
+        culturalSignificance: "Pastoral Gaddi shepherds crossing the high Rohtang and Dhauladhar passes carried dried goat meat and churned buttermilk (chha) in treated leather flasks. Legend recounts that during sudden mountain blizzards, shepherds would combine the sour buttermilk with mountain coriander and dried bay leaves over campfire stones. Grandmothers explain that the gram flour whisked into the curd is not merely a thickener, but a prayer to prevent the milk from breaking under alpine cold.",
+        culturalQuote: "The shepherd fears neither mist nor wind so long as the earthen pot simmers with chha and slow spices.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: 'Marination 1–4 hrs; cooking 75–110 min',
         ingredientSections: [
@@ -567,7 +574,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Babru is a Himachali stuffed bread often compared with kachori because of its crisp outside and savoury filling. A black-gram filling gives body and a deep earthy flavour. It is best fried at a controlled temperature so the dough cooks through before the surface darkens.',
         preservationStatus: 'Traditional Dish',
         microOrigin: 'Shimla, Kangra & Mandi Foothills',
-        culturalSignificance: 'A beloved festival and breakfast bread in Himachal Pradesh, representing the mountain technique of encasing protein-dense soaked urad dal inside stone-ground wheat discs.',
+        culturalSignificance: "A festive delicacy of Shimla, Bilaspur, and Mandi, Babru's black-gram stuffing is steeped in ritual memory. During Navratri and village melas, women awaken at the fourth hour of dawn to stone-grind soaked urad dal with mountain heeng and toasted coriander seeds. Folk belief cautions that if a babru fails to puff into a golden sphere on the iron tawa, an uninvited guest is approaching the village; when dipped in tamarind chutney, it welcomes neighbors into the festive courtyard.",
+        culturalQuote: "A babru that puffs on the iron pan brings blessings to the one who rolled it and strength to the one who eats.",
         servesCount: 'Yield: 8 small breads',
         approxPrepTime: 'Dough resting 45–60 min; cooking 35 min',
         ingredientSections: [
@@ -657,7 +665,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Tudkiya bhat is a spiced rice dish associated with Himachal Pradesh. Potatoes, yogurt, aromatics, and whole spices make it more substantial than plain rice. This version is designed for a standard kitchen pot; the texture should remain fluffy and the grains should not collapse into a wet pulao.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Chamba & Upper Kangra Valleys',
-        culturalSignificance: 'A beloved one-pot mountain meal traditionally prepared when returning from high pastures or during chilly rainy evenings, combining cultured curd and mountain tubers.',
+        culturalSignificance: "Originating in the high cedar hamlets of Chamba, tudkiya bhat was the customary one-pot reward prepared for woodcutters returning at twilight after hauling timber across steep cliffs. Elders remember mothers saving the whey from morning paneer-making to acidulate the spiced rice, while smoky pieces of charred wood were dropped into the pot for a moment to infuse the mountain grains with rich cedar smoke.",
+        culturalQuote: "A bowl of steaming tudkiya bhat turns the hardest mountain climb into a warm fireside tale.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: 'Preparation 20 min; cooking 30–40 min',
         ingredientSections: [
@@ -768,7 +777,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Ker is a small, sour wild berry found in the arid zones of the Thar desert. It is traditionally dried, preserved, and then rehydrated to make a tangy, spiced yogurt-based curry.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Thar Desert & Marwar',
-      culturalSignificance: 'Ker berries grow wild on thorny Capparis decidua bushes in Rajasthan barren sands. Foraged and sun-preserved across generations, this dish embodies desert survival gastronomy.',
+      culturalSignificance: "Ker berries thrive on thorny wild bushes in the Thar Desert without a drop of rain. Marwari oral lore recounts how during the brutal Chhappaniya Akal (Famine of 1899), when all crops failed, the thorny desert scrub kept millions alive. Women would harvest the intensely sour green berries with protected fingertips, soaking them for weeks in sour buttermilk and saline earth to draw out bitter alkaloids before preserving them with mustard oil and fenugreek.",
+      culturalQuote: "The Thar gives neither sweet water nor soft soil, but in the bitter ker berry it hides the resilience of a desert heart.",
       servesCount: 'Serves 4',
       approxPrepTime: '30 min (+ overnight soaking)',
       ingredientSections: [
@@ -868,7 +878,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Ker is a small, sour wild berry found in the arid zones of the Thar desert. It is traditionally dried, preserved, and then rehydrated to make a tangy, spiced yogurt-based curry.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Thar Desert & Marwar',
-        culturalSignificance: 'Ker berries grow wild on thorny Capparis decidua bushes in Rajasthan barren sands. Foraged and sun-preserved across generations, this dish embodies desert survival gastronomy.',
+        culturalSignificance: "Ker berries thrive on thorny wild bushes in the Thar Desert without a drop of rain. Marwari oral lore recounts how during the brutal Chhappaniya Akal (Famine of 1899), when all crops failed, the thorny desert scrub kept millions alive. Women would harvest the intensely sour green berries with protected fingertips, soaking them for weeks in sour buttermilk and saline earth to draw out bitter alkaloids before preserving them with mustard oil and fenugreek.",
+        culturalQuote: "The Thar gives neither sweet water nor soft soil, but in the bitter ker berry it hides the resilience of a desert heart.",
         servesCount: 'Serves 4',
         approxPrepTime: '30 min (+ overnight soaking)',
         ingredientSections: [
@@ -961,7 +972,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Sangri refers to the long, dried bean pods of the Khejri tree. While it can be cooked alone, it is almost exclusively cooked and served with Ker as the famous desert staple, Ker Sangri.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Marwar & Bikaner Arid Zones',
-        culturalSignificance: 'Harvested from Prosopis cineraria (the sacred Khejri tree), sangri pods are dried and preserved without water, allowing this dish to withstand weeks in camel saddlebags without spoiling.',
+        culturalSignificance: "Sangri pods are harvested from the sacred Khejri tree (Prosopis cineraria), protected with the lives of Bishnoi martyrs. Rajasthani folklore remembers nomadic camel caravans traversing the great sand dunes carrying clay pots of dried sangri; cooked with whole red Mathania chilies, amchoor, and mustard oil, the dish would stay fresh for weeks in the blistering desert heat without spoiling.",
+        culturalQuote: "Where no grain can sprout from the sun-scorched sands, the mother Khejri feeds her children from the sky.",
         servesCount: 'Serves 4–6',
         approxPrepTime: '35 min (+ overnight soaking)',
         ingredientSections: [
@@ -1056,7 +1068,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Khunijara (or Khunajara) is a traditional, seasonal wild leafy green vegetable that grows prominently in the Hadoti region (Kota/Bundi) of Rajasthan during the monsoon (Sawan) season.',
         preservationStatus: 'Endangered Oral Tradition',
         microOrigin: 'Hadoti Region (Kota & Bundi)',
-        culturalSignificance: 'A hyper-seasonal wild green foraged along riverbanks and field borders during Sawan. Cooked simply with pungent garlic and cold-pressed mustard oil in iron woks, it embodies the ancient oral forager traditions of rural Hadoti.',
+        culturalSignificance: "A hyper-seasonal wild green foraged along riverbanks and dry ravines following fleeting desert showers. Mewari elders recall how village children would compete to spot the first emerald clusters springing up beside thorn bushes. Grandmother tales caution that khunijara must be cooked on the very day it is plucked, gently braised with unrefined mustard oil and crushed garlic before the dry desert wind robs it of its tender moisture.",
+        culturalQuote: "A wild green born of a single night of monsoon rain; eat it today, for tomorrow the desert wind will claim it.",
         servesCount: 'Serves 3–4',
         approxPrepTime: '25 min',
         ingredientSections: [
@@ -1153,7 +1166,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Pazhamkanji is Kerala\'s ancient morning elixir. Cooked Kerala parboiled Matta rice is steeped in boiled and cooled water in an earthen pot (mankalam). By morning, natural lacto-fermentation transforms the starches into an easy-to-digest, nutrient-packed cooling broth, served with crushed shallots, fiery Kanthari chillies, raw mango pickle, and roasted papad.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Backwaters & Paddy Belts of Alappuzha & Palakkad',
-      culturalSignificance: 'The timeless breakfast of Kerala\'s paddy farmers and boatmen, loaded with natural B-vitamins, microflora, and cooling hydration.',
+      culturalSignificance: "The ancient, restorative dawn ritual of Kerala's backwaters and paddy paddies. Parboiled red rice (matta rice) from dinner is soaked overnight in an unglazed clay pot (chatti) with boiled water and a pinch of rock salt. By morning, gentle wild fermentation transforms the water into a cool, probiotic elixir. Farmers and boatmen drank the water and ate the softened rice with crushed shallots, fiery bird’s eye chillies (kanthari mulaku), and roasted coconut thuvaiyal before heading out to till the waterlogged earth.",
+      culturalQuote: "Drink the fermented rice water from the clay pot at dawn; your veins will carry the coolness of the morning backwaters all day long.",
       servesCount: 'Serves 2',
       approxPrepTime: '15 minutes',
       ingredientSections: [
@@ -1231,7 +1245,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Pazhamkanji is Kerala\'s ancient morning elixir. Cooked Kerala parboiled Matta rice is steeped in boiled and cooled water in an earthen pot (mankalam). By morning, natural lacto-fermentation transforms the starches into an easy-to-digest, nutrient-packed cooling broth, served with crushed shallots, fiery Kanthari chillies, raw mango pickle, and roasted papad.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Rural Backwaters & Paddy Belts of Alappuzha & Palakkad',
-        culturalSignificance: 'The timeless breakfast of Kerala\'s paddy farmers and boatmen, loaded with natural B-vitamins, microflora, and cooling hydration.',
+        culturalSignificance: "The ancient, restorative dawn ritual of Kerala's backwaters and paddy paddies. Parboiled red rice (matta rice) from dinner is soaked overnight in an unglazed clay pot (chatti) with boiled water and a pinch of rock salt. By morning, gentle wild fermentation transforms the water into a cool, probiotic elixir. Farmers and boatmen drank the water and ate the softened rice with crushed shallots, fiery bird’s eye chillies (kanthari mulaku), and roasted coconut thuvaiyal before heading out to till the waterlogged earth.",
+        culturalQuote: "Drink the fermented rice water from the clay pot at dawn; your veins will carry the coolness of the morning backwaters all day long.",
         servesCount: 'Serves 2',
         approxPrepTime: '15 minutes',
         ingredientSections: [
@@ -1308,7 +1323,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Ela Ada is a revered traditional sweet delicacy across Kerala. A soft, supple rice flour dough is patted paper-thin over fresh, flame-wilted banana leaf rectangles, layered with a fragrant mixture of freshly grated coconut, melted dark jaggery, and crushed green cardamom, then folded and steamed until the banana leaf perfumes the entire parcel.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Central Travancore & Malabar Households',
-        culturalSignificance: 'An integral offering for temple rituals and traditional 4 o\'clock tea times (chaya samayam), embodying the sacred harmony of banana leaf, coconut, and jaggery.',
+        culturalSignificance: "A sacred festive delicacy prepared during Onam and Vishu across Kerala. Delicate rice dough is flattened paper-thin onto flame-wilted plantain leaves, filled with grated coconut sweetened with molten dark palm jaggery, cardamom, and roasted cumin, then folded and steamed over coconut-shell embers. Grandmother lore recounts that the secret to a perfect ela ada is spreading the dough so thinly that the veins of the banana leaf print themselves onto the white steamed pastry.",
+        culturalQuote: "Spread the dough until the leaf's green soul shows through; when the sweet jaggery steams, Onam has arrived in the house.",
         servesCount: 'Makes 6 parcels',
         approxPrepTime: '35 minutes',
         ingredientSections: [
@@ -1412,7 +1428,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A coveted seasonal jewel of Jharkhand’s forest table, Rugra (also known locally as Futu) is an edible subterranean puffball mushroom that sprouts exclusively beneath the dense canopy of Sal (Shorea robusta) forests during the early monsoon weeks of July and August. Resembling small, firm black pebbles on the outside, a bite through the taut, rubbery skin reveals an explosion of rich, savory liquid with a meaty, yolk-like center. Cooked in tribal and rural hearths across Ranchi and Khunti with pungent mustard paste, garlic, and onions, this wild forage turns forest earthiness into an incomparable monsoon delicacy.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Dense Sal (Shorea robusta) Forests, Ranchi & Khunti',
-      culturalSignificance: 'Foraged exclusively by tribal indigenous communities from forest soil during initial monsoon showers, Rugra is one of the most treasured wild delicacies in India.',
+      culturalSignificance: "In the dense sal forests of the Chota Nagpur plateau, rugra (wild subterranean puffball mushrooms) are foraged exclusively by tribal women during the first violent thunderstorms of the monsoon. Oral lore warns that rugra cannot be cultivated by human hands; it sleeps underground beneath decaying sal leaves until awakened by thunderbolts. Tribal cooks gently clean the muddy spheres in running streams, braising them in raw mustard oil and stone-ground spices.",
+      culturalQuote: "Rugra is the child of lightning and sal forest; listen for the thunder in July, for the earth is opening its secret pantry.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '30 min',
       ingredientSections: [
@@ -1504,7 +1521,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A coveted seasonal jewel of Jharkhand’s forest table, Rugra (also known locally as Futu) is an edible subterranean puffball mushroom that sprouts exclusively beneath the dense canopy of Sal (Shorea robusta) forests during the early monsoon weeks of July and August. Resembling small, firm black pebbles on the outside, a bite through the taut, rubbery skin reveals an explosion of rich, savory liquid with a meaty, yolk-like center. Cooked in tribal and rural hearths across Ranchi and Khunti with pungent mustard paste, garlic, and onions, this wild forage turns forest earthiness into an incomparable monsoon delicacy.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Dense Sal (Shorea robusta) Forests, Ranchi & Khunti',
-      culturalSignificance: 'Foraged exclusively by tribal indigenous communities from forest soil during initial monsoon showers, Rugra is one of the most treasured wild delicacies in India.',
+      culturalSignificance: "In the dense sal forests of the Chota Nagpur plateau, rugra (wild subterranean puffball mushrooms) are foraged exclusively by tribal women during the first violent thunderstorms of the monsoon. Oral lore warns that rugra cannot be cultivated by human hands; it sleeps underground beneath decaying sal leaves until awakened by thunderbolts. Tribal cooks gently clean the muddy spheres in running streams, braising them in raw mustard oil and stone-ground spices.",
+      culturalQuote: "Rugra is the child of lightning and sal forest; listen for the thunder in July, for the earth is opening its secret pantry.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '30 min',
       ingredientSections: [
@@ -1595,7 +1613,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Celebrated across Jharkhand’s tribal heartlands for its gut-friendly, probiotic qualities, Karil refers to the tender, new shoots of bamboo (bans) harvested deep in the forest groves during the rainy season. Because raw shoots carry natural bitterness and cyanogenic compounds, age-old culinary wisdom dictates that they are peeled to their tender ivory core, thinly shredded, and fermented in earthenware vessels submerged in clean water for 48 hours. This natural lactic fermentation tames the bite, leaving a mild, pleasant sourness that pairs magnificently with rustic mustard seeds, dried red chilies, and cold-pressed mustard oil.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Chota Nagpur Tribal Forests & Village Homes',
-      culturalSignificance: 'A cornerstone of tribal forest wisdom, using 48-hour lactic water fermentation to neutralize bamboo toxins while creating a tangy seasonal delicacy.',
+      culturalSignificance: "Karil refers to tender new bamboo shoots that burst from forest clumping bamboos with the arrival of heavy monsoon rains. Santhal and Munda folklore recounts how tribal hunters tracked bamboo groves to collect tender shoots before they hardened into timber. Fermented in cold stream water for three days to neutralize natural toxins, the shoots develop an earthy, sour aroma cooked with coarse garlic paste.",
+      culturalQuote: "Pluck the bamboo shoot while it is soft as an infant's wrist; three days in water, and the forest gives you its soul.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '30 min; 48-hr natural fermentation',
       ingredientSections: [
@@ -1684,7 +1703,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'When autumn rolls across eastern India, the sun-drenched fields light up with the vibrant golden blossoms of the Sanai plant (Crotalaria juncea / Sunn hemp). Foraging for these edible flowers is an eagerly awaited rural ritual. With their mild vegetable sweetness complemented by a fleeting, pleasant herbal bitterness, the tender petals require very little fuss. Cooked in hot, smoking mustard oil with nothing more than crushed garlic, slit green chilies, and an optional golden potato dice, Sanai Phool Bhaja is an elegant study in seasonal minimalism.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Farmlands of Jharkhand & Chota Nagpur',
-      culturalSignificance: 'A seasonal celebration of edible flora, gathering golden farm blossoms in autumn before seed pods develop.',
+      culturalSignificance: "Prepared from the golden-yellow blossoms of the sunn hemp plant, harvested for just two fleeting weeks in late autumn. Tribal grandmothers tell children that the yellow flowers capture the last rays of the autumn sun before the brutal cold settles over the plateau. Stir-fried with pungent mustard oil and green chillies, the flowers impart an earthy, slightly sweet bitterness that purifies the palate.",
+      culturalQuote: "Yellow flowers that bloom for a fortnite; cook them crisp in mustard oil to welcome the winter breeze.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -1771,7 +1791,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A bedrock staple of tribal subsistence cooking in Jharkhand and Chota Nagpur, Koinar Saag utilizes the tender, split heart-shaped leaves and pink-tinged buds of the wild purple orchid tree (Bauhinia purpurea). Foraged from forested hill slopes during the change of seasons, these leaves are celebrated for their immense concentration of plant iron, calcium, and dietary roughage. Prepared without intricate masalas, this rustic stir-fry honors tribal culinary philosophy: letting the wild, mineral-rich, mildly mucilaginous greens shine against the backdrop of smoking mustard oil, whole mustard seeds, and mellow roasted garlic.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Forest Slopes of Chota Nagpur & Santhal Parganas',
-      culturalSignificance: 'Sacred ancestral wild forage of Munda, Oraon, and Santhal communities, packed with mountain minerals for sustained physical labor.',
+      culturalSignificance: "Harvested from the tender shoots and leaves of the sacred Bauhinia purpurea tree that grows wild across Jharkhand's rocky hills. Oral lore holds that koinar leaves were the ancient foraging food of tribal ancestors during long journeys across the forest tracts. Rich in calcium and iron, the leaves are gently steamed with red lentils and tempered with dry red chillies and garlic, forming a soothing staple of indigenous wellness.",
+      culturalQuote: "Look up into the koinar branches when the morning mist rises; the forest mother has spread a feast on the high boughs.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -1852,7 +1873,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Foraged along damp riverbanks, freshwater streamlets, and shaded mountain springs throughout Jharkhand, Beng Saag—botanically Centella asiatica, known widely as Brahmi or Gotu Kola—is a wild creeping herb revered in Ayurvedic and tribal ethnomedicine. Famed as a powerful natural adaptogen that cools the system, aids digestion, and revitalizes cognitive clarity, it carries a deep herbal, faintly peppery bite. In household kitchens, it is treated with gentle restraint: briefly wilted in pungent mustard oil with garlic, green chilies, and tiny potato cubes to preserve its delicate medicinal compounds.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Riverbanks & Shaded Springs of Jharkhand',
-      culturalSignificance: 'Ancestral tribal tonic herb eaten as the auspicious first mouthful of a meal to sharpen the intellect and cool the digestive tract.',
+      culturalSignificance: "Beng saag (Centella asiatica / Brahmi) is a sacred medicinal herb harvested from the marshy edges of village ponds and river streams. In Munda and Ho oral traditions, grandmothers would feed memory-enhancing beng saag cooked with tiny river shrimp or potatoes to children preparing for traditional archery contests or school exams, believing the small fan-shaped leaves bestow sharpness to the mind.",
+      culturalQuote: "The little green leaf that grows by the water's edge sharpens the eye of the archer and the mind of the scholar.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -1932,7 +1954,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A cold-weather fixture across Jharkhand’s village markets, Malhan (indigenous flat broad beans / hyacinth beans) is a treasured heirloom legume celebrated for its robust texture and sweet, green flavor. When the winter chill sets in, these broad pods are de-stringed, snapped by hand, and paired with tender local winter potatoes. Cooked down in a fiery, aromatic Sarson-Lassan (ground mustard and garlic) gravy, this curry is hearty, warming, and designed to stand up to the rustic grains of the Chota Nagpur plateau.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Chota Nagpur Plateau Village Markets & Kitchens',
-      culturalSignificance: 'The cold-season herald of Jharkhand markets, uniting rustic broad pods with the region\'s signature stoneground mustard-garlic paste.',
+      culturalSignificance: "Flat heirloom sword beans (malhan) that climb up the thatch roofs of rural mud cottages throughout the winter. Village elders remember mothers gathering the broad purple-rimmed pods at twilight, stringing them patiently on the veranda and cooking them with freshly ground yellow mustard paste, cumin, and potatoes over slow woodfire coals.",
+      culturalQuote: "When the thatch roof is heavy with broad green pods, the hearth will never lack for a warm evening meal.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '30 min',
       ingredientSections: [
@@ -2030,7 +2053,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'In a Bengali household, fish isn’t just sustenance—it is a cultural anchor, an emblem of auspicious beginnings, and a celebration on a plate. Few preparations capture this reverence quite like Ilish-er Dolon, a vintage heirloom jewel where the prized hilsa is bathed in a sour-spicy, pungent gravy. Rather than leaning purely on the sharp, sinus-clearing mustard profile of a classic Shorshe Ilish, this traditional preparation introduces the fruity tang of tamarind, cutting beautifully through the natural oiliness and rich flesh of the fish.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Padma & Hooghly River Basins, Kolkata & East Bengal Heirloom',
-      culturalSignificance: 'A 19th-century zamindari and riverine delicacy where hilsa was celebrated with the natural sourness of ripe village tamarind, balancing the fish\'s opulent omega-rich fat.',
+      culturalSignificance: "A celebrated 19th-century zamindari culinary creation celebrating the crown of monsoon river fish: the silver Hilsa. Oral history from East Bengal (Bangal) and West Bengal (Ghoti) households describes how family matriarchs would select river Hilsa caught at the estuary of the Padma and Hooghly rivers. Instead of frying, the delicate fish is gently poached in a broth of stone-ground mustard paste, green chillies, and raw mustard oil, allowing the natural fatty oils of the hilsa to perfume the rice.",
+      culturalQuote: "Do not overpower the queen of fishes with heavy spices; a spoon of yellow mustard and a prayer to the monsoon river is all she asks.",
       servesCount: 'Yield: 4–5 servings',
       approxPrepTime: 'Active 20 min; marination 15 min; simmer 8 min',
       ingredientSections: [
@@ -2113,7 +2137,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'In a Bengali household, fish isn’t just sustenance—it is a cultural anchor, an emblem of auspicious beginnings, and a celebration on a plate. Few preparations capture this reverence quite like Ilish-er Dolon, a vintage heirloom jewel where the prized hilsa is bathed in a sour-spicy, pungent gravy. Rather than leaning purely on the sharp, sinus-clearing mustard profile of a classic Shorshe Ilish, this traditional preparation introduces the fruity tang of tamarind, cutting beautifully through the natural oiliness and rich flesh of the fish.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Padma & Hooghly River Basins, Kolkata & East Bengal Heirloom',
-      culturalSignificance: 'A 19th-century zamindari and riverine delicacy where hilsa was celebrated with the natural sourness of ripe village tamarind, balancing the fish\'s opulent omega-rich fat.',
+      culturalSignificance: "A celebrated 19th-century zamindari culinary creation celebrating the crown of monsoon river fish: the silver Hilsa. Oral history from East Bengal (Bangal) and West Bengal (Ghoti) households describes how family matriarchs would select river Hilsa caught at the estuary of the Padma and Hooghly rivers. Instead of frying, the delicate fish is gently poached in a broth of stone-ground mustard paste, green chillies, and raw mustard oil, allowing the natural fatty oils of the hilsa to perfume the rice.",
+      culturalQuote: "Do not overpower the queen of fishes with heavy spices; a spoon of yellow mustard and a prayer to the monsoon river is all she asks.",
       servesCount: 'Yield: 4–5 servings',
       approxPrepTime: 'Active 20 min; marination 15 min; simmer 8 min',
       ingredientSections: [
@@ -2195,7 +2220,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Long before zero-waste and "root-to-stem" cooking became culinary movements, Bengali grandmothers had already elevated garden scraps into edible comfort. Lau Patar Bhorta is a quintessential example of that quiet kitchen thrift. Made from tender, velvety bottle gourd leaves that are blanched, stone-ground with aromatics, and bound with pungent mustard oil, this rustic mash is an everyday staple designed to wake up the palate before the main courses arrive.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Bengal Kitchens & Village Courtyards',
-      culturalSignificance: 'The absolute epitome of Bengali zero-waste sustainability, transforming leafy vines into an addictive nose-tingling appetizer.',
+      culturalSignificance: "The quintessential embodiment of the zero-waste philosophy deeply rooted in Bengali domestic kitchens. When bottle gourd vines sprawled over village huts, not a single leaf was wasted. Grandmothers carefully plucked young tender leaves, lightly roasting them over hot embers with garlic cloves, green chillies, and pungent nigella seeds (kalo jeere) before stone-grinding the mixture on a sil-batta with cold-pressed mustard oil.",
+      culturalQuote: "A foolish cook throws away the leaf to eat the gourd; a wise grandmother turns the green leaf into nectar.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -2273,7 +2299,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Born on the breezy lower decks of early 20th-century paddle steamers chugging through the Padma River, Goalondo Steamer Fowl Curry is an iconic recipe shaped by river mist and practicality. Prepared by Muslim boatmen (khalasis) using rustic country chicken and pantry staples that wouldn’t spoil on long journeys, this curry foregoes all delicate curds, fine pastes, and royal marinades. Instead, it relies on roughly pounded aromatics, dry red heat, and generous glugs of mustard oil, simmering down into a fiery, crimson broth.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Goalando Ghat Paddle Steamers, Padma River Crossings',
-      culturalSignificance: 'Immortalized in the travel memoirs of Syed Mujtaba Ali, this legendary boatmen curry warmed passengers traveling between Calcutta and Dhaka on historic British India Steam Navigation liners.',
+      culturalSignificance: "Immortalized in the travel writings of Syed Mujtaba Ali, this legendary rustic curry was prepared by Muslim boatmen (khalasis) aboard overnight paddle steamers that ferried passengers across the turbulent waters of the Padma River between Goalando Ghat and Narayanganj. Cooked with basic ingredients—onions, garlic, mustard oil, and fiery dried chillies—the thin, fiery red broth became legendary among travelers who could smell it simmering from the lower engine deck.",
+      culturalQuote: "The river was dark, the boat engine throbbed, and the khalasi's fiery chicken curry warmed the coldest night on the Padma.",
       servesCount: 'Yield: 4–5 servings',
       approxPrepTime: 'Prep 15 min; cook 45 min',
       ingredientSections: [
@@ -2357,7 +2384,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A celebrated standard from early 20th-century Bengal, Kacha Lanka Jhol turns one of the sharpest, most intimidating aromatics in the kitchen into a light, soothing, and appetite-reviving stew. Unlike heavy banquet gravies that depend on thick nut pastes or cream, this dish extracts the clean, herbal fruitiness of green chilies without overwhelming the tongue with raw burn. Tempered with garlic and balanced by the sour punch of tamarind, it is a masterclass in elemental seasoning.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Urban & Semi-Rural Bengal Households',
-      culturalSignificance: 'A restorative monsoon broth prescribed for convalescence and humid sultry afternoons, delivering pure digestive refreshment without heaviness.',
+      culturalSignificance: "A light, restorative broth infused entirely with fresh green chillies and fragrant wild ginger, avoiding dry red chilli powder completely. In traditional Bengali households, this gentle fish or vegetable stew was prescribed by Ayurvedic grandmothers during convalescence and humid monsoon dampness, believing green chillies stimulate the palate without agitating the internal digestive fire.",
+      culturalQuote: "No heavy oil, no red powder; let the green chilli and crushed coriander restore health to the tired body.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -2439,7 +2467,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Emerging from the storied tradition of Bengali widow cuisine (niramish ranna), Dhokar Dalna is a monument to ingenuity born out of rigid social strictures. Barred from consuming meat, onions, or garlic, resourceful home cooks invented dhoka—spiced, steamed, and fried lentil diamond cakes masquerading with the heft of meat. In times of extreme scarcity when even lentils ran short, cooks turned to Kumro Dhokar Dalna, gathering discarded pumpkin seeds and transforming them into a rich, nutty, and velvety alternative that rivals any traditional pulse cake.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Brahmin & Kayastha Widow Kitchens, Rural Bengal',
-      culturalSignificance: 'A revered culinary innovation demonstrating how zero-waste kitchen practices turned discarded seeds into regal vegetarian centerpieces.',
+      culturalSignificance: "Born in traditional Vaishnav and widow kitchens where onions, garlic, and eggs were strictly forbidden, Bengali cooks demonstrated astounding culinary ingenuity. Yellow pumpkin flesh is grated, mixed with spiced chana dal paste, steamed into dense cakes, cut into diamond shapes ('dhoka'), and golden-fried before simmering in a rich ginger-hing gravy scented with garam masala.",
+      culturalQuote: "A diamond of pumpkin and lentil that cheats the tongue into believing it is feasting on royalty.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: 'Active 35 min; seed soaking 4 hrs',
       ingredientSections: [
@@ -2551,7 +2580,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Known as the "Rice Bowl of India," Chhattisgarh’s culinary traditions celebrate the grain in every conceivable texture. Fara (often called Phara or Muthiya) is perhaps the most beloved everyday breakfast born of this abundance. Part dumpling, part steamed roll, it transforms leftover cooked rice and raw rice flour into tender, cylindrical rolls with tapered ends. While completely wholesome and light on the palate when steamed fresh, the true magic happens when these rolls are tempered in smoking mustard oil with crackling sesame seeds, green chilies, and curry leaves—creating a crisp, blistered skin around a soft, pillowy center.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Bastar & Chhattisgarhi Plains Homesteads',
-      culturalSignificance: 'The quintessential Chhattisgarhi breakfast, showcasing agrarian frugality and the versatility of indigenous rice flour.',
+      culturalSignificance: "Heralded across the 'Rice Bowl of India' as the quintessential agrarian breakfast. Village women shape freshly harvested rice flour into crescent dumplings, seasoned with fresh green chillies and coriander before steaming them over boiling water. Oral lore holds that feeding hot, crisp-tempered faras to field hands before dawn ensures they can transplant paddy seedlings for twelve continuous hours under the humid monsoon skies.",
+      culturalQuote: "Steamed over the water pot and crackled in mustard seeds, the faras carry the pure strength of the new rice crop.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '25 min',
       ingredientSections: [
@@ -2639,7 +2669,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Known as the "Rice Bowl of India," Chhattisgarh’s culinary traditions celebrate the grain in every conceivable texture. Fara (often called Phara or Muthiya) is perhaps the most beloved everyday breakfast born of this abundance. Part dumpling, part steamed roll, it transforms leftover cooked rice and raw rice flour into tender, cylindrical rolls with tapered ends. While completely wholesome and light on the palate when steamed fresh, the true magic happens when these rolls are tempered in smoking mustard oil with crackling sesame seeds, green chilies, and curry leaves—creating a crisp, blistered skin around a soft, pillowy center.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Bastar & Chhattisgarhi Plains Homesteads',
-      culturalSignificance: 'The quintessential Chhattisgarhi breakfast, showcasing agrarian frugality and the versatility of indigenous rice flour.',
+      culturalSignificance: "Heralded across the 'Rice Bowl of India' as the quintessential agrarian breakfast. Village women shape freshly harvested rice flour into crescent dumplings, seasoned with fresh green chillies and coriander before steaming them over boiling water. Oral lore holds that feeding hot, crisp-tempered faras to field hands before dawn ensures they can transplant paddy seedlings for twelve continuous hours under the humid monsoon skies.",
+      culturalQuote: "Steamed over the water pot and crackled in mustard seeds, the faras carry the pure strength of the new rice crop.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '25 min',
       ingredientSections: [
@@ -2726,7 +2757,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A timeless morning staple across both tribal hamlets and urban homes in Chhattisgarh, Chawal Cheela represents the beauty of rustic minimalism. Prepared with a light, pourable batter of freshly milled rice flour, water, and salt, this delicate crepe requires a practiced flick of the wrist. Cooked on a sizzling cast-iron skillet greased with a muslin cloth or half a cut potato, the thin batter sizzles into an intricate, lacy disk that remains feather-soft in the center while turning golden and crisp along the ruffled edges.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Bastar Tribal Hamlets & Rural Chhattisgarh Homes',
-      culturalSignificance: 'The delicate daily bread of the Rice Bowl, eaten fresh off the woodfire iron tawa with fiery roasted tomato chutney.',
+      culturalSignificance: "The daily morning ritual of rural Chhattisgarh, poured directly onto earthen or seasoned cast-iron tawas greased with a mustard-oil soaked cloth. Grandmother lore recounts that an experienced cook can judge the quality of the new rice harvest solely by the delicate lacy holes (jaali) that bloom across the surface of the cheela as steam escapes.",
+      culturalQuote: "Look for the lace like the morning mist on the Mahanadi; a good cheela is soft as cotton and light as breath.",
       servesCount: 'Yield: 6–8 crepes',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -2807,7 +2839,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Deeply rooted in the cultural heritage of Chhattisgarh, Khurmi is an heirloom festive sweet intimately tied to agrarian celebrations like Pola and Teeja. Symbolizing warmth, prosperity, and maternal blessings, these traditional confections are crafted from coarse whole wheat flour, a splash of semolina or rice flour for crunch, rich cow’s ghee, and dark country jaggery. Kneaded into a firm dough, pressed into decorative, ridged oval patties, and slow-fried in batches until deep amber, a well-made Khurmi delivers a rich, buttery snap on the outside that yields to a crumbly, cardamom-scented heart.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Agrarian Households Across Chhattisgarh Plains',
-      culturalSignificance: 'Sacred maternal blessing sweet exchanged during Pola (bullock worship) and Teeja festivals, carrying weeks of long shelf life.',
+      culturalSignificance: "Deeply associated with the agrarian festival of Pola, where rural farming communities celebrate and worship their hard-working oxen. Oral tradition dictates that mothers prepare deep-fried khurmi made from wheat and rice flour sweetened with thick sugarcane jaggery and infused with cardamom. The fragrant sweet is exchanged between neighboring households as an expression of communal solidarity and maternal affection.",
+      culturalQuote: "When the oxen return from the river decorated in bright vermilion, the scent of fried jaggery khurmi welcomes them home.",
       servesCount: 'Yield: 12–15 crisps',
       approxPrepTime: '40 min',
       ingredientSections: [
@@ -2895,7 +2928,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A timeless sweet comfort food woven into festive afternoons and community gatherings across Chhattisgarh, Gulgula is a rustic, deep-fried fritter cherished for its crisp, golden-amber crust and airy, pillowy crumb. Prepared with a simple batter of whole wheat flour, country jaggery (or raw sugar), and warm water, what truly distinguishes this treat is the generous inclusion of crushed sweet fennel seeds (saunf). The fragrant licorice aroma of the fennel cuts through the caramel sweetness of the jaggery, while also lending digestive warmth. Dropped by hand into bubbling oil or ghee, these miniature fritters puff into uneven spheres that deliver immediate nostalgia in every warm bite.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Village Courtyards & Festive Melas Across Chhattisgarh',
-      culturalSignificance: 'The joyful heart of rural festive afternoons and weddings, fried fresh in iron cauldrons and shared warm in sal leaf cones.',
+      culturalSignificance: "The joyful, comforting sweet fritter of rural festive afternoons and weddings across Bastar and Raipur. Made from a simple batter of wheat flour, dark jaggery, and crushed fennel seeds dropped into bubbling oil by hand, grandmother lore claims that the rounder the gulgula floats to the surface, the brighter the fortunes of the household that year.",
+      culturalQuote: "Golden spheres floating like little suns in the iron kadhai; there is no celebration in our village without gulgula.",
       servesCount: 'Yield: 15–20 fritters',
       approxPrepTime: '25 min; batter rest 20 min',
       ingredientSections: [
@@ -2976,7 +3010,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'While rice serves as the foundation for porridge and crepes in Chhattisgarh, Chausela—also known as Chousela or Chawal ki Poori—reimagines the staple grain as a golden, puffed flatbread. Essential to winter rituals, wedding feasts, and harvest holidays like Diwali and Chhath, this regional bread replaces conventional wheat dough with scalded rice flour kneaded into a velvety, workable mass. Flattened gently by hand and slipped into smoking oil, each poori balloons into a crisp, hollow dome with a delicate rice crunch that contrasts against a soft, pliable interior.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Bastar & Chhattisgarhi Heartland Kitchens',
-      culturalSignificance: 'The grand ceremonial flatbread of Diwali and Chhath in Chhattisgarh, celebrating newly harvested winter paddy.',
+      culturalSignificance: "The celebratory puffed rice puri of Diwali, Hareli, and Makar Sankranti across Chhattisgarh. Rice flour is kneaded with warm water and a touch of roasted cumin before being hand-patted into circles and slipped into hot oil where it inflates like a golden balloon. Village elders remember children waiting eagerly beside the chulha with bowls of spicy tomato chutney or hot jaggery tea.",
+      culturalQuote: "When the white rice bread puffs golden on the fire, you know the harvest has been good and the deities are pleased.",
       servesCount: 'Yield: 8–10 pooris',
       approxPrepTime: '25 min',
       ingredientSections: [
@@ -3070,7 +3105,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A definitive cornerstone of Assamese culinary identity, Masor Tenga—literally translating to "sour fish"—is a light, rejuvenating broth crafted to bring respite from humid summer afternoons. Unlike rich, cream-laden or nut-thickened gravies, this preparation is kept deliberately thin, pale, and fluid, focusing squarely on the natural sweet oiliness of fresh river fish balanced by clean acidity. While sun-dried mangosteen (thekera), elephant apple (ou tenga), or raw mango frequently take center stage, everyday home kitchens rely on juicy local tomatoes and a brisk squeeze of fresh kaji nemu (Assam lemon). Cooked in cold-pressed mustard oil, the soul of the broth lies in a sparse tempering of fenugreek seeds, which imparts a subtle, earthy bitterness that balances the sour broth.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Brahmaputra River Valley, Assam',
-      culturalSignificance: 'The crown jewel of everyday Assamese dining, providing pure digestive comfort and hydration during humid tropical months.',
+      culturalSignificance: "The crown jewel of everyday Assamese dining, celebrated in Bihu folk songs and riverside poetry. Freshly caught river carp from the Brahmaputra (such as rohu or borali) is simmered in a light, clear broth soured naturally with wild elephant apple (ou tenga), sun-dried mangosteen (thekera tenga), or tart tomatoes, scented with fenugreek and mustard oil. Oral lore states that a true Assamese heart cannot endure more than three days away from home without yearning for the soothing sourness of tenga.",
+      culturalQuote: "The Brahmaputra gives the fish, the backyard tree gives the ou tenga; one bowl of sour broth washes away the heat of the longest summer day.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -3162,7 +3198,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A definitive cornerstone of Assamese culinary identity, Masor Tenga—literally translating to "sour fish"—is a light, rejuvenating broth crafted to bring respite from humid summer afternoons. Unlike rich, cream-laden or nut-thickened gravies, this preparation is kept deliberately thin, pale, and fluid, focusing squarely on the natural sweet oiliness of fresh river fish balanced by clean acidity. While sun-dried mangosteen (thekera), elephant apple (ou tenga), or raw mango frequently take center stage, everyday home kitchens rely on juicy local tomatoes and a brisk squeeze of fresh kaji nemu (Assam lemon). Cooked in cold-pressed mustard oil, the soul of the broth lies in a sparse tempering of fenugreek seeds, which imparts a subtle, earthy bitterness that balances the sour broth.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Brahmaputra River Valley, Assam',
-      culturalSignificance: 'The crown jewel of everyday Assamese dining, providing pure digestive comfort and hydration during humid tropical months.',
+      culturalSignificance: "The crown jewel of everyday Assamese dining, celebrated in Bihu folk songs and riverside poetry. Freshly caught river carp from the Brahmaputra (such as rohu or borali) is simmered in a light, clear broth soured naturally with wild elephant apple (ou tenga), sun-dried mangosteen (thekera tenga), or tart tomatoes, scented with fenugreek and mustard oil. Oral lore states that a true Assamese heart cannot endure more than three days away from home without yearning for the soothing sourness of tenga.",
+      culturalQuote: "The Brahmaputra gives the fish, the backyard tree gives the ou tenga; one bowl of sour broth washes away the heat of the longest summer day.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -3253,7 +3290,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'The ultimate summer cooler of the Brahmaputra Valley, Poita Bhaat is an ancient, agrarian staple that harnesses the gentle magic of wild fermentation. Akin to Odisha\'s Basi Pakhala and Bengal\'s Panta Bhaat, it repurposes leftover evening rice by submerging it in fresh water and letting it rest overnight. By dawn, natural lactic fermentation breaks down complex starches, softening the grains and imparting a faint, thirst-quenching sourness packed with bioavailable nutrients and probiotics. Kept unadorned and served chilled or at room temperature, its brilliance lies in elemental assembly—paired with raw pungency and a sharp side of mashed comfort.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Brahmaputra Valley Agrarian Homesteads, Assam',
-      culturalSignificance: 'The cultural soul of agrarian Assamese mornings and Rongali Bihu celebrations, delivering sustained cooling energy for farming life.',
+      culturalSignificance: "The cultural soul of agrarian Assamese mornings and Rongali Bihu celebrations. Leftover cooked rice is steeped in cold water overnight to ferment gently. By dawn, the rice is mildly effervescent and cooling, enjoyed with a pinch of salt, raw mustard oil, charred green chillies, and fried mashed potatoes (aloo pitika). Oral tradition honors poita bhaat as the farmer's greatest friend, protecting against dehydration in the humid paddy fields.",
+      culturalQuote: "A bowl of water-soaked rice, a green chilli from the garden, and a drop of pungent mustard oil; the farmer needs nothing more to conquer the fields.",
       servesCount: 'Yield: 2–3 servings',
       approxPrepTime: 'Active 10 min; overnight ferment 8–10 hrs',
       ingredientSections: [
@@ -3327,7 +3365,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Pitika represents the heart of Assamese comfort cooking—an artisanal tradition of mashing vegetables, tubers, or roasted fish with nothing more than raw mustard oil, pungent aromatics, and bare seasoning. Kesa Kolor Pitika takes green, unripened plantains and turns them into a velvety, soothing side dish. In traditional food wisdom, raw banana is prized for its digestive, cooling nature, providing a hearty, starchy ballast that remains light on the stomach during sultry months. Boiling the fruit in its natural green jacket seals in moisture while preserving an earthy, garden-fresh undertone.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Assamese Kitchens & Backyard Groves',
-      culturalSignificance: 'The archetypal soul food of Assam, turning backyard plantains into digestive comfort with hand-massaged raw mustard oil.',
+      culturalSignificance: "The archetypal comfort food of Assam. Unripe green raw bananas (kesa kol) harvested from backyard groves are boiled soft and hand-mashed with pungent raw mustard oil, minced shallots, green chillies, and sea salt. Grandmother lore prescribes this simple mash as an essential digestive therapy for settling upset stomachs, bringing immediate grounding comfort with its earthy creaminess.",
+      culturalQuote: "Mashed with loving hands, seasoned with pungent mustard oil; the green banana mash settles the stomach and warms the heart.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -3407,7 +3446,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'When summer temperatures climb across the plains of Assam, Amlu—a pale, tangy red lentil broth steeped with tart slices of green raw mango—arrives as liquid relief. Unassuming in appearance and free of heavy spices or thick purees, this dish functions almost like a tonic or a palate-cleansing first course. The lentils dissolve completely to give the broth gentle body and protein, while the simmered raw mango yields an unadulterated, thirst-quenching sourness. Lightly tempered with nothing more than crackling mustard seeds, it prioritizes pure refreshment over ornate seasoning.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Brahmaputra Valley Plains & Homestead Orchards',
-      culturalSignificance: 'The quintessential summer tonic of Assam, cooling the blood and reviving appetites during sultry midday meals.',
+      culturalSignificance: "The quintessential summer tonic of rural Assam. Tender wild sour greens (amroli xak) or sour herbs are lightly stewed with small river fish or lentils. Village elders tell of how ancestors used amlu during the suffocating pre-monsoon heat to cool the blood, stimulate digestive bile, and protect against swamp fevers before the monsoon deluge arrived.",
+      culturalQuote: "When the pre-monsoon heat turns the river banks heavy, the bitter-sour amlu purifies the blood and prepares the body for the rains.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -3486,7 +3526,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Leafy greens (xaak) are indispensable to the Assamese table, woven into meals as an everyday celebration of seasonality. Lai Xaak—peppery, broad-leafed red mustard greens—is treasured for its bold, faintly bitter bite and rich natural water content. While many green preparations call for ginger and garlic, traditional Lai Xaak Bhaja embraces restraint: finely shredded leaves, smoking mustard oil, a whisper of asafoetida, and whole dried red chilies. The secret lies in a high-heat sear followed by a slow, covered braise in its own rendered moisture, cooking the greens tender in just minutes while locking in their mineral vitality.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Kitchen Gardens & River Islands (Chars) of Assam',
-      culturalSignificance: 'The beloved winter green of Assam, celebrated during Magh Bihu feasts for its brisk peppery vitality.',
+      culturalSignificance: "The beloved winter green of Assam, celebrated during Magh Bihu harvest bonfires (meji). Pungent, peppery broad-leaf mustard greens (lai xaak) harvested after the first winter frost are stir-fried simply with garlic cloves and mustard oil, often paired with pork or small river fish. Oral lore states that the peppery bite of lai xaak awakens the senses and warms the mountain blood as winter mist rolls down from the hills.",
+      culturalQuote: "When the winter frost blankets the Brahmaputra valley, the peppery bite of fresh lai xaak brings summer back to the tongue.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -3584,7 +3625,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Manathakkali (black nightshade) greens appear in traditional Tamil home kitchens valued for their cooling, digestive properties. In this simple poriyal, tender cleaned greens are gently cooked with mustard seeds, red chilli, and a pinch of turmeric, then finished with freshly grated coconut to balance the subtle medicinal bitterness of the leaves.',
       preservationStatus: 'Traditional Dish',
       microOrigin: 'Thanjavur, Madurai & Kongu Nadu Home Kitchens',
-      culturalSignificance: 'Celebrated in Siddha and Tamil culinary medicine for soothing stomach ulcers and cooling the body during blistering tropical heat.',
+      culturalSignificance: "Celebrated in ancient Sangam literature and Siddha culinary medicine as nature's ultimate soother of internal heat and stomach ulcers. Tamil grandmothers would forage the tender leaves of the black nightshade (manathakkali) along backyard fences, stir-frying them gently with freshly scraped coconut, mustard seeds, and dried red chillies. Oral tradition strictly advises that the slight medicinal bitterness of the green must never be drowned in heavy tamarind, as the natural bitterness cools the liver.",
+      culturalQuote: "A handful of manathakkali leaves sautéed with fresh coconut cools the fiery stomach like a monsoon shower over dry temple stone.",
       servesCount: 'Serves 2–3',
       approxPrepTime: '20 minutes',
       ingredientSections: [
@@ -3671,7 +3713,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Manathakkali (black nightshade) greens appear in traditional Tamil home kitchens valued for their cooling, digestive properties. In this simple poriyal, tender cleaned greens are gently cooked with mustard seeds, red chilli, and a pinch of turmeric, then finished with freshly grated coconut to balance the subtle medicinal bitterness of the leaves.',
         preservationStatus: 'Traditional Dish',
         microOrigin: 'Thanjavur, Madurai & Kongu Nadu Home Kitchens',
-        culturalSignificance: 'Celebrated in Siddha and Tamil culinary medicine for soothing stomach ulcers and cooling the body during blistering tropical heat.',
+        culturalSignificance: "Celebrated in ancient Sangam literature and Siddha culinary medicine as nature's ultimate soother of internal heat and stomach ulcers. Tamil grandmothers would forage the tender leaves of the black nightshade (manathakkali) along backyard fences, stir-frying them gently with freshly scraped coconut, mustard seeds, and dried red chillies. Oral tradition strictly advises that the slight medicinal bitterness of the green must never be drowned in heavy tamarind, as the natural bitterness cools the liver.",
+        culturalQuote: "A handful of manathakkali leaves sautéed with fresh coconut cools the fiery stomach like a monsoon shower over dry temple stone.",
         servesCount: 'Serves 2–3',
         approxPrepTime: '20 minutes',
         ingredientSections: [
@@ -3757,7 +3800,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Pazhaya saadam reflects the ancient Tamil agrarian practice of saving and steeping evening cooked rice in earthen pots of fresh drinking water overnight. By morning, the gentle natural fermentation transforms the rice into a probiotic, thirst-quenching cooling meal that energized farmers before heading into the fields under the blazing sun.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Tamil Agricultural Valleys (Cauvery Delta & Madurai)',
-        culturalSignificance: 'The historic breakfast of Tamil farmers and laborers, praised in ancient Sangam literature as "pazhayadhu" for its instant vitality, hydration, and natural gut cooling.',
+        culturalSignificance: "The time-honored morning sustenance that powered generations of Tamil agrarian labor and village artisans. Leftover cooked rice is immersed in water inside an unglazed earthen pot (mann paanai) overnight with a splash of sour buttermilk and pearl shallots. By dawn, the rice is mildly effervescent, cooling, and packed with gut-healing microorganisms. It is traditionally eaten directly from the earthen pot using one's fingers, accompanied by raw shallots and sun-dried curd chillies (mor milagai).",
+        culturalQuote: "The man who breaks his fast with fermented rice and small shallots carries the endurance of the banyan tree.",
         servesCount: 'Serves 1–2',
         approxPrepTime: '5 minutes plus soaking',
         ingredientSections: [
@@ -3846,7 +3890,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'This iconic pairing combines mustard greens with cornmeal flatbread. Mustard leaves can be assertive, so spinach or bathua is added to mellow the flavour and improve the texture. The saag should be thick and spoonable, not watery; makki di roti is traditionally rustic and cooked on heavy tawas.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Majha & Malwa Countryside',
-      culturalSignificance: 'The cultural heartbeat of Punjabi agrarian life. Prepared during the chilly winter months when mustard fields are in bloom, cooked on village hearths and served with unpasteurized white butter (makhan) and jaggery.',
+      culturalSignificance: "Across the flat plains of Punjab, cooking the winter saag is an unhurried, collective feminine ritual. Grandmothers wake while mist still cloaks the mustard fields to gather tender bathua, spinach, and pungent sarson stalks. The earthen pot (handi) is left to simmer for six to eight hours over smoldering cow-dung cake fires, stirred rhythmically with a wooden whisk (madhani). Folklore says the best saag is never eaten on the day it is cooked, but on the third morning, when the winter chill has softened the mustard bite into velvety butter.",
+      culturalQuote: "The slower the madhani turns on the embers, the sweeter the sarson; love and saag cannot be hurried.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: 'Greens 45–60 min; breads 30 min',
       ingredientSections: [
@@ -3940,7 +3985,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'This iconic pairing combines mustard greens with cornmeal flatbread. Mustard leaves can be assertive, so spinach or bathua is added to mellow the flavour and improve the texture. The saag should be thick and spoonable, not watery; makki di roti is traditionally rustic and cooked on heavy tawas.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Majha & Malwa Countryside',
-        culturalSignificance: 'The cultural heartbeat of Punjabi agrarian life. Prepared during the chilly winter months when mustard fields are in bloom, cooked on village hearths and served with unpasteurized white butter (makhan) and jaggery.',
+        culturalSignificance: "Across the flat plains of Punjab, cooking the winter saag is an unhurried, collective feminine ritual. Grandmothers wake while mist still cloaks the mustard fields to gather tender bathua, spinach, and pungent sarson stalks. The earthen pot (handi) is left to simmer for six to eight hours over smoldering cow-dung cake fires, stirred rhythmically with a wooden whisk (madhani). Folklore says the best saag is never eaten on the day it is cooked, but on the third morning, when the winter chill has softened the mustard bite into velvety butter.",
+        culturalQuote: "The slower the madhani turns on the embers, the sweeter the sarson; love and saag cannot be hurried.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: 'Greens 45–60 min; breads 30 min',
         ingredientSections: [
@@ -4018,7 +4064,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Amritsari chole is a deeply flavoured chickpea curry commonly associated with the food culture of Amritsar. The chickpeas should be tender but intact, while the gravy carries tang, roasted spice, and a dark, concentrated character.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Amritsar Bazaars',
-        culturalSignificance: 'A cornerstone of Amritsari street food culture, famously paired with crisp tandoori kulchas or bhaturas.',
+        culturalSignificance: "In the narrow lanes flanking the Golden Temple, the distinct ebony hue of Amritsari chole comes not from artificial color, but from whole dried amla (Indian gooseberry) and aged tea leaves bundled in unbleached muslin. Street lore recounts that Partition-era cooks who migrated from Rawalpindi brought secret spice pouches called 'potli masala' containing twenty-two herbs. The secret was never written down, but whispered by fathers to sons over the bubbling iron caldrons.",
+        culturalQuote: "The black color belongs to the iron kadhai and the tea leaves; the soul belongs to the hand that stirs the potli.",
         servesCount: 'Yield: 4–5 servings',
         approxPrepTime: 'Soaking 8 hrs; cooking 60–90 min',
         ingredientSections: [
@@ -4095,7 +4142,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Amritsari-style fish is known for a crisp, spiced coating and a tender interior. A firm white fish works well because it can be handled without breaking. The coating should cling rather than form a thick batter; gram flour, carom seed, chilli, and lemon provide a savoury, slightly tangy crust.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Amritsar Street Stalls',
-        culturalSignificance: 'A legendary specialty from the food streets of Amritsar, where fresh freshwater catch is spiced with ajwain (carom seeds) to cut richness and enhance crispness.',
+        culturalSignificance: "Originating along the turbulent waters of the Beas and Harike wetland, freshwater river carp (singhara and sole) were seasoned by riverside vendors with freshly pounded ajwain (carom seeds) and coarse besan. Local oral history recounts that British officers stationed in Lahore would send couriers on horseback solely to fetch hot wrapped parcels of spiced fish fried in cold-pressed mustard oil outside Hall Gate.",
+        culturalQuote: "Ajwain in the batter, mustard oil in the iron pan; the fish from the river must sizzle before the water dries on its scales.",
         servesCount: 'Yield: 4 servings as a starter',
         approxPrepTime: 'Marination 20–30 min; frying 15 min',
         ingredientSections: [
@@ -4173,7 +4221,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Dal makhani combines whole black gram with a smaller amount of kidney beans and a slow-cooked tomato-and-spice base. Its characteristic texture comes from long simmering, frequent stirring, and some beans breaking down into the liquid.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Punjab & Delhi Border Dhaba Hearths',
-        culturalSignificance: 'Created in the post-partition era from traditional maa ki dal, this slow-simmered creation is now a universal symbol of Punjabi warmth.',
+        culturalSignificance: "Evolved from the ancestral 'maa ki dal' cooked by peasant families in undivided Punjab, the dish was simmered overnight inside remaining tandoor coals after the evening rotis were baked. Oral accounts from refugee camp kitchens in 1947 recall how grandmothers kept iron pots of whole urad and kidney beans bubbling through cold Delhi nights, adding ladles of butter at dawn to revive weary travelers seeking lost kin.",
+        culturalQuote: "A night spent sleeping beside the dying coals of the tandoor gives the black lentil a softness that no modern flame can imitate.",
         servesCount: 'Yield: 5 servings',
         approxPrepTime: 'Soaking overnight; simmering 2–3 hours',
         ingredientSections: [
@@ -4248,7 +4297,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Pinni is a dense sweet made by slowly roasting flour in ghee and combining it with sugar or jaggery and nuts. It is associated with winter and celebratory home cooking in parts of North India, including Punjab. The crucial technique is patience: flour must roast slowly enough to lose its raw taste without burning.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Punjab Winter Kitchens',
-        culturalSignificance: 'Prepared in large batches at the start of winter to fortify the family against the cold, packed for brides, and shared at Lohri celebrations.',
+        culturalSignificance: "Hand-shaped by maternal matriarchs at the first sign of winter frost, pinni is an edible talisman of warmth and stamina. Punjabi folklore holds that women rolled each golden sphere between palms anointed with cow ghee, pressing their palm prints into the dough as a personal blessing for sons and daughters laboring in icy wheat fields or departing for military outposts.",
+        culturalQuote: "Eat a pinni before the morning sun melts the frost, and the winter wind will turn around without touching your chest.",
         servesCount: 'Yield: 12 small pinnis',
         approxPrepTime: '40–50 min',
         ingredientSections: [
@@ -4335,7 +4385,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A classic Gujarati savory cake, Handvo is traditionally baked in a special sand-filled cooker but is now commonly pan-roasted or baked in an oven. It features a fermented batter and is packed with grated vegetables, giving it a crusty exterior and a soft, spongy interior.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Ahmedabad & Kathiawar Kitchens',
-      culturalSignificance: 'Handvo combines slow microbial fermentation with vegetable fortification. The sesame-mustard seed tempering poured at high heat creates the signature crackling golden outer crust while maintaining an airy, spongy center.',
+      culturalSignificance: "Deeply woven into Gujarati Jain and Vaishnav domestic traditions, handvo is a testament to resourceful kitchen thrift. Oral lore tells of mothers combining the ends of multiple grain and lentil jars—chana dal, tuver dal, urad, and broken rice—with sour homemade yogurt and freshly grated bottle gourd. Poured into an iron handvo cooker dusted with sesame and mustard seeds, it was baked over slow charcoal embers until a golden, crackling crust formed around the tender center.",
+      culturalQuote: "The magic of handvo lies in patience: let the sesame crackle, let the crust turn amber, and no morsel of grain is ever wasted.",
       servesCount: 'Serves 4–6',
       approxPrepTime: '40 min (+ 8-10 hrs fermentation)',
       ingredientSections: [
@@ -4440,7 +4491,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'A classic Gujarati savory cake, Handvo is traditionally baked in a special sand-filled cooker but is now commonly pan-roasted or baked in an oven. It features a fermented batter and is packed with grated vegetables, giving it a crusty exterior and a soft, spongy interior.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Ahmedabad & Kathiawar Kitchens',
-        culturalSignificance: 'Combines slow microbial fermentation with vegetable fortification, finished with hot crackling sesame tempering.',
+        culturalSignificance: "Deeply woven into Gujarati Jain and Vaishnav domestic traditions, handvo is a testament to resourceful kitchen thrift. Oral lore tells of mothers combining the ends of multiple grain and lentil jars—chana dal, tuver dal, urad, and broken rice—with sour homemade yogurt and freshly grated bottle gourd. Poured into an iron handvo cooker dusted with sesame and mustard seeds, it was baked over slow charcoal embers until a golden, crackling crust formed around the tender center.",
+        culturalQuote: "The magic of handvo lies in patience: let the sesame crackle, let the crust turn amber, and no morsel of grain is ever wasted.",
         servesCount: 'Serves 4–6',
         approxPrepTime: '40 min (+ fermentation)',
         ingredientSections: [
@@ -4518,7 +4570,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Paanki is an incredibly delicate, paper-thin savory pancake made from a fermented rice flour batter. What makes it unique is that it is cooked between fresh banana leaves, which impart a distinct herbal aroma to the dish.',
         preservationStatus: 'Revived Heirloom',
         microOrigin: 'Coastal & South Gujarat Kitchens',
-        culturalSignificance: 'An ingenious culinary method where moist batter is enveloped in banana leaves and roasted on dry iron pans. The gentle indirect steam preserves tenderness while infusing the mineral chlorophyll notes of the scorched banana leaf.',
+        culturalSignificance: "Originating in traditional Gujarati households as an ingenious steaming technique, delicate rice batter is spread wafer-thin between fresh green banana leaves or flame-scorched sal leaves. Oral lore says grandmothers used paanki as an easily digestible cure for recovering elders and pregnant daughters. As the leaf toasts on a cast-iron tawa, the plant chlorophyll and charred aroma permeate the translucent crepe.",
+        culturalQuote: "Peel the blackened banana leaf with gentle fingers; what remains is not just food, but the pure perfume of the green hearth.",
         servesCount: 'Serves 4',
         approxPrepTime: '20 min (+ 2 hrs resting)',
         ingredientSections: [
@@ -4606,7 +4659,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Tracing its roots to the Adivasi (indigenous) communities of southern Gujarat, Aambil is an ancient, gut-friendly summer cooler. It is essentially a fermented gruel made from ragi (finger millet) or jowar (sorghum) mixed with buttermilk, highly valued for its hydrating and cooling properties.',
         preservationStatus: 'Endangered Oral Tradition',
         microOrigin: 'Dang & South Gujarat Adivasi Forests',
-        culturalSignificance: 'Practiced for millennia by the tribal forest communities of South Gujarat and the Dangs. Cooked over clay hearths and stored in earthen matkas to naturally ferment, Aambil prevents heat exhaustion and replenishes electrolytes.',
+        culturalSignificance: "Practiced for centuries by agrarian and forest communities across south Gujarat and the Dangs, aambil is a wild-fermented cooling gruel made from nagli (finger millet) and buttermilk. Tribal folklore credits aambil with granting woodcutters and rice planters the ability to endure grueling hours under the scorching sun without experiencing heat exhaustion or thirst.",
+        culturalQuote: "A sip of earthen aambil at midday cools the stomach like the deep shade of a banyan grove.",
         servesCount: 'Serves 4',
         approxPrepTime: '20 min (+ cooling time)',
         ingredientSections: [
@@ -4705,7 +4759,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Dashmi is a slightly sweet, thick flatbread made using milk instead of water. Because it contains no water, it has a long shelf life and is a traditional travel food in Maharashtra.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Deccan & Khandesh Hearth',
-      culturalSignificance: 'Crafted for centuries as sustenance for travellers, pilgrims, and farmers traversing the rugged Western Ghats. The absence of water and kneading with milk and ghee keeps the bread soft and prevents spoiling for days without refrigeration.',
+      culturalSignificance: "The immortal traveler's bread of Maharashtra. Oral lore recounts how Warkari pilgrims embarking on the arduous 250-kilometer foot pilgrimage (Vari) to Pandharpur carried stacks of dashmi tied in clean cotton cloths. Kneaded with pure milk, jaggery, and turmeric instead of water, the bread resisted spoilage for over a week of rain and sun, nourishing pilgrims as they chanted the names of Vitthal across the Deccan plateau.",
+      culturalQuote: "Kneaded with milk and faith, the dashmi keeps fresh until the pilgrim's feet touch the holy river at Pandharpur.",
       servesCount: 'Yields 6–8 rotis',
       approxPrepTime: '30 min',
       ingredientSections: [
@@ -4784,7 +4839,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Dashmi is a slightly sweet, thick flatbread made using milk instead of water. Because it contains no water, it has a long shelf life and is a traditional travel food in Maharashtra.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Rural Deccan & Khandesh Hearth',
-        culturalSignificance: 'Crafted for centuries as sustenance for travellers and pilgrims across the Western Ghats without refrigeration.',
+        culturalSignificance: "The immortal traveler's bread of Maharashtra. Oral lore recounts how Warkari pilgrims embarking on the arduous 250-kilometer foot pilgrimage (Vari) to Pandharpur carried stacks of dashmi tied in clean cotton cloths. Kneaded with pure milk, jaggery, and turmeric instead of water, the bread resisted spoilage for over a week of rain and sun, nourishing pilgrims as they chanted the names of Vitthal across the Deccan plateau.",
+        culturalQuote: "Kneaded with milk and faith, the dashmi keeps fresh until the pilgrim's feet touch the holy river at Pandharpur.",
         servesCount: 'Yields 6–8 rotis',
         approxPrepTime: '30 min',
         ingredientSections: [
@@ -4849,7 +4905,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Ukadpendi is a savory, spiced flour porridge—often made with roasted whole wheat flour (or jowar flour) and buttermilk. It is a quick, comforting traditional breakfast.',
         preservationStatus: 'Endangered Oral Tradition',
         microOrigin: 'Vidarbha & Marathwada Kitchens',
-        culturalSignificance: 'A rustic comfort dish from rural Maharashtra, Ukadpendi is prepared early in the morning using freshly churned taak (buttermilk). The slow addition of dry-roasted flour to bubbling spiced buttermilk requires practiced wrist rhythm to avoid lumps.',
+        culturalSignificance: "A timeless Maharashtrian comfort dish born from the quiet ingenuity of frugal Brahmin and Maratha kitchens. When unexpected guests arrived or midday hunger struck, homemakers would temper coarse wheat flour or jowar in hot oil with mustard seeds, asafoetida, green chillies, and butter-churned buttermilk. Grandmothers recall feeding warm ukadpendi to convalescent children, its soothing warmth easing sore throats and weary spirits.",
+        culturalQuote: "When the pantry seems empty, a handful of toasted flour and spiced buttermilk can welcome the hungriest guest.",
         servesCount: 'Serves 3–4',
         approxPrepTime: '25 min',
         ingredientSections: [
@@ -4935,7 +4992,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'This is a signature Maharashtrian delicacy featuring baby eggplants stuffed with a rich, dark, sweet-and-spicy coconut and peanut mixture, flavored with traditional Goda Masala.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Western Maharashtra & Deccan Plateau',
-        culturalSignificance: 'A quintessential feast dish cooked for weddings and harvest gatherings. The complex spice foundation comes from Goda Masala—an aromatic Maharashtrian spice blend perfumed with stone flower (dagad phool) and dried coconut.',
+        culturalSignificance: "The jewel of festive Maharashtrian banquets and wedding feasts. Traditional lore dictates using tiny, thorny purple brinjals stuffed with a hand-pounded mixture of roasted peanuts, desiccated coconut, sesame seeds, and dark, smoky goda masala. Old family cooks insist that the brinjals must never be cut completely through; keeping the green stems intact is believed to keep the household prosperous and unified.",
+        culturalQuote: "Leave the green crown on the brinjal; a stuffed vegetable cooked with goda masala is fit for the feast of kings.",
         servesCount: 'Serves 4',
         approxPrepTime: '40 min',
         ingredientSections: [
@@ -5043,7 +5101,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Deeply entwined with the culinary heritage of Odisha, Enduri Pitha—often known as Haladi Patra Pitha—is a festive staple made during Prathamastami, a festival celebrating the health and long life of the firstborn. While traditionally an auspicious offering, it frequently doubles as a comforting, seasonal snack in Odia households. The soul of this steamed delicacy lies in the lush, green turmeric leaves that wrap the batter, releasing a warm, herbal fragrance that permeates deep into the cake.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Coastal & Rural Odia Kitchens, Prathamastami Festival',
-      culturalSignificance: 'The aromatic hallmark of Odia culinary spirituality, harnessing fresh monsoon-to-winter turmeric leaves to infuse an irresistible earthy peppery perfume into fermented rice cakes.',
+      culturalSignificance: "The sacred soul of the Prathamastami festival in Odisha, where maternal aunts pray for the longevity of the firstborn child. Fermented rice and black gram batter stuffed with sweet grated coconut, chenna, and jaggery is wrapped inside fresh aromatic turmeric leaves (haladi patra) before steaming inside an earthen pot. Oral lore recounts how the unique aroma of steaming turmeric leaves drifted across village streets, signaling the blessings of the ancestors.",
+      culturalQuote: "When the fragrance of hot turmeric leaves fills the morning courtyard, every firstborn child is blessed with long life.",
       servesCount: 'Yield: 6–8 pithas; serves 3–4',
       approxPrepTime: 'Active 30 min; batter ferment 8 hrs; steam 15 min',
       ingredientSections: [
@@ -5127,7 +5186,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Deeply entwined with the culinary heritage of Odisha, Enduri Pitha—often known as Haladi Patra Pitha—is a festive staple made during Prathamastami, a festival celebrating the health and long life of the firstborn. While traditionally an auspicious offering, it frequently doubles as a comforting, seasonal snack in Odia households. The soul of this steamed delicacy lies in the lush, green turmeric leaves that wrap the batter, releasing a warm, herbal fragrance that permeates deep into the cake.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Coastal & Rural Odia Kitchens, Prathamastami Festival',
-      culturalSignificance: 'The aromatic hallmark of Odia culinary spirituality, harnessing fresh monsoon-to-winter turmeric leaves to infuse an irresistible earthy peppery perfume into fermented rice cakes.',
+      culturalSignificance: "The sacred soul of the Prathamastami festival in Odisha, where maternal aunts pray for the longevity of the firstborn child. Fermented rice and black gram batter stuffed with sweet grated coconut, chenna, and jaggery is wrapped inside fresh aromatic turmeric leaves (haladi patra) before steaming inside an earthen pot. Oral lore recounts how the unique aroma of steaming turmeric leaves drifted across village streets, signaling the blessings of the ancestors.",
+      culturalQuote: "When the fragrance of hot turmeric leaves fills the morning courtyard, every firstborn child is blessed with long life.",
       servesCount: 'Yield: 6–8 pithas; serves 3–4',
       approxPrepTime: 'Active 30 min; batter ferment 8 hrs; steam 15 min',
       ingredientSections: [
@@ -5210,7 +5270,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A rustic classic from the home kitchens of Odisha, Manja Rai turns one of nature’s most humble, fibrous gifts—the tender inner core of the banana pseudo-stem (manja)—into an aromatic, comforting delicacy. Revered in traditional Odia food wisdom for its therapeutic and digestive qualities, the banana stem requires careful handling to discard its web of delicate, clinging threads. In this preparation, the sweet, crisp stem is paired with tender potatoes and simmered in a sharp, pungent mustard-cumin-garlic paste (rai), creating a lightly textured, fragrant side dish deeply rooted in village cooking traditions.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Odia Village Courtyards & Rural Kitchens',
-      culturalSignificance: 'A testament to traditional botanical wisdom, utilizing banana plantation cores to cleanse the renal tract while providing a zesty everyday side.',
+      culturalSignificance: "Manja refers to the tender inner pith of the banana plant stem, harvested when banana trees are felled after fruit harvest. Odia grandmothers praise manja as nature's greatest kidney cleanser. Sliced paper-thin and cooked in a pungent mustard paste (rai) tempered with panch phoron and green chillies, it represents the sacred philosophy of zero-waste sacred dining practiced around the Jagannath Temple.",
+      culturalQuote: "From root to flower, the banana tree feeds the hungry; the white pith cooked in mustard paste purifies the body.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '25 min',
       ingredientSections: [
@@ -5293,7 +5354,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A celebrated feast-day specialty from Odisha, Machha Munda Mudhi Ghanta is a slow-cooked, hearty medley centered around prized freshwater fish heads—traditionally Rohu (Rohi) or Catla (Bhakur). While closely related to the rustic Odia favorite Chinchada, this dish elevates the profile by weaving split chickpeas and red lentils directly into the mix, giving the gravy a luxurious, velvety body. As the golden-fried fish head simmers alongside tender chunks of pumpkin, potato, and aromatics, it fractures gently, releasing its rich juices into the spiced, lentil-thickened base.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Cuttack & Coastal Odia Festive Banquets',
-      culturalSignificance: 'The indisputable star of celebratory gatherings and Durga Puja family reunions in Odisha, transforming the sweetest part of the fish into a rich textured stew.',
+      culturalSignificance: "The undisputed star of traditional Odia wedding feasts and ceremonial dinners. The large head of a freshwater Rohu or Catla carp is fried crisp in mustard oil, crushed into coarse fragments, and slow-cooked with soaked raw rice, taro root, raw banana, and winter pumpkin. Oral lore holds that a celebration without the rich, complex crunch of fish head ghanta is an incomplete gathering that leaves guests talking for months.",
+      culturalQuote: "The fish head holds the wisdom of the river and the richness of the feast; cook it slow with rice and vegetables.",
       servesCount: 'Yield: 4–5 servings',
       approxPrepTime: '45 min',
       ingredientSections: [
@@ -5394,7 +5456,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A culinary lifeline across Odisha, Pakhala Bhata is an ancient, cooling staple engineered perfectly for the tropical summer heat. At its heart, it is cooked rice submerged in water and allowed to ferment naturally, cultivating lactic acid cultures that break down anti-nutrients and significantly enhance the bioavailability of minerals like iron, potassium, and calcium. While typically set aside during the chill of winter, it commands deep devotion across the state, celebrated globally every year on March 20th as Pakhala Dibasa.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Everyday Odia Households Across All Districts',
-      culturalSignificance: 'The sacred cooling ritual of Lord Jagannath during Chandan Yatra, and the life-giving summer staple of agrarian Odisha.',
+      culturalSignificance: "The celebrated summer salvation of Odisha, worshipped on Pakhala Dibasa (March 20). Cooked parboiled rice is steeped in cold water and allowed to ferment mildly overnight, producing cooling natural probiotics. Served with fried saga, mashed potatoes, and roasted badi, oral lore tells of Lord Jagannath himself requesting a clay bowl of cold pakhala to soothe his divine body from the scorching summer heat of Puri.",
+      culturalQuote: "Let the midday sun burn the red earth; a bowl of fermented water rice with fried greens makes every peasant a king.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: 'Active 15 min; fermentation 8–10 hrs',
       ingredientSections: [
@@ -5471,7 +5534,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'While the slender pods of the Moringa oleifera tree (known variably across India as drumstick, sahjan, or muniga) are culinary regulars, its tiny green leaves hide immense nutrient density and time-tested therapeutic value. In Odia households, Sajana Saga Kharada is an everyday treasure celebrated for its antimicrobial goodness and gentle, earthy bitterness. Simmered alongside golden yellow split moong dal, softened with freshly grated coconut, and finished with a fragrant mustard-garlic temper, this humble stir-fry elevates backyard foraging into nourishing, wholesome comfort.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Backyard Gardens Across Rural Odisha',
-      culturalSignificance: 'A pillar of traditional wellness cooking in Odisha, revered for fortifying health and immunity through backyard moringa harvesting.',
+      culturalSignificance: "Drumstick leaves (moringa / sajana saga) are foraged from tree branches that lean over every village courtyard in Odisha. Traditional Ayurvedic lore passed down through grandmothers states that moringa leaves ward off seasonal fevers, smallpox, and weakness. Gently stir-fried with mustard oil, garlic cloves, and crunchy sun-dried lentil dumplings (badi chura), it is the beloved everyday green of Odia families.",
+      culturalQuote: "Pluck the drumstick greens before the sun climbs high; fry them crisp with badi, and the doctor stays away from your gate.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -5567,7 +5631,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Galouti kebab is associated with Awadhi cuisine and is known for its tender, finely textured mixture. Traditional professional recipes may use specialised spice blends and meat-tenderising methods; this home adaptation uses minced meat, fried onion, and warm spices. The mixture should be soft enough to shape but not wet enough to collapse in the pan.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Lucknow Nawabi Kitchens',
-      culturalSignificance: 'Created in the court of Nawab Asad-ud-Daula by master khansamas for a toothless royal patron. The meat is passed repeatedly through sieves and infused with delicate botanicals so it melts instantaneously on the palate.',
+      culturalSignificance: "Legend immortalizes Nawab Asad-ud-Daula of Lucknow, who loved meat passionately even in his old age when he had lost all his teeth. His master royal khansama was commanded to invent a kebab that required zero chewing. The cook experimented with green raw papaya enzymes, rose petal water, and a secret blend of over 160 aromatic herbs, smoking the finely pounded meat with cloves and betel leaf (dhungar). The result was so velvety it melted the moment it touched the royal tongue.",
+      culturalQuote: "A true Galouti does not wait for the teeth; it dissolves upon the lips like an unspoken sigh of love.",
       servesCount: 'Yield: 12 small kebabs',
       approxPrepTime: 'Preparation 30 min; resting 30 min; cooking 20 min',
       ingredientSections: [
@@ -5656,7 +5721,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Galouti kebab is associated with Awadhi cuisine and is known for its tender, finely textured mixture. Traditional professional recipes may use specialised spice blends and meat-tenderising methods; this home adaptation uses minced meat, fried onion, and warm spices. The mixture should be soft enough to shape but not wet enough to collapse in the pan.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Lucknow Nawabi Kitchens',
-        culturalSignificance: 'Created in the court of Nawab Asad-ud-Daula for royal indulgence.',
+        culturalSignificance: "Legend immortalizes Nawab Asad-ud-Daula of Lucknow, who loved meat passionately even in his old age when he had lost all his teeth. His master royal khansama was commanded to invent a kebab that required zero chewing. The cook experimented with green raw papaya enzymes, rose petal water, and a secret blend of over 160 aromatic herbs, smoking the finely pounded meat with cloves and betel leaf (dhungar). The result was so velvety it melted the moment it touched the royal tongue.",
+        culturalQuote: "A true Galouti does not wait for the teeth; it dissolves upon the lips like an unspoken sigh of love.",
         servesCount: 'Yield: 12 small kebabs',
         approxPrepTime: 'Prep 30 min; resting 30 min; cooking 20 min',
         ingredientSections: [
@@ -5718,7 +5784,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Varanasi’s street-food repertoire includes distinctive chaat preparations. Tamatar chaat balances cooked tomato, potato, spice, and tangy-sweet seasoning. Street vendors vary their texture and toppings; this version aims for a soft, spoonable base with enough acidity and crunch to keep it lively.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Varanasi (Kashi) Ghats & Alleyways',
-        culturalSignificance: 'Unique to Banaras street cuisine, unlike potato or lentil chaats found elsewhere. Served steaming hot in earthen kulhads at the ghats.',
+        culturalSignificance: "Exclusive to the narrow cobblestone lanes near Dashashwamedh Ghat in Varanasi. Banarasi chaatwalas hold court over massive, concave iron tawas, simmering ripe tomatoes with boiled potatoes, ginger, and roasted cumin. Oral lore recounts that while other cities rely on curd, Banaras serves its tomato mash sizzling hot in earthen kulhads, drizzled with sugar syrup infused with hing (asafoetida)—a radical contrast of sweet, fiery, and sour honoring the unpredictable moods of Shiva.",
+        culturalQuote: "Like Banaras itself, the tamatar chaat offers you fire, earth, and syrup all in a single earthen cup.",
         servesCount: 'Yield: 4 snack portions',
         approxPrepTime: '30–35 min',
         ingredientSections: [
@@ -5794,7 +5861,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Tehri is a one-pot spiced rice dish found in parts of Uttar Pradesh and neighbouring regions. Potatoes and seasonal vegetables cook with rice and whole spices, making a filling meal from a modest pantry. It should be aromatic and separate enough to serve with a spoon, not as wet as khichdi.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Awadh & Central UP Countryside',
-        culturalSignificance: 'Born as a comforting vegetarian counterpart to royal biryanis, celebrated across UP homes for Sunday lunches during the winter pea harvest.',
+        culturalSignificance: "Originating in the Awadhi kayastha and nawabi royal kitchens during the 18th century, tehri was born as an aristocratic meat-free counterpart to mutton biryani on holy days when vegetarianism was observed. Grandmother lore dictates that the mustard oil must be heated until it smokes blue to banish its raw pungency, followed by a heavy pinch of turmeric to bathe the potatoes, cauliflower, and basmati in the auspicious yellow hue of Basant Panchami.",
+        culturalQuote: "When the yellow grain glistens with mustard oil and winter peas, the kitchen welcomes the spring.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: '40–45 min',
         ingredientSections: [
@@ -5879,7 +5947,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Agra petha is a well-known sweet associated with Agra and made from ash gourd (also called winter melon). Traditional commercial methods can involve food-grade lime treatment to help the pieces retain shape and develop a translucent texture. Because lime handling requires care, this home version uses a simpler method.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Agra Historic Quarter',
-        culturalSignificance: 'Associated with the Mughal era in Agra, crafted from firm winter melon cubes slowly infused with sweet syrup and floral waters.',
+        culturalSignificance: "Oral folklore attributes the origin of petha directly to the construction of the Taj Mahal. Over twenty thousand stonemasons and artisans labored for decades in scorching heat. To keep the weary laborers hydrated and energized, the Mughal imperial chefs utilized white ash gourd (kaddu) preserved in alum water and clarified sugar syrup. The translucent sweet provided clean energy and cooling digestion without spoiling under the summer sun.",
+        culturalQuote: "White as the marble of the emperor's monument, sweet as the memory of eternal devotion.",
         servesCount: 'Yield: About 20 small pieces',
         approxPrepTime: 'Prep 30 min; soaking 6–10 hrs; cooking 45–60 min',
         ingredientSections: [
@@ -5951,7 +6020,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Nimona is a winter-associated green-pea preparation found in parts of Uttar Pradesh and neighbouring regions. Fresh peas are crushed or ground coarsely, then cooked with potato and spices. The dish should retain the sweetness of peas while developing a savoury, slightly thick gravy.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Varanasi, Gorakhpur & Eastern UP',
-        culturalSignificance: 'A beloved winter ritual across Eastern UP homes when fresh tender garden peas flood local markets. The coarse grind releases pea milk to naturally thicken the spiced gravy.',
+        culturalSignificance: "In the villages of Varanasi, Prayagraj, and Awadh, the arrival of winter is marked by the thumping of stone pestles grinding sweet green tender winter peas (matar) into a coarse, emerald paste. Oral tradition mandates that half the peas must be crushed while half remain whole; boiling the paste with charred sun-dried urad dal dumplings (badi) and green garlic creates a fragrance that signals to the entire neighborhood that the new winter harvest has begun.",
+        culturalQuote: "When the fragrance of crushed green peas and fried badi floats over the courtyard wall, the winter has arrived.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: '35–45 min',
         ingredientSections: [
@@ -6042,7 +6112,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A rustic winter comfort food from regional rural hearths (particularly celebrated in Bihari and eastern household traditions), Lauka Jabar—also known simply as Jabar—is a gentle, porridge-style one-pot meal designed to soothe the digestive system while delivering nourishing warmth. Made during the cooler months when fresh, sweet bottle gourds are at their tender best, this preparation slow-cooks delicate cubes of gourd and fragrant short-grain rice together in a creamy bath of milk and water. Light on the stomach yet satisfying, it is finished with a crackling temper of mustard oil, seeds, and toasted red chilies that cuts beautifully through the sweet richness of the milk.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Mithila, Magadh & Bhojpur Rural Hearths',
-      culturalSignificance: 'A revered Ayurvedic postpartum and winter comfort food, combining cooling bottle gourd with warming mustard tadka in creamy sweet milk.',
+      culturalSignificance: "An ancient, gentle comfort food of the Bhojpuri and Maithili heartlands, combining broken aromatic rice with tender bottle gourd and roasted cumin. Grandmother lore strictly prescribes lauka jabar for postpartum mothers and convalescent elders, believing the cooling properties of bottle gourd coupled with warm cow milk cleanse the digestive tract and restore serene balance to tired bodies.",
+      culturalQuote: "A bowl of lauka jabar cools the burning stomach like morning dew on a green pumpkin vine.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '25 min',
       ingredientSections: [
@@ -6127,7 +6198,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A rustic winter comfort food from regional rural hearths (particularly celebrated in Bihari and eastern household traditions), Lauka Jabar—also known simply as Jabar—is a gentle, porridge-style one-pot meal designed to soothe the digestive system while delivering nourishing warmth. Made during the cooler months when fresh, sweet bottle gourds are at their tender best, this preparation slow-cooks delicate cubes of gourd and fragrant short-grain rice together in a creamy bath of milk and water. Light on the stomach yet satisfying, it is finished with a crackling temper of mustard oil, seeds, and toasted red chilies that cuts beautifully through the sweet richness of the milk.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Mithila, Magadh & Bhojpur Rural Hearths',
-      culturalSignificance: 'A revered Ayurvedic postpartum and winter comfort food, combining cooling bottle gourd with warming mustard tadka in creamy sweet milk.',
+      culturalSignificance: "An ancient, gentle comfort food of the Bhojpuri and Maithili heartlands, combining broken aromatic rice with tender bottle gourd and roasted cumin. Grandmother lore strictly prescribes lauka jabar for postpartum mothers and convalescent elders, believing the cooling properties of bottle gourd coupled with warm cow milk cleanse the digestive tract and restore serene balance to tired bodies.",
+      culturalQuote: "A bowl of lauka jabar cools the burning stomach like morning dew on a green pumpkin vine.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '25 min',
       ingredientSections: [
@@ -6211,7 +6283,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A rare and ingenious jewel of Bihari festive confectionery, Parwal Ki Mithai turns a typically savory vegetable—the crisp pointed gourd (parwal)—into a decadent, glistening dessert. Often showcased during Diwali, Chhath Puja, and weddings, this sweet exemplifies how rustic ingenuity can create grandeur from everyday produce. The peeled, deseeded gourds are first poached in an aromatic sugar syrup until tender, emerald-green, and translucent. Once soaked through, each tender shell is cradled with a rich filling of reduced milk solids (mawa/khoya), warming spices, and finely chopped nuts.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Mithila, Patna & Nalanda Festive Kitchens',
-      culturalSignificance: 'A celebrated jewel of Bihari festive sweets offered to deities during Chhath and savored at weddings, showcasing supreme confectionery mastery.',
+      culturalSignificance: "Originating in the ancient riverside town of Buxar along the Ganges, where pointed gourds (parwal) grow sweet and crisp along alluvial sandbanks. Oral lore tells of an ingenious sweet-maker who wished to offer a fresh sweet to the goddess that combined garden produce with royal khoya. Slitting the gourds, scooping out the seeds, and poaching them in fragrant saffron syrup before stuffing them with nut-studded mawa created an unforgettable confectionery miracle.",
+      culturalQuote: "Who would imagine that the humble pointed gourd could become the queen of festival confections?",
       servesCount: 'Yield: 10–12 pieces',
       approxPrepTime: '40 min; chill 1 hr',
       ingredientSections: [
@@ -6300,7 +6373,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A comforting, nutrient-dense staple of eastern home cooking, Dal Jhingni marries the earthy, robust bite of split pulses with the natural sweetness and cooling hydration of ridge gourd (jhingni / tori). Often adapted with bottle gourd (Lauki Dal), this version shines brightest with ridge gourd, which melts into silky, tender pockets within the slow-simmered gravy. Flavored with humble pantry staples like garlic, earthy cumin, and slit green chilies, the real character of the dish comes from cooking in cold-pressed mustard oil, lending a faint smokiness that cuts right through the richness of the dal.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rural Magadh & Bhojpur Courtyards',
-      culturalSignificance: 'Everyday nutritional backbone of agrarian families, blending drought-hardy pulses with tender garden gourds.',
+      culturalSignificance: "The everyday nutritional backbone of agrarian families across the plains of Magadh. Ridge gourd (jhingni) freshly harvested from backyard trellises is stewed with split yellow moong or chana dal and tempered with garlic and panch phoron. Oral lore says farmers returning from humid monsoon fields would scoop up this cooling broth with steaming parboiled rice, praising it for keeping the liver healthy through the humid rainy season.",
+      culturalQuote: "Fresh jhingni from the vine and sweet moong dal; a farmer needs no fancy doctor when the garden grows green.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '30 min; dal soaking 30 min',
       ingredientSections: [
@@ -6398,7 +6472,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'The quintessential evening companion across the verandas and street corners of Bihar, Chura Bhunja (or Chura Bhuja) is far more than a snack—it is a daily ritual. Built around thick, country-variety flattened rice (chura) dry-roasted to a nutty, shatteringly crisp perfection, it transforms with the turn of the seasons. While roasted peanuts, pungent raw mustard oil, sharp onions, and blistering green chilies remain constant companions year-round, the onset of winter brings sweet green peas (matar) and tender green chickpeas (choliya / hara chana).',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Bihari Village Verandas & Countryside Street Corners',
-      culturalSignificance: 'The cultural soul of evening gatherings (adda) in Bihar, uniting generations over hot roasted chura, fresh winter crops, and steaming milk tea.',
+      culturalSignificance: "The timeless pulse of village adda (evening gatherings) in Bihar. Flat beaten rice (chura) is roasted with red sand in iron woks until white and puffy, then tossed with fried peanuts, green chillies, and roasted black chickpeas. Village elders describe how generations sat around hurricane lanterns at twilight, sharing brass katoris of warm chura bhunja while debating politics, poetry, and harvest prices.",
+      culturalQuote: "Without a bowl of hot chura bhunja and green chillies, the evening adda cannot begin.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -6479,7 +6554,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Known affectionately as Lal Thariya across rural Bihar and widely celebrated as Lal Saag, this ruby-hued winter dish proves that elemental cooking often yields the purest comfort. Centered around tender red amaranth leaves freshly harvested during the cold months, this preparation relies on minimal intervention, allowing the mineral-rich, earthy sweetness of the greens to shine. Sizzled in smoking mustard oil with whole cumin seeds, caramelised onions, and smoky dried red chilies, the tender leaves wilt down into a luscious, glossy side dish that naturally paints the plate a vibrant, celebratory magenta.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Bihari Village Farmlands & Countryside Kitchens',
-      culturalSignificance: 'A mineral-rich nutritional powerhouse celebrating winter harvest cycles across eastern agrarian homesteads.',
+      culturalSignificance: "Prepared from deep-red amaranth greens (lal saag) that carpet the fertile alluvial floodplains of the Kosi and Ganga during winter. Grandmothers instruct young brides to never discard the tender red stalks, cooking them down with coarse mustard paste and green chillies until the gravy turns ruby-red. Folk wisdom says eating red greens in winter fills the veins with pure blood and keeps old joints limber.",
+      culturalQuote: "The red amaranth gives its color to the oil and its strength to the blood; eat it fresh while the winter dew is wet.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -6579,7 +6655,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Ambli is a practical millet gruel and ancestral coolant of Karnataka\'s dry Deccan plateau and Old Mysore heartland. Whole finger-millet (ragi) flour is cooked slowly in water into a smooth, glossy porridge, then cooled and whisked with fresh sour buttermilk, crushed cumin seeds, and finely chopped shallots.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Old Mysore, Mandya, Hassan & Kolar Belts',
-      culturalSignificance: 'The time-honored coolant of Karnataka\'s agricultural communities, rich in calcium and iron, providing sustainable energy throughout demanding harvests.',
+      culturalSignificance: "The ancestral agrarian nectar of Karnataka's dry southern plateau and the Deccan heartland. Ground finger millet (ragi) is simmered with water into a smooth porridge and left to ferment overnight in an earthen pot before being churned with thick sour buttermilk, crushed shallots, and curry leaves. Folklore recounts that Tippu Sultan’s cavalry and peasant infantry sustained immense long marches through rocky Deccan scrub fueled by skin flasks of cold ragi ambli.",
+      culturalQuote: "Ragi ambli in an earthen pot at noon is the lifeblood of the farmer; it cools the chest and strengthens the spine.",
       servesCount: 'Serves 2',
       approxPrepTime: '15 minutes',
       ingredientSections: [
@@ -6662,7 +6739,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Ambli is a practical millet gruel and ancestral coolant of Karnataka\'s dry Deccan plateau and Old Mysore heartland. Whole finger-millet (ragi) flour is cooked slowly in water into a smooth, glossy porridge, then cooled and whisked with fresh sour buttermilk, crushed cumin seeds, and finely chopped shallots.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Old Mysore, Mandya, Hassan & Kolar Belts',
-        culturalSignificance: 'The time-honored coolant of Karnataka\'s agricultural communities, rich in calcium and iron, providing sustainable energy throughout demanding harvests.',
+        culturalSignificance: "The ancestral agrarian nectar of Karnataka's dry southern plateau and the Deccan heartland. Ground finger millet (ragi) is simmered with water into a smooth porridge and left to ferment overnight in an earthen pot before being churned with thick sour buttermilk, crushed shallots, and curry leaves. Folklore recounts that Tippu Sultan’s cavalry and peasant infantry sustained immense long marches through rocky Deccan scrub fueled by skin flasks of cold ragi ambli.",
+        culturalQuote: "Ragi ambli in an earthen pot at noon is the lifeblood of the farmer; it cools the chest and strengthens the spine.",
         servesCount: 'Serves 2',
         approxPrepTime: '15 minutes',
         ingredientSections: [
@@ -6744,7 +6822,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Akki Thambittu is a beloved traditional roasted rice-flour confection prepared during festive traditions and temple celebrations in Karnataka. Rice flour is slow-roasted until fragrant, combined with warm jaggery syrup, pure desi ghee, grated coconut, and crushed cardamom, then hand-shaped into comforting soft mounds.',
         preservationStatus: 'Traditional Dish',
         microOrigin: 'Bangalore Rural, Mandya & Mysore Royal Hearth',
-        culturalSignificance: 'Traditionally shaped into sacred lamp mounds (thambittu deepa) and offered to deities during Maha Shivaratri and harvest celebrations.',
+        culturalSignificance: "The sacred roasted sweet offered to serpent deities during Naga Panchami and to the goddess during temple jathres across Old Mysore. Roasted rice flour is pounded with dry desiccated coconut, dark jaggery syrup, fried gram, and fragrant cardamom, hand-pressed into lamp-shaped confections. Oral lore describes how village women lit tiny ghee-soaked cotton wicks placed inside the sweet thambittu lamps before offering them at the sanctum, eating the sacred blessed sweet afterwards.",
+        culturalQuote: "Shape the roasted rice sweet like a little temple lamp; let the light shine before the sweet melts upon the tongue.",
         servesCount: 'Makes 8 small portions',
         approxPrepTime: '25 minutes',
         ingredientSections: [
@@ -6847,7 +6926,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Panasa Puttu Koora is an iconic Coastal Andhra delicacy celebrating raw green jackfruit. Chopped jackfruit is gently steamed until tender, shredded into fine strands, and tossed in hot oil with crackling mustard seeds, curry leaves, green chillies, turmeric, coriander, and finished with fresh lemon juice.',
       preservationStatus: 'Revived Heirloom',
       microOrigin: 'East & West Godavari Districts, Coastal Andhra',
-      culturalSignificance: 'A festive wedding and ceremony delicacy in Andhra households, celebrating the bountiful raw jackfruit harvest before the fruit turns sweet.',
+      culturalSignificance: "The supreme ceremonial and wedding banquet delicacy of the Godavari delta. Immature raw green jackfruit is painstakingly shredded into fine, meat-like shreds using a traditional sickle bench (aruvamanai). Oral lore tells of master Brahmin and Reddy wedding cooks who spent half the night pounding the shredded jackfruit with fresh mustard paste (ava pettina), dry coconut, and green chillies, creating a pungent, royal curry whose aroma signaled a grand feast from three streets away.",
+      culturalQuote: "When the Godavari jackfruit is shredded fine as morning mist and perfumed with freshly ground mustard, no guest remembers meat.",
       servesCount: 'Serves 3–4',
       approxPrepTime: '40–50 minutes',
       ingredientSections: [
@@ -6945,7 +7025,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Panasa Puttu Koora is an iconic Coastal Andhra delicacy celebrating raw green jackfruit. Chopped jackfruit is gently steamed until tender, shredded into fine strands, and tossed in hot oil with crackling mustard seeds, curry leaves, green chillies, turmeric, coriander, and finished with fresh lemon juice.',
         preservationStatus: 'Revived Heirloom',
         microOrigin: 'East & West Godavari Districts, Coastal Andhra',
-        culturalSignificance: 'A festive wedding and ceremony delicacy in Andhra households, celebrating the bountiful raw jackfruit harvest before the fruit turns sweet.',
+        culturalSignificance: "The supreme ceremonial and wedding banquet delicacy of the Godavari delta. Immature raw green jackfruit is painstakingly shredded into fine, meat-like shreds using a traditional sickle bench (aruvamanai). Oral lore tells of master Brahmin and Reddy wedding cooks who spent half the night pounding the shredded jackfruit with fresh mustard paste (ava pettina), dry coconut, and green chillies, creating a pungent, royal curry whose aroma signaled a grand feast from three streets away.",
+        culturalQuote: "When the Godavari jackfruit is shredded fine as morning mist and perfumed with freshly ground mustard, no guest remembers meat.",
         servesCount: 'Serves 3–4',
         approxPrepTime: '40–50 minutes',
         ingredientSections: [
@@ -7042,7 +7123,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Rayalaseema Ragi Sangati is the quintessential nutrient-dense rural staple of Rayalaseema. Soft-cooked rice is simmered in water, gradually dusted with nutty finger-millet (ragi) flour, and beaten vigorously with a sturdy wooden stick into smooth, dense, steaming spheres traditionally eaten with fiery country gravies and pappu.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Rayalaseema (Anantapur, Kadapa, Kurnool & Chittoor)',
-        culturalSignificance: 'The historic daily staple of agrarian Rayalaseema families, providing endurance under harsh arid climates and revered as a low-glycemic superfood.',
+        culturalSignificance: "The legendary agrarian staple of the rocky, drought-prone Rayalaseema region. Coarse finger millet flour is stirred furiously into boiling broken rice using a heavy wooden club (ragi thuddu) until it forms dense, steaming spheres. Farm hands carry the hot balls wrapped in wet cotton cloth to the arid red fields, dipping each morsel into fiery country chicken curry (natu kodi pulusu) or spicy gongura pachadi.",
+        culturalQuote: "Roll the hot ragi ball between your palms while the steam rises; dip it in fiery pulusu and work from dawn to dusk without hunger.",
         servesCount: 'Serves 2–3',
         approxPrepTime: '30 minutes',
         ingredientSections: [
@@ -7130,7 +7212,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Jonna Rotte is Telangana\'s iconic sorghum flatbread. Made purely from milled sorghum (jowar) flour and hot water, the warm dough is patted rhythmically by hand into thin rounds without rolling pins, cooked on a blistering concave tawa with a sprinkle of water, and toasted until puffed and lightly charred.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Deccan Plateau & Rural Telangana Districts',
-      culturalSignificance: 'The historic daily staple of Telangana farmers and weavers, representing exceptional manual hand-patting skill passed down through generations of rural women.',
+      culturalSignificance: "The historic daily bread that fueled the Telangana peasant movements and weaving communities. Jowar (sorghum) flour contains no gluten, so women pat the dough entirely between their palms on flat wooden boards with rapid, rhythmic hand-slapping sounds that echoed across village courtyards at dusk. Blistered on heavy cast-iron tawas and splashed with cold water to seal the moisture, it is eaten with fiery roasted peanut chutney.",
+      culturalQuote: "Listen for the rhythmic slap of jonna rotte in the village dusk; where sorghum is patted with strong hands, the family stays strong.",
       servesCount: 'Makes 4 small rotte',
       approxPrepTime: '25 minutes',
       ingredientSections: [
@@ -7206,7 +7289,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Jonna Rotte is Telangana\'s iconic sorghum flatbread. Made purely from milled sorghum (jowar) flour and hot water, the warm dough is patted rhythmically by hand into thin rounds without rolling pins, cooked on a blistering concave tawa with a sprinkle of water, and toasted until puffed and lightly charred.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Deccan Plateau & Rural Telangana Districts',
-        culturalSignificance: 'The historic daily staple of Telangana farmers and weavers, representing exceptional manual hand-patting skill passed down through generations of rural women.',
+        culturalSignificance: "The historic daily bread that fueled the Telangana peasant movements and weaving communities. Jowar (sorghum) flour contains no gluten, so women pat the dough entirely between their palms on flat wooden boards with rapid, rhythmic hand-slapping sounds that echoed across village courtyards at dusk. Blistered on heavy cast-iron tawas and splashed with cold water to seal the moisture, it is eaten with fiery roasted peanut chutney.",
+        culturalQuote: "Listen for the rhythmic slap of jonna rotte in the village dusk; where sorghum is patted with strong hands, the family stays strong.",
         servesCount: 'Makes 4 small rotte',
         approxPrepTime: '25 minutes',
         ingredientSections: [
@@ -7281,7 +7365,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Sajja Ambali is an ancestral cooling pearl-millet gruel popular throughout the rural heartlands of Telangana. Pearl millet flour is cooked gently with water into a smooth porridge, cooled, and whisked with sour buttermilk, salt, and finely chopped raw onions for natural hydration in intense dry heat.',
         preservationStatus: 'Traditional Dish',
         microOrigin: 'Mahabubnagar, Warangal & Nalgonda Rural Belts',
-        culturalSignificance: 'Carried by farmers in mud jugs to arid millet fields, this nourishing probiotic gruel restores electrolyte balance and prevents sunstroke.',
+        culturalSignificance: "Prepared from coarse pearl millet (sajja / bajra) and sour buttermilk, carried by farmers and pastoral cowherds in clay jugs to the arid rocky scrublands of Mahbubnagar and Nalgonda. Oral lore credits this ancient fermented gruel with shielding agricultural laborers from heatstroke during the scorching Rohini Karthi summer period when temperatures exceed 45 degrees Celsius.",
+        culturalQuote: "When the summer sun burns the rocky hills of Telangana, a clay cup of sajja ambali shields the body like ancestral armor.",
         servesCount: 'Serves 2',
         approxPrepTime: '20 minutes plus cooling',
         ingredientSections: [
@@ -7376,7 +7461,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Xit means rice, and Kodi means curry. This is the daily lifeblood of Goa. A true Goan fish curry uses a fresh coconut base soured with tamarind and kokum, paired with the state\'s traditional parboiled red rice.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Coastal Goan Fishing Hamlets & River Estuaries',
-      culturalSignificance: 'Xit Kodi is the foundation of Goan identity. The addition of kokum petals (sole) gives the curry its authentic reddish-orange tinge and distinctive sour edge that balances the fatty coastal fish.',
+      culturalSignificance: "Xit Kodi (fish curry and parboiled red rice) is the foundational soul of Goan existence across Hindu and Catholic households alike. Oral lore says that if a Goan does not smell fresh coconut, raw mango, and pungent teppal (Sichuan-style pepper) simmering over an earthen pot at noon, the day is considered unlived. Fisherwomen in coastal villages still sing traditional mandos while scraping coconuts on wooden 'bhendi' stools.",
+      culturalQuote: "The day does not begin when the sun rises; the day begins when the coconut milk meets the fresh sea catch in the clay pot.",
       servesCount: 'Serves 4',
       approxPrepTime: '40 min',
       ingredientSections: [
@@ -7472,7 +7558,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Niro is the pure, unfermented juice extracted from cashew apples immediately after harvest. Because it ferments rapidly into alcohol (which is then distilled into urrak and feni), it must be consumed fresh on the same day it is extracted.',
         preservationStatus: 'Endangered Oral Tradition',
         microOrigin: 'Valpoi, Sattari & Ponda Cashew Groves',
-        culturalSignificance: 'Extracted exclusively during the hot cashew harvest months (March to May) in Goa hills. Only the very first gentle hand or foot press (colmbi) is consumed as sweet Niro; subsequent presses are fermented into feni.',
+        culturalSignificance: "In the cashew orchards of Sattari and Valpoi, niro is the fleeting nectar of the Goan summer. Squeezed from the second pressing of ripe cashew apples beneath the feet of orchard workers, it is consumed unfermented within hours of extraction. Oral tradition recounts how elders gathered around the rustic distillation stills (bhatti) in the cool of twilight, passing around earthen bowls of sweet, astringent niro to celebrate a bountiful harvest before distillation began.",
+        culturalQuote: "Drink the niro while the cashew orchard is still hot with sun; by nightfall, the sweet juice has already turned to spirit.",
         servesCount: 'Serves 2–4',
         approxPrepTime: '15 min',
         ingredientSections: [
@@ -7537,7 +7624,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'A quintessential Saraswat Brahmin summer dish, sasav (meaning mustard) perfectly balances sweet, sour, spicy, and bitter notes. It utilizes ghontan—small, fibrous, incredibly sweet wild mangoes that are eaten whole, seed and all.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Saraswat Brahmin Kitchens & Marcel Orchards',
-        culturalSignificance: 'Sasav is an ancient Konkani term for mustard seed. Cooked without onion or garlic in the Saraswat Brahmin tradition, this dish celebrates the tiny wild fibrous mangoes that flourish during coastal monsoon borders.',
+        culturalSignificance: "Sasav is an ancient Konkani mango curry celebrating the tiny, fibrous wild mangoes (ghotam) gathered from jungle canopies in May. Oral history recounts that children spent hot afternoons throwing stones at high mango branches, bringing their bruised prizes to grandmothers who cooked them whole in jaggery, crushed mustard seeds, and roasted red chillies. The sweet-pungent curry is eaten messy by hand, sucking the rich pulp directly from the seeds.",
+        culturalQuote: "You cannot eat ghontan sasav with a spoon; your fingers must be sticky with jaggery and mustard before you know true joy.",
         servesCount: 'Serves 4',
         approxPrepTime: '25 min',
         ingredientSections: [
@@ -7625,7 +7713,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Xit means rice, and Kodi means curry. This is the daily lifeblood of Goa. A true Goan fish curry uses a fresh coconut base soured with tamarind and kokum, paired with the state\'s traditional parboiled red rice.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Coastal Goan Hamlets',
-        culturalSignificance: 'Daily sustenance across Goan homes with signature sour kokum and red ukde rice.',
+        culturalSignificance: "Xit Kodi (fish curry and parboiled red rice) is the foundational soul of Goan existence across Hindu and Catholic households alike. Oral lore says that if a Goan does not smell fresh coconut, raw mango, and pungent teppal (Sichuan-style pepper) simmering over an earthen pot at noon, the day is considered unlived. Fisherwomen in coastal villages still sing traditional mandos while scraping coconuts on wooden 'bhendi' stools.",
+        culturalQuote: "The day does not begin when the sun rises; the day begins when the coconut milk meets the fresh sea catch in the clay pot.",
         servesCount: 'Serves 4',
         approxPrepTime: '40 min',
         ingredientSections: [
@@ -7703,7 +7792,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Kafuli is a Garhwali preparation often made from spinach and fenugreek leaves. The greens are cooked and thickened, producing a dish that is earthy and vivid rather than cream-based. The exact balance of greens and thickener varies; a little rice or wheat paste gives body without hiding the flavour of the leaves.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Garhwal & Kumaon Hill Villages',
-      culturalSignificance: 'Traditionally slow-cooked in heavy cast iron pots (bhadoo) over pine wood embers, the iron infuses the wild greens with essential bioavailable minerals.',
+      culturalSignificance: "In the rugged valleys of Garhwal and Kumaon, kafuli is affectionately known as the green blood of the mountains. Oral folklore narrates how forest-dwelling sages survived Himalayan winters on foraged wild stinging nettle (kandali) and bitter fenugreek leaves. Village grandmothers strictly mandate cooking kafuli in a heavy unlined cast-iron 'lohey ki kadhai'; folk medical lore states that stirring the simmered greens with a green deodar twig draws out inner strength and banishes winter fevers.",
+      culturalQuote: "The iron pan gives the strength, the wild leaves give the life; a Pahari who eats kafuli fears no winter cold.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '35–45 min',
       ingredientSections: [
@@ -7785,7 +7875,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Kafuli is a Garhwali preparation often made from spinach and fenugreek leaves. The greens are cooked and thickened, producing a dish that is earthy and vivid rather than cream-based. The exact balance of greens and thickener varies; a little rice or wheat paste gives body without hiding the flavour of the leaves.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Garhwal & Kumaon',
-        culturalSignificance: 'Traditional iron-pot green stew sustaining Himalayan hill settlements.',
+        culturalSignificance: "In the rugged valleys of Garhwal and Kumaon, kafuli is affectionately known as the green blood of the mountains. Oral folklore narrates how forest-dwelling sages survived Himalayan winters on foraged wild stinging nettle (kandali) and bitter fenugreek leaves. Village grandmothers strictly mandate cooking kafuli in a heavy unlined cast-iron 'lohey ki kadhai'; folk medical lore states that stirring the simmered greens with a green deodar twig draws out inner strength and banishes winter fevers.",
+        culturalQuote: "The iron pan gives the strength, the wild leaves give the life; a Pahari who eats kafuli fears no winter cold.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: '35–45 min',
         ingredientSections: [
@@ -7846,7 +7937,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Chainsoo is a robust Garhwali dish made from roasted black gram (urad). Roasting before grinding gives the pulse a nutty aroma and distinguishes the dish from ordinary boiled dal. The ground pulse thickens the gravy, so careful addition of water and frequent stirring are essential to avoid lumps.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Garhwal Valleys',
-        culturalSignificance: 'Unique among Indian dal preparations for roasting the pulses dry in iron pans before grinding, imparting a rich, toasted aroma suited to mountain cold.',
+        culturalSignificance: "Chainsoo is born from the mountain necessity of turning dense black bhatt (soybeans) and whole urad into instant digestible heat. The distinctive step—roasting the dry lentils on dry iron until they crackle like sparks before stone-grinding—is celebrated in Kumaoni folk songs. Elders warn that if the pulses are ground raw without toasting, the soup loses its medicinal warmth and will sit heavy upon the chest of high-altitude travelers.",
+        culturalQuote: "Listen for the crackle of black bhatt on the tawa; when the beans sing like fireflies, the mountain soup is born.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: '40–50 min',
         ingredientSections: [
@@ -7914,7 +8006,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Aloo ke gutke is a Kumaoni-style potato preparation, typically made with boiled potatoes, oil, chilli, and a fragrant tempering. The potatoes are cut into chunky pieces and tossed until their edges take on the spices. The goal is a dry, lightly crisp exterior and a soft centre, not a wet curry.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Kumaon Hills (Almora & Nainital)',
-        culturalSignificance: 'The signature snack and side dish of Kumaon, made distinctive by jakhiya (Cleome viscosa) seeds that pop with a nutty crunch in smoking mustard oil.',
+        culturalSignificance: "Along the pilgrim trails to Badrinath and Kedarnath, mountain potatoes grown in mineral-rich glacial soil possess a distinct waxy sweetness. Kumaoni folklore claims that no traveler should cross a mountain pass without a parcel of aloo ke gutke wrapped in fresh malhan leaves. The essential spice—jambhoo, a wild high-altitude allium foraged from Bhotia alpine meadows—is believed to thin the blood and prevent mountain sickness.",
+        culturalQuote: "Cooked in mustard oil with jambhoo crackling like lightning, three cold potatoes can sustain a mountain trek from dawn till dark.",
         servesCount: 'Yield: 4 servings as a side',
         approxPrepTime: '30–35 min',
         ingredientSections: [
@@ -7982,7 +8075,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'Jhangora is a local name for barnyard millet used in Uttarakhand. In kheer, the grains soften in milk and produce a pudding with a delicate, slightly grainy texture. Rinse the millet well and stir frequently so the milk does not catch on the bottom of the pan.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Garhwal & Kumaon Hill Kitchens',
-        culturalSignificance: 'Barnyard millet is an ancient climate-resilient Himalayan crop; this sweet kheer is made during sacred fasts and festive gatherings.',
+        culturalSignificance: "Jhangora (barnyard millet) is reverently termed the 'crop of the deities' across Uttarakhand, as it is one of the ancient fasting grains permitted during religious vratas. Grandmother tales tell of how during historic droughts when paddy crops withered on terraced slopes, jhangora stood tall and green against the rocky hillsides. Slow-simmered in hill-cow milk with green cardamom, it is traditionally served to nursing mothers and returning pilgrims.",
+        culturalQuote: "The paddy fields may thirst, but the humble jhangora never abandons the hillside home.",
         servesCount: 'Yield: 4 small dessert servings',
         approxPrepTime: '35–45 min',
         ingredientSections: [
@@ -8050,7 +8144,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
         description: 'This chutney uses culinary hemp seeds for their nutty, toasted flavour, typically combined with cumin, chilli, garlic, and an acidic ingredient. It is an accompaniment rather than a main dish. Use only food-grade hemp seeds sold for culinary use.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Uttarakhand Mountain Valleys',
-        culturalSignificance: 'A distinct culinary heritage of Uttarakhand hill communities using non-psychoactive hemp seeds (bhang ke beej) roasted on iron tawas for a warming winter condiment.',
+        culturalSignificance: "Foraged hemp seeds (bhangjeera) have been roasted in Himalayan kitchens since Vedic antiquity. Unlike the narcotic leaves, the roasted seeds provide an earthy, citrusy richness. Kumaoni oral lore attributes the sharp tang of the chutney to wild mountain lemons (pahadi nimbu), so large they require two hands to hold. Elders say a meal without bhang ki chutney during winter snows is like a house without a roof.",
+        culturalQuote: "Roast the seeds until they pop like mountain rain; add the juice of a wild lemon, and every plain roti tastes like a feast.",
         servesCount: 'Yield: 1 small bowl',
         approxPrepTime: '10–15 min',
         ingredientSections: [
@@ -8126,7 +8221,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'The quintessential winter dish of Sikkim, Phagshapa is an ancient, warming stew that showcases the Himalayan art of cooking meat in its own rendered fat. Tender strips of pork belly are gently stewed without any added cooking oil, allowing the rendered lard to meld with the clean sweetness of sliced winter radish (mooli) and rehydrated fiddlehead ferns (ningro) or tender spinach. Flavored with whole dried mountain red chilies and finished with crushed Sichuan pepper (timur), the resulting broth is pale, deeply savory, and marked by a distinctive citrusy, tongue-numbing warmth that cuts effortlessly through the rich pork belly.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Bhutia & Lepcha Himalayan Villages, Sikkim',
-      culturalSignificance: 'The premier winter feast dish of Sikkim, showcasing zero-oil cooking where pork fat melts into sweet radish and wild fiddlehead ferns.',
+      culturalSignificance: "The premier winter feast dish of Sikkim, cherished across Bhutia and Lepcha mountain communities. Strips of cured pork fat with rind are slow-braised with dried red mountain chillies and pungent sun-dried mountain radish (gundruk / mula ko sinki) without a single drop of cooking oil. Oral lore recalls how mountain caravans crossing the high Himalayan passes into Tibet survived sub-zero blizzards on dried pork fat and radish simmered in copper pots over rhododendron wood embers.",
+      culturalQuote: "No oil, no butter; let the pork fat melt into the spicy radish over mountain embers, and the blizzard outside cannot touch your bones.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '40 min',
       ingredientSections: [
@@ -8216,7 +8312,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'The quintessential winter dish of Sikkim, Phagshapa is an ancient, warming stew that showcases the Himalayan art of cooking meat in its own rendered fat. Tender strips of pork belly are gently stewed without any added cooking oil, allowing the rendered lard to meld with the clean sweetness of sliced winter radish (mooli) and rehydrated fiddlehead ferns (ningro) or tender spinach. Flavored with whole dried mountain red chilies and finished with crushed Sichuan pepper (timur), the resulting broth is pale, deeply savory, and marked by a distinctive citrusy, tongue-numbing warmth that cuts effortlessly through the rich pork belly.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Bhutia & Lepcha Himalayan Villages, Sikkim',
-      culturalSignificance: 'The premier winter feast dish of Sikkim, showcasing zero-oil cooking where pork fat melts into sweet radish and wild fiddlehead ferns.',
+      culturalSignificance: "The premier winter feast dish of Sikkim, cherished across Bhutia and Lepcha mountain communities. Strips of cured pork fat with rind are slow-braised with dried red mountain chillies and pungent sun-dried mountain radish (gundruk / mula ko sinki) without a single drop of cooking oil. Oral lore recalls how mountain caravans crossing the high Himalayan passes into Tibet survived sub-zero blizzards on dried pork fat and radish simmered in copper pots over rhododendron wood embers.",
+      culturalQuote: "No oil, no butter; let the pork fat melt into the spicy radish over mountain embers, and the blizzard outside cannot touch your bones.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '40 min',
       ingredientSections: [
@@ -8305,7 +8402,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A celebrated cornerstone of everyday Himalayan hearth cooking, this preparation brings together two pillars of indigenous food culture: succulent country pork and fermented bamboo shoot (bastenga / raja bamboo shoot). Foregoing powdered garam masalas and elaborate onion-tomato bases, authentic cooking lets the natural richness of the meat shine against the tart, umami-rich funk of the bamboo shoots. First pressure-rendered to achieve tender bite, the pork is pan-browned in mustard oil with minced ginger, garlic, and fiery chilies before braising down into a semi-dry, glistening fry that coats every piece in savory pungency.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Eastern Himalayan Foothills & Border Kitchens',
-      culturalSignificance: 'A quintessential tribal staple uniting mountain communities across Sikkim and the Northeast hills.',
+      culturalSignificance: "A celebrated tribal culinary tradition that unites mountain kitchens across Sikkim and Nagaland. Smoke-dried pork hanging above the kitchen hearth for months is rehydrated and cooked with fermented bamboo shoots (mesu) and fiery red king chillies (dalle khursani). Oral folklore tells of how hunters returning from misty pine ridges could smell the pungent, resinous aroma of fermented bamboo simmering above the central woodfire hearth from a mile away.",
+      culturalQuote: "When the smoke of the hearth penetrates the meat and the bamboo shoot ferments in the dark, the hunter knows he is home.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '30 min',
       ingredientSections: [
@@ -8392,7 +8490,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'Drawing inspiration from the oil-free, water-braised stews common across Northeast India, this light poultry dish proves that deep flavor does not require heavy fats. Boneless chicken breast is cooked entirely without added cooking oil, braising gently in its own natural juices alongside aromatic ginger, garlic, sliced tomatoes, carrots, and potatoes. Fermented bamboo shoots cut through the mild sweetness of the root vegetables with their signature earthy tang, while a light slurry of rice flour ties the clear broth into a velvety, comforting stew that remains exceptionally clean on the palate.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Highland Kitchens of Sikkim & Eastern Himalayas',
-      culturalSignificance: 'A health-restoring clear stew cooked without a drop of oil, relying on pure steam-braising and fermented bamboo shoots.',
+      culturalSignificance: "A health-restoring alpine clear stew cooked without oil across Sikkimese village homes. Tender meat is simmered directly in fresh spring water with indigenous fermented bamboo shoot, wild mountain garlic, sliced ginger, and local leafy greens. Grandmothers traditionally served this restorative clear broth to new mothers and recovering family members, trusting the clean mountain water and fermented bamboo to rebuild vitality.",
+      culturalQuote: "Clean spring water, wild ginger, and the breath of the bamboo forest; food that heals the body needs no oil to taste of heaven.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '25 min',
       ingredientSections: [
@@ -8486,7 +8585,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A pungent, lip-smacking condiment that pairs effortlessly with dal-rice and parathas, this pickled bamboo shoot preparation bridges tribal mountain foraging with traditional Indian pickling techniques. Fresh, tender young bamboo shoots are first scrubbed of their raw bitterness through an initial cure of turmeric, vinegar, and salt, which draws out excess vegetative water. Once drained, the crunchy ivory slivers are tossed in coarse pickle masala, Kashmiri chili, and a cool, crackling temper of groundnut oil, mustard dal, and fragrant asafoetida. Balanced by a final hit of fresh lemon juice, it offers a crunchy, sour-spicy bite built for long-term storage.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Sikkimese Mountain Pantries & Homesteads',
-      culturalSignificance: 'The quintessential pantry preserve of Sikkim, ensuring year-round access to forest bamboo goodness during freezing snowbound months.',
+      culturalSignificance: "The quintessential pantry preserve of Sikkim. Tender seasonal bamboo shoots (tama) are sliced into delicate matchsticks and preserved in cold-pressed mustard oil with roasted fenugreek, turmeric, and local mountain chillies. Mountain lore holds that a house with jars of homemade tama achar sitting on the sunny veranda roof is prepared to endure the longest winter isolation without fear of flavorless meals.",
+      culturalQuote: "Seal the tender bamboo in mustard oil while the autumn sun is bright; in the deep snows of January, every drop will taste like liquid gold.",
       servesCount: 'Yield: 1 medium glass jar (approx. 500 g)',
       approxPrepTime: '30 min; 24-hr salt-vinegar cure',
       ingredientSections: [
@@ -8577,7 +8677,8 @@ export const statesArchiveData: Record<string, StateArchive> = {
       description: 'A fiery, indispensable condiment resting on dining tables across Sikkim and the Darjeeling hills, Marcha Ko Achar—traditionally made with iconic Dalle Khursani (Sikkimese round cherry peppers) or seasonal pickled greens/vegetables—is celebrated for its piercing heat, herbal undertones, and vibrant tang. Cooked lightly in pure mustard oil or clarified ghee tempered with whole mustard seeds, the round chilies soften alongside sweet caramelized onions and jammy tomatoes, creating a thick, coarsely crushed relish that instantly wakes up the palate.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Sikkimese Hill Tables & Darjeeling Ridge Cafes',
-      culturalSignificance: 'The fiery symbol of Sikkimese hospitality, resting in glass jars on every dining table to accompany steaming momos and thukpa.',
+      culturalSignificance: "The fiery symbol of Sikkimese hospitality, resting in glass jars in every mountain kitchen. Round, cherry-like Dalle Khursani chillies—among the hottest peppers on earth—are preserved whole with mustard oil, salt, and spices. Oral lore cautions travelers that biting into a single fermented dalle khursani will bring tears of joy and fire, sparking the appetite and keeping highland colds away.",
+      culturalQuote: "Small as a cherry, hot as the forge of the mountain blacksmith; one dalle chilli can awaken the sleepiest palate.",
       servesCount: 'Yield: 6–8 table condiment portions',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -9697,7 +9798,8 @@ mn: {
       description: 'Hollowed cucumber, tomato, and boiled potato shells filled with boiled chickpeas, ruby pomegranate arils, fresh ginger juliennes, lemon juice, and a secret 12-spice digestive masala.',
       preservationStatus: 'Endangered Oral Tradition',
       microOrigin: 'Old Delhi / Shahjahanabad Lanes',
-      culturalSignificance: 'Invented during the Mughal era under Emperor Shah Jahan when court physicians prescribed cooling chaat spices to counteract brackish canal water.',
+      culturalSignificance: "Deep in the labyrinthine alleys of Dariba Kalan and Chawri Bazar, oral food lore credits the invention of kulle chaat to 19th-century Mughal courtesans and kayastha courtiers who sought a refreshing digestive during sweltering summer afternoons. Vendors scooped out the hearts of seedless cucumbers, winter radishes, and sweet melons to form natural cups, filling them with boiled chickpeas, pomegranate jewels, and tart amchoor spiced with black salt.",
+      culturalQuote: "In Old Delhi, we don't throw away the fruit to make chaat; we carve the fruit into a chalice and drink the spiced memory of the bazaar.",
       ingredients: [
         { item: 'Crisp field cucumbers, tomatoes, and boiled potatoes', amount: '4 each' },
         { item: 'Boiled yellow peas / chickpeas', amount: '1 cup' },
@@ -9729,7 +9831,8 @@ mn: {
         description: 'Hollowed cucumber, tomato, and boiled potato shells filled with boiled chickpeas, ruby pomegranate arils, fresh ginger juliennes, lemon juice, and a secret 12-spice digestive masala.',
         preservationStatus: 'Endangered Oral Tradition',
         microOrigin: 'Shahjahanabad',
-        culturalSignificance: 'Historic Mughal digestive fruit cups.',
+        culturalSignificance: "Deep in the labyrinthine alleys of Dariba Kalan and Chawri Bazar, oral food lore credits the invention of kulle chaat to 19th-century Mughal courtesans and kayastha courtiers who sought a refreshing digestive during sweltering summer afternoons. Vendors scooped out the hearts of seedless cucumbers, winter radishes, and sweet melons to form natural cups, filling them with boiled chickpeas, pomegranate jewels, and tart amchoor spiced with black salt.",
+        culturalQuote: "In Old Delhi, we don't throw away the fruit to make chaat; we carve the fruit into a chalice and drink the spiced memory of the bazaar.",
         ingredients: [
           { item: 'Hollowed cucumbers and potatoes', amount: '6' },
           { item: 'Chickpeas and pomegranate', amount: '1 cup' },
@@ -9769,7 +9872,8 @@ mn: {
       description: 'Bajra khichdi is a hearty grain-and-pulse preparation suited to cold weather and a rural pantry. Pearl millet has a robust, earthy taste and benefits from thorough cooking. Cracked millet cooks more quickly than whole grain; tempered with cumin in ghee, it is a winter hearth staple.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Rohtak, Hisar & Rural Haryana Countryside',
-      culturalSignificance: 'The ultimate survival and strength food of Haryanvi farmers. Slow-cooked over cattle dung embers in earthen pots and consumed with unpasteurized butter and fresh buttermilk to sustain heavy agrarian labour.',
+      culturalSignificance: "The agrarian lifeline of Haryana's dry southern belt. Folk lore describes how pearl millet grains were de-husked in stone pestles (ukhal) by village women chanting harvest rhymes in rhythmic syncopation. In winter, farmers would carry a brass tiffin of hot bajra khichdi buried beneath piles of dried fodder to keep it steaming until noon, spooning enormous mounds of white country butter (tindi ghyoo) into its center.",
+      culturalQuote: "A man who eats bajra khichdi with fresh tindi ghyoo can plow forty acres without pausing for breath.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: 'Soaking 2–4 hrs optional; cooking 45–70 min',
       ingredientSections: [
@@ -9851,7 +9955,8 @@ mn: {
         description: 'Bajra khichdi is a hearty grain-and-pulse preparation suited to cold weather and a rural pantry. Pearl millet has a robust, earthy taste and benefits from thorough cooking. Cracked millet cooks more quickly than whole grain; tempered with cumin in ghee, it is a winter hearth staple.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Rohtak & Rural Haryana',
-        culturalSignificance: 'The signature sustenance of Haryanvi farming families during cold months.',
+        culturalSignificance: "The agrarian lifeline of Haryana's dry southern belt. Folk lore describes how pearl millet grains were de-husked in stone pestles (ukhal) by village women chanting harvest rhymes in rhythmic syncopation. In winter, farmers would carry a brass tiffin of hot bajra khichdi buried beneath piles of dried fodder to keep it steaming until noon, spooning enormous mounds of white country butter (tindi ghyoo) into its center.",
+        culturalQuote: "A man who eats bajra khichdi with fresh tindi ghyoo can plow forty acres without pausing for breath.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: '45–70 min',
         ingredientSections: [
@@ -9913,7 +10018,8 @@ mn: {
         description: 'Cholia refers to fresh green chickpeas, a seasonal ingredient enjoyed in parts of North India. Compared with dried chickpeas, fresh green chickpeas are tender, grassy, and cook relatively quickly. The recipe is a simple curry in which coriander and a lightly spiced onion-tomato base support the vegetable.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Haryana Farm Belts',
-        culturalSignificance: 'Celebrated during the short winter harvest window when pods are plucked directly from fields and shelled fresh.',
+        culturalSignificance: "Green tender chickpeas (cholia) announce the arrival of springtime in Haryana. Oral lore describes families sitting together on charpoys in the afternoon sun, peeling the papery green pods while singing folk songs of the harvest deity. Cooked with freshly ground coriander stems and curd, it was considered inauspicious to sell cholia in the market before offering the first bowl to village elders and the domestic hearth.",
+        culturalQuote: "When the green cholia pods crack open between your fingers, know that the winter has surrendered to spring.",
         servesCount: 'Yield: 4 servings',
         approxPrepTime: '35–45 min',
         ingredientSections: [
@@ -9982,7 +10088,8 @@ mn: {
         description: 'Bajra roti is a staple-style millet flatbread. Pearl millet dough has no gluten, so the bread is shaped by patting rather than by rolling it like wheat roti. Garlic chutney supplies sharpness and heat. The recipe depends on warm water, a soft dough, and gentle handling.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Bhiwani, Hisar & Rural Hearths',
-        culturalSignificance: 'The daily agrarian plate of Haryana: unrefined, mineral-rich pearl millet paired with pungent raw garlic and dried red chillies to ignite digestion.',
+        culturalSignificance: "The iconic agrarian meal that fueled peasant revolts and tireless wrestling akharas. Haryanvi grandmothers pat the thick millet dough entirely by hand between moist palms, as rolling pins are deemed incapable of honoring the grain's coarse texture. Oral lore states that the spicy garlic chutney, ground on a red sandstone sil-batta with whole dried chilies, stimulates digestive fire and keeps poisonous insects away from field laborers.",
+        culturalQuote: "No rolling pin can tame bajra; it yields only to the loving rhythm of two working palms.",
         servesCount: 'Yield: 6 rotis and 1 bowl chutney',
         approxPrepTime: '40 min',
         ingredientSections: [
@@ -10055,7 +10162,8 @@ mn: {
         description: 'Kachri is a small wild melon used in parts of Haryana and neighbouring dry regions. It is known for a sharp, tangy flavour and can be used in chutneys or vegetable preparations.',
         preservationStatus: 'Endangered Oral Tradition',
         microOrigin: 'South-Western Haryana Sand Belts',
-        culturalSignificance: 'Wild kachri grows naturally in arid fields and is foraged by village women, providing vital organic acids and digestive relief during hot months.',
+        culturalSignificance: "Kachri, a tiny wild melon resembling a mottled gourd, grows wild amid arid sand dunes. Pastoral communities in Bhiwani and Rohtak have survived extreme desert droughts by foraging and sun-drying sliced kachri. Village oral history recounts that during historic famines, roasted kachri chutney eaten with stale bread sustained entire cattle herds and shepherd families when no other green grew on earth.",
+        culturalQuote: "What the desert refuses to yield in grain, it gifts in the pungent wild fruit of the kachri vine.",
         servesCount: 'Yield: 1 small bowl',
         approxPrepTime: '15–20 min',
         ingredientSections: [
@@ -10111,7 +10219,8 @@ mn: {
         description: 'Churma is made by crumbling cooked wheat bread and binding it with ghee and sweetener. In Haryana, churma and related wheat-and-ghee sweets appear in festive and family contexts. The method is deliberately simple: cook the bread through, cool enough to handle, crumble finely, then add ghee and sugar or jaggery to taste.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Haryana Village Hearths',
-        culturalSignificance: 'The ultimate celebratory offering in Haryana, prepared for wrestlers, visiting guests, and family feasts to demonstrate generous dairy hospitality.',
+        culturalSignificance: "Revered across the akhara wrestling grounds as the supreme food of champions. Folk tales narrate how mothers would tear thick, blistered wheat rotis straight from the clay chulha while burning their fingers, crushing them furiously with raw unrefined shakkar (jaggery sugar) and copious churned cow ghee until the mixture absorbed the fat completely. Feeding a young wrestler a brass thali of churma was considered equivalent to giving him armor in the sand pit.",
+        culturalQuote: "A mother’s blistered palms rubbing hot roti with golden ghee create the strength that no opponent can throw.",
         servesCount: 'Yield: 4–6 portions',
         approxPrepTime: '45–60 min',
         ingredientSections: [
@@ -10191,7 +10300,8 @@ mn: {
       description: 'An iconic street food from the bustling Sarafa Bazaar in Indore, Malwa region. Bhutte means corn, and Kees means grated. It is a creamy, sweet, and spicy mash made by slow-roasting grated milky corn in ghee and simmering it in milk.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Sarafa Bazaar, Indore & Malwa Plateau',
-      culturalSignificance: 'Born in the nocturnal jewelry street of Sarafa Bazaar, Indore, where night-time food vendors thrive. Traditional desi field corn on the cob is grated while still milky and cooked slowly with milk and ghee to achieve its melt-in-the-mouth texture.',
+      culturalSignificance: "The signature street and home culinary delicacy of Indore and Malwa. When the monsoon winds drench the black cotton soil, tender local sweet corn is grated on brass graters and slow-cooked in rich milk, hing, and green chillies until velvety. Malwi grandmothers tell children that the yellow corn reflects the generosity of the monsoon clouds, garnished with freshly grated coconut and coriander like a shower of blessings.",
+      culturalQuote: "When the Indore rains turn the streets glistening black, a steaming plate of grated corn and hot milk warms the soul.",
       servesCount: 'Serves 4',
       approxPrepTime: '30 min',
       ingredientSections: [
@@ -10290,7 +10400,8 @@ mn: {
         description: 'Native to the Baghelkhand region (Rewa, Satna), Indrahar is a protein-dense delicacy made from an overnight-fermented batter of five different lentils. It can be eaten as a dry savory snack or simmered in a rich, yogurt-based gravy.',
         preservationStatus: 'Endangered Oral Tradition',
         microOrigin: 'Baghelkhand (Rewa & Satna)',
-        culturalSignificance: 'Celebrated in ancient Baghelkhand lore as "food fit for Indra (King of Gods)". Combining five lentils (chana, toor, moong, urad, masoor) and allowing wild yeast fermentation, it represents nutrient-dense rural hearth wisdom.',
+        culturalSignificance: "Originating in the royal and rural kitchens of Rewa in the Baghelkhand region, indrahar is an ancient ceremonial dish whose name literally means 'food worthy of Indra, king of gods'. Oral folklore recounts that during historic drought years, when vegetable gardens dried up, mothers soaked five different pulses—chana, urad, moong, masoor, and tuver—steaming the crushed lentil cakes in leaf parcels before simmering them in spicy kadhi.",
+        culturalQuote: "Five sacred lentils blended with mountain herbs; when the fields offer no vegetables, the gods provide indrahar.",
         servesCount: 'Serves 4–6',
         approxPrepTime: '45 min (+ overnight soaking & fermentation)',
         ingredientSections: [
@@ -10376,7 +10487,8 @@ mn: {
         description: 'An iconic street food from the bustling Sarafa Bazaar in Indore, Malwa region. Bhutte means corn, and Kees means grated. It is a creamy, sweet, and spicy mash made by slow-roasting grated milky corn in ghee and simmering it in milk.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Sarafa Bazaar, Indore & Malwa Plateau',
-        culturalSignificance: 'Born in the nocturnal jewelry street of Sarafa Bazaar, Indore, where night-time food vendors thrive. Traditional desi field corn on the cob is grated while still milky and cooked slowly with milk and ghee to achieve its melt-in-the-mouth texture.',
+        culturalSignificance: "The signature street and home culinary delicacy of Indore and Malwa. When the monsoon winds drench the black cotton soil, tender local sweet corn is grated on brass graters and slow-cooked in rich milk, hing, and green chillies until velvety. Malwi grandmothers tell children that the yellow corn reflects the generosity of the monsoon clouds, garnished with freshly grated coconut and coriander like a shower of blessings.",
+        culturalQuote: "When the Indore rains turn the streets glistening black, a steaming plate of grated corn and hot milk warms the soul.",
         servesCount: 'Serves 4',
         approxPrepTime: '30 min',
         ingredientSections: [
@@ -10443,7 +10555,8 @@ mn: {
         description: 'Garadu is a specific variety of purple yam (lesser yam) that hits the markets in Madhya Pradesh during peak winter. It is famously double-fried for an extreme crunch and tossed in a fiery, tangy spice blend known as Garadu Masala.',
         preservationStatus: 'Living Ritual',
         microOrigin: 'Indore & Ujjain Winter Bazaars',
-        culturalSignificance: 'A beloved winter evening ritual across Malwa. The tubers are parboiled, given a primary gentle fry, sliced small, and then flash-fried at smoking temperature right when ordered. The unique spice mix with dry mango and black salt gives it irresistible punch.',
+        culturalSignificance: "The undisputed hero of chilly winter nights in Malwa. Deep-fried cubes of purple yam (garadu) are tossed in a tongue-tingling secret spice mix called 'garadu masala', heavy with dried mint, black salt, citric tang, and toasted cumin. Elders remember how families huddled around roadside iron cauldrons in Sarafa Bazaar past midnight, the crackle of sizzling yam in boiling oil keeping winter frost at bay.",
+        culturalQuote: "Two drops of lemon juice over crisp golden garadu, and the winter chill vanishes from your veins.",
         servesCount: 'Serves 4',
         approxPrepTime: '25 min',
         ingredientSections: [
@@ -11539,7 +11652,8 @@ tr: {
       description: 'A bright, palate-awakening staple from the highland kitchens of Arunachal Pradesh (cherished particularly within Monpa and neighboring Himalayan communities), Tumpuluk Chok is a rustic chutney-mash centered on minimalist firecraft. Making use of sweet, acidic local wild cherry tomatoes, the dish extracts deep warmth and complexity from native Sichuan pepper (yer / thingye), which imparts an unmistakable citrusy tingle and numbing vibrance. Light, oil-free, and sharp, it functions as an essential condiment designed to enliven hearty mountain starches and roasted meats.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Monpa Highland Settlements, Tawang & West Kameng',
-      culturalSignificance: 'The elemental table condiment of high-altitude Himalayan hearths, combining blistered wild tomatoes with wild-foraged numbing peppercorns.',
+      culturalSignificance: "The elemental table condiment of high-altitude Himalayan hearths among the Monpa of Tawang and West Kameng. Wild fermented mountain beans or soybeans are crushed with fiery bird's eye chillies, Sichuan pepper (yerma), and rock salt. Mountain lore recounts that Monpa yak herders crossing snowbound passes at 13,000 feet carry wooden boxes of tumpuluk chok to smear over roasted barley flour (tsampa), keeping their blood circulating against frostbite.",
+      culturalQuote: "A pinch of yerma pepper that numbs the lips, wild beans that warm the chest; the mountain path is never cold with tumpuluk chok.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -11616,7 +11730,8 @@ tr: {
       description: 'A bright, palate-awakening staple from the highland kitchens of Arunachal Pradesh (cherished particularly within Monpa and neighboring Himalayan communities), Tumpuluk Chok is a rustic chutney-mash centered on minimalist firecraft. Making use of sweet, acidic local wild cherry tomatoes, the dish extracts deep warmth and complexity from native Sichuan pepper (yer / thingye), which imparts an unmistakable citrusy tingle and numbing vibrance. Light, oil-free, and sharp, it functions as an essential condiment designed to enliven hearty mountain starches and roasted meats.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Monpa Highland Settlements, Tawang & West Kameng',
-      culturalSignificance: 'The elemental table condiment of high-altitude Himalayan hearths, combining blistered wild tomatoes with wild-foraged numbing peppercorns.',
+      culturalSignificance: "The elemental table condiment of high-altitude Himalayan hearths among the Monpa of Tawang and West Kameng. Wild fermented mountain beans or soybeans are crushed with fiery bird's eye chillies, Sichuan pepper (yerma), and rock salt. Mountain lore recounts that Monpa yak herders crossing snowbound passes at 13,000 feet carry wooden boxes of tumpuluk chok to smear over roasted barley flour (tsampa), keeping their blood circulating against frostbite.",
+      culturalQuote: "A pinch of yerma pepper that numbs the lips, wild beans that warm the chest; the mountain path is never cold with tumpuluk chok.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '15 min',
       ingredientSections: [
@@ -11692,7 +11807,8 @@ tr: {
       description: 'Deeply rooted in the high-altitude culinary traditions of Arunachal Pradesh—most notably among the Monpa community of Tawang and West Kameng—Puta is a celebrated heirloom noodle preparation made from cold-climate buckwheat (buckwheat flour). Naturally gluten-free, earthy, and nutty, the freshly pressed noodles are tossed with fermented soybeans (pehak / chhurpi variations), wild mountain garlic chives, dried chilies, and rich churned butter. Hearty and warming against freezing winds, it is a quintessential representation of highland self-reliance.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Monpa Highland Valleys, Tawang & West Kameng',
-      culturalSignificance: 'The celebratory mountain staple of Monpa alpine feasts and Losar New Year gatherings, handmade using wooden noodle presses.',
+      culturalSignificance: "The celebratory alpine noodle feast of the Monpa people, prepared during Losar (New Year) and mountain weddings. Hand-harvested buckwheat grown on steep alpine terraces is stone-ground and pressed through a traditional wooden noodle extruder directly into boiling mountain spring water, then seasoned with local chhurpi (fermented yak cheese), wild chives, and clarified yak butter. Oral lore holds that long buckwheat noodles symbolize long life and enduring prosperity.",
+      culturalQuote: "Press the dark buckwheat noodles long and unbroken; may our family ties be as enduring as the snows of Gorichen.",
       servesCount: 'Yield: 3–4 servings',
       approxPrepTime: '30 min',
       ingredientSections: [
@@ -11773,7 +11889,8 @@ tr: {
       description: 'A prized culinary classic from the indigenous tribes of Arunachal Pradesh (especially celebrated among the Nyishi and Adi communities), Papuk showcases the brilliant pairing of poultry with wild, foraged elements. Centered around tender country chicken braised alongside cleaned banana blossom petals (kera phool), this slow-cooked stew draws its soul from pungent fermented bamboo shoot (ekung or eup). Simmered without heavy oils or powdered spice mixes, the naturally sweet, savory chicken juices permeate the floral bitterness of the banana flower, accented by biting hill chilies and wild regional herbs.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Nyishi & Adi Tribal Settlements, Subansiri & Siang River Valleys',
-      culturalSignificance: 'An ancestral forest feast prepared for community celebrations, showcasing indigenous zero-oil poultry braising in wild botanicals.',
+      culturalSignificance: "An ancestral forest feast of the Adi and Nyishi tribes of Arunachal Pradesh. Freshly harvested maize, river crabs or smoked meats, and tender forest greens are seasoned with crushed ginger and aromatic herbs, packed into green bamboo hollows, and roasted over open riverbank campfires. Tribal folklore recounts that papuk was the celebratory meal prepared after community hunting expeditions, eaten together on broad banana leaves by the river's edge.",
+      culturalQuote: "Pack the forest harvest into green bamboo and let the flames sing; what the river and mountain provide, the community shares as one.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '40 min',
       ingredientSections: [
@@ -11859,7 +11976,8 @@ tr: {
       description: 'Crafted for long journeys and cold alpine winters, Lukter (or Lutker) is an intensely savory, fiery meat relish from Arunachal Pradesh. Built around air-dried or wood-smoked meat (traditionally beef, mithun, or pork), the meat is first roasted over open coals or simmered until tender, shredded into fine, wispy strands, and then pounded in a mortar with crushed flakes of the legendary ghost pepper (Bhut Jolokia). With its deep, concentrated smokiness and piercing heat, a mere spoonful of Lukter provides a potent savory foil to plain, unseasoned starch.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Arunachal Highland Trails & Alpine Settlements',
-      culturalSignificance: 'The ultimate trail nourishment for high-altitude hunting and trading journeys across Himalayan passes, packed with long-preserved protein.',
+      culturalSignificance: "The ultimate trail nourishment of the Adi tribal warriors and hunters. Strips of smoked dry beef or pork are hand-shredded and dry-roasted with fiery flakes of King Chilli (bhut jolokia) and roasted bamboo shoot flakes. Oral tales recount that warriors traveling across dense jungle canopies for weeks carried pouches of dry lukter, which never spoiled in the tropical humidity and provided instant fierce energy with a handful of boiled hill rice.",
+      culturalQuote: "Torn by hand, smoked by cedar wood, spiced by king chilli; a pocket of lukter keeps the hunter's step silent and his spear true.",
       servesCount: 'Yield: 6–8 condiment portions',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -11937,7 +12055,8 @@ tr: {
       description: 'A luxurious, warming mountain specialty from Arunachal Pradesh’s Monpa culinary repertoire, Khazi is an indulgent, savory rice preparation that resembles an alpine risotto. Built upon indigenous nutty red rice, the dish draws its signature creaminess from local fermented yak or cow milk cheese (chhurpi or hard mountain cheese) along with pungent fermented soybeans. Enriched with spring onions, sharp ginger, and aromatic chives, Khazi is comfort food at its most primal—rich, deeply savory, and engineered to provide sustained stamina in the Himalayan highlands.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Monpa Alpine Settlements, Dirang & Tawang',
-      culturalSignificance: 'The ultimate cold-weather mountain sustenance, combining high-altitude red grains with pungent aged cheese and fermented legumes.',
+      culturalSignificance: "The ultimate cold-weather mountain comfort of the Monpa highland hamlets. Cold-hardy upland rice is slow-cooked into a thick, comforting gruel with aged fermented yak cheese (chhurpi), shredded dried greens, and Sichuan pepper. Village grandmothers tell children that when blizzards bury the slate roofs in white silence, a steaming bowl of pungent khazi restores peaceful sleep and banishes all alpine chills.",
+      culturalQuote: "When the yak bell is silenced by the falling snow, the smell of warm chhurpi in the pot whispers that life is good.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '35 min; rice soak 30 min',
       ingredientSections: [
@@ -12038,7 +12157,8 @@ tr: {
       description: 'Regarded as the crowning centerpiece of Khasi celebratory dining in Meghalaya, Jadoh (from the Khasi words Ja meaning rice and Doh meaning meat) is often likened to a regional biryani or pilaf, yet it stands entirely in a league of its own. Unlike heavy, Mughlai-style rice dishes layered with warm sweet spices and cream, Jadoh embraces rustic minimalism. Short-grain indigenous red or hill rice is simmered directly in rendered pork fat, fragrant yellow turmeric, pungent black pepper, and generous amounts of ginger. As the meat renders its natural juices into the simmering grains, each kernel turns rich, golden, and deeply savory.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Khasi Hills Celebratory Feasts, Shillong & Sohra',
-      culturalSignificance: 'The cultural benchmark of Khasi celebratory feasts, prepared for weddings, festivals, and Sunday clan gatherings.',
+      culturalSignificance: "The ceremonial soul of Khasi gastronomy, served during family reunions, feasts, and ancestral ceremonies. Indigenous hill rice (ja) is slow-cooked in the rich, seasoned broth of local pork or chicken (doh) infused with freshly crushed ginger, onions, and black pepper. In oral Khasi tradition, jadoh cooked over a three-stone hearth in an iron pot is the symbol of maternal hospitality, offered to every guest who crosses the threshold as an embrace of kinship.",
+      culturalQuote: "The rice must drink the juices of the meat until every grain shines with fat; a home that serves jadoh knows no strangers.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '35 min',
       ingredientSections: [
@@ -12131,7 +12251,8 @@ tr: {
       description: 'Regarded as the crowning centerpiece of Khasi celebratory dining in Meghalaya, Jadoh (from the Khasi words Ja meaning rice and Doh meaning meat) is often likened to a regional biryani or pilaf, yet it stands entirely in a league of its own. Unlike heavy, Mughlai-style rice dishes layered with warm sweet spices and cream, Jadoh embraces rustic minimalism. Short-grain indigenous red or hill rice is simmered directly in rendered pork fat, fragrant yellow turmeric, pungent black pepper, and generous amounts of ginger. As the meat renders its natural juices into the simmering grains, each kernel turns rich, golden, and deeply savory.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Khasi Hills Celebratory Feasts, Shillong & Sohra',
-      culturalSignificance: 'The cultural benchmark of Khasi celebratory feasts, prepared for weddings, festivals, and Sunday clan gatherings.',
+      culturalSignificance: "The ceremonial soul of Khasi gastronomy, served during family reunions, feasts, and ancestral ceremonies. Indigenous hill rice (ja) is slow-cooked in the rich, seasoned broth of local pork or chicken (doh) infused with freshly crushed ginger, onions, and black pepper. In oral Khasi tradition, jadoh cooked over a three-stone hearth in an iron pot is the symbol of maternal hospitality, offered to every guest who crosses the threshold as an embrace of kinship.",
+      culturalQuote: "The rice must drink the juices of the meat until every grain shines with fat; a home that serves jadoh knows no strangers.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '35 min',
       ingredientSections: [
@@ -12223,7 +12344,8 @@ tr: {
       description: 'One of the most distinct, soul-warming curries from the Khasi hills of Meghalaya, Dohneiiong (Doh meaning meat, Neiiong meaning black sesame seeds) pairs succulent pork belly with a luscious, dark, nutty paste. Rather than relying on thick cream or overpowering garam masalas, this dish derives its smoky depth and velvety gravy entirely from dry-roasted black sesame seeds ground with garlic and green chilies. As the fatty pork braises slowly in this inky sauce, the seeds release their aromatic oils, creating a dark, deeply earthy curry that clings to every piece of meat.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Khasi Hills Hearth Kitchens, East Khasi Hills',
-      culturalSignificance: 'The signature black curry of the Khasi people, celebrated for the nutty richness of indigenous toasted black sesame.',
+      culturalSignificance: "The iconic Khasi pork delicacy characterized by its deep, mysterious midnight-black gravy. The dark hue and earthy, nutty richness come from stone-ground black sesame seeds (nei-iong) toasted dry before grinding with ginger and garlic. Khasi grandmother lore holds that black sesame strengthens the bone marrow against the damp, biting chill of the plateau's monsoon rains and cloud-covered hills.",
+      culturalQuote: "Black as the wet rocks of Cherrapunji, rich as the ancient forest soil; black sesame turns pork into a feast for clan elders.",
       servesCount: 'Yield: 4 servings',
       approxPrepTime: '40 min',
       ingredientSections: [
@@ -12311,7 +12433,8 @@ tr: {
       description: 'A revered indigenous staple among the Khasi, Jaintia, and Garo households of Meghalaya, Tungrymbai is an umami-packed preparation centered on traditionally fermented soybeans. Cleaned soybeans are boiled, wrapped tightly in leaves (often sla-met or wild leaves), placed inside a woven basket near the hearth, and allowed to ferment for several days until they soften and develop their characteristic sharp, pungent aroma. While often cooked with small bits of pork or pork fat in tribal kitchens, the quintessential preparation—celebrated widely as a vegetarian powerhouse—sautés the fermented mash in cold-pressed mustard oil with pounded ginger, garlic, chilies, and black sesame, yielding an earthy, savory paste that revives any simple meal.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Khasi & Jaintia Hearth Kitchens, Meghalaya',
-      culturalSignificance: 'The daily umami heartbeat of Khasi home dining, preserved over generations through woodfire hearth leaf fermentation.',
+      culturalSignificance: "An ancient fermented soybean preparation that is the aromatic heartbeat of Khasi and Jaintia hearths. Soybeans are boiled, wrapped in wild leaves, and fermented beside the warm kitchen fire for several days before being pounded and fried in mustard oil with black sesame, pork fat, and green chillies. Khasi oral history remembers that during the grueling monsoon months when torrential rain cut off hill trails, tungrymbai was the dependable source of deep protein and savory umami.",
+      culturalQuote: "The aroma of tungrymbai on the winter breeze tells the tired traveler that a Khasi hearth is burning nearby.",
       servesCount: 'Yield: 4 condiment portions',
       approxPrepTime: '20 min',
       ingredientSections: [
@@ -12393,7 +12516,8 @@ tr: {
       description: 'Elegantly simple and deeply embedded in Khasi hearth culture, Pumaloi is a traditional steamed rice cake crafted from unique, indigenous hill rice varieties. Traditionally steamed inside an artisanal earthenware steamer called a Khiew Ranei fitted with a bamboo spout, this preparation relies on no fats, leavenings, or heavy seasonings. Coarsely ground, lightly moistened rice flour is packed gently into the pot and allowed to steam until the individual grains fuse into an airy, cloud-like cake. Soft, porous, and neutral with a faint sweet grain perfume, it acts as the ideal edible sponge to mop up rich Khasi curries like Dohneiiong or spicy vegetable stews.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Khasi Hills Villages & Tea Stalls Across Meghalaya',
-      culturalSignificance: 'The quintessential Khasi hearth staple, steamed in porous red earthenware to accompany afternoon red tea (sha saw) or rich meat curries.',
+      culturalSignificance: "A beloved traditional Khasi steamed rice bread, cooked inside a specialized two-tiered earthen pot called a 'khiew ranei'. Coarsely powdered local hill rice is layered with freshly scraped coconut and steamed over boiling water. Oral lore describes how Khasi grandmothers would shape pumaloi for morning breakfast and harvest festivals, eating it warm with black tea or spicy pork curry as the morning mist drifted through the pine trees.",
+      culturalQuote: "Steamed pure white over the earthen pot like the clouds of Meghalaya; soft as morning dew upon the hill pines.",
       servesCount: 'Yield: 4–6 cakes',
       approxPrepTime: '25 min; flour resting 1 hr',
       ingredientSections: [
@@ -12467,7 +12591,8 @@ tr: {
       description: 'A legendary restorative specialty hailing from the Garo Hills of Meghalaya, Nakham Bitchi is a fiery, aromatic clear soup built around Nakham—traditionally sun-dried and wood-smoked fish. Prized for its clean heat and deeply savory profile, this broth is a cherished remedy on freezing evenings, rainy monsoons, or whenever the body craves rejuvenation. Simmered simply with crushed garlic, fresh ginger, and scorching local birds eye or fiery red chilies, it is often seasoned with kalchi (a traditional indigenous alkaline ash filtrate) or salt. The resulting soup is clear, sharp, and unmistakably invigorating.',
       preservationStatus: 'Living Ritual',
       microOrigin: 'Garo Hills Homesteads, Tura & East Garo Hills',
-      culturalSignificance: 'The cherished ancestral tonic of the Garo people, celebrated for revitalizing energy and soothing colds with woodsmoke fish and fiery hill chillies.',
+      culturalSignificance: "The legendary curative dry-fish soup of the Garo people (A.chik) in the western hills of Meghalaya. Sun-dried and smoke-cured freshwater fish (nakham) is boiled with fiery bird's eye chillies, crushed ginger, and a traditional alkali filtrate (kalchi) made from burnt banana peels. Garo oral lore considers a piping-hot bowl of spicy nakham bitchi the ultimate remedy for clearing nasal passages, banishing fatigue, and welcoming visitors to the hill homestead.",
+      culturalQuote: "One sip of fiery nakham bitchi clears the head like a gust of wind sweeping the fog from the Tura peak.",
       servesCount: 'Yield: 3–4 soup bowls',
       approxPrepTime: '15 min',
       ingredientSections: [

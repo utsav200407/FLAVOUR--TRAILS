@@ -311,9 +311,49 @@ export const StateDetail: React.FC<StateDetailProps> = ({
                 ))}
               </div>
             </div>
+
+            {/* Step-by-Step Method Card */}
+            <div className="editorial-card-wrapper method-card" ref={methodRef}>
+              <div className="editorial-section-heading">
+                <div className="heading-icon-circle gold-bordered">
+                  <ChefHat size={18} className="gold-accent-icon" />
+                </div>
+                <h2>Method</h2>
+              </div>
+
+              <div className="method-steps-container">
+                {activeDish.stepDetails ? (
+                  /* Rich steps with photos and numbered titles */
+                  activeDish.stepDetails.map((step) => (
+                    <div key={step.stepNum} className="method-step-item">
+                      <div className="method-step-counter">{step.stepNum}</div>
+                      {step.imageUrl && (
+                        <div className="method-step-thumb-wrap">
+                          <img src={step.imageUrl} alt={step.title} className="method-step-photo" loading="lazy" />
+                        </div>
+                      )}
+                      <div className="method-step-content">
+                        <h4 className="method-step-headline">{step.title}</h4>
+                        <p className="method-step-desc">{step.instruction}</p>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  /* Fallback to preparationSteps string array */
+                  activeDish.preparationSteps.map((stepStr, idx) => (
+                    <div key={idx} className="method-step-item">
+                      <div className="method-step-counter">{idx + 1}</div>
+                      <div className="method-step-content">
+                        <p className="method-step-desc">{stepStr}</p>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+            </div>
           </div>
 
-          {/* Right Column: Key Ingredients Card */}
+          {/* Right Column: Key Ingredients Card & Serving Suggestion */}
           <div className="editorial-col-right" ref={ingredientsRef}>
             <div className="key-ingredients-card">
               <div className="ingredients-card-header">
@@ -413,76 +453,33 @@ export const StateDetail: React.FC<StateDetailProps> = ({
                 </button>
               )}
             </div>
-          </div>
-        </div>
 
-        {/* 5. Lower 2-Column Content Layout: Method (Left) & Serving Suggestion (Right) */}
-        <div className="dish-method-serving-grid" ref={methodRef}>
-          {/* Left: Step-by-Step Method Card */}
-          <div className="editorial-card-wrapper method-card">
-            <div className="editorial-section-heading">
-              <div className="heading-icon-circle gold-bordered">
-                <ChefHat size={18} className="gold-accent-icon" />
+            {/* Serving Suggestion Card */}
+            <div className="editorial-card-wrapper serving-card">
+              <div className="editorial-section-heading">
+                <div className="heading-icon-circle gold-bordered">
+                  <Soup size={18} className="gold-accent-icon" />
+                </div>
+                <h2>Serving Suggestion</h2>
               </div>
-              <h2>Method</h2>
-            </div>
 
-            <div className="method-steps-container">
-              {activeDish.stepDetails ? (
-                /* Rich steps with photos and numbered titles */
-                activeDish.stepDetails.map((step) => (
-                  <div key={step.stepNum} className="method-step-item">
-                    <div className="method-step-counter">{step.stepNum}</div>
-                    {step.imageUrl && (
-                      <div className="method-step-thumb-wrap">
-                        <img src={step.imageUrl} alt={step.title} className="method-step-photo" loading="lazy" />
-                      </div>
-                    )}
-                    <div className="method-step-content">
-                      <h4 className="method-step-headline">{step.title}</h4>
-                      <p className="method-step-desc">{step.instruction}</p>
-                    </div>
-                  </div>
-                ))
-              ) : (
-                /* Fallback to preparationSteps string array */
-                activeDish.preparationSteps.map((stepStr, idx) => (
-                  <div key={idx} className="method-step-item">
-                    <div className="method-step-counter">{idx + 1}</div>
-                    <div className="method-step-content">
-                      <p className="method-step-desc">{stepStr}</p>
-                    </div>
-                  </div>
-                ))
+              {activeDish.servingSuggestion?.imageUrl && (
+                <div className="serving-suggestion-visual-wrap">
+                  <img
+                    src={activeDish.servingSuggestion.imageUrl}
+                    alt={`Serving suggestion for ${activeDish.name}`}
+                    className="serving-suggestion-photo"
+                    loading="lazy"
+                  />
+                </div>
               )}
-            </div>
-          </div>
 
-          {/* Right: Serving Suggestion Card */}
-          <div className="editorial-card-wrapper serving-card">
-            <div className="editorial-section-heading">
-              <div className="heading-icon-circle gold-bordered">
-                <Soup size={18} className="gold-accent-icon" />
+              <div className="serving-suggestion-body">
+                <p>
+                  {activeDish.servingSuggestion?.text || 
+                    `Serve piping hot with freshly steamed Gobindobhog or aged basmati rice, letting the aromatic, traditional flavours soak through every grain.`}
+                </p>
               </div>
-              <h2>Serving Suggestion</h2>
-            </div>
-
-            {activeDish.servingSuggestion?.imageUrl && (
-              <div className="serving-suggestion-visual-wrap">
-                <img
-                  src={activeDish.servingSuggestion.imageUrl}
-                  alt={`Serving suggestion for ${activeDish.name}`}
-                  className="serving-suggestion-photo"
-                  loading="lazy"
-                />
-              </div>
-            )}
-
-            <div className="serving-suggestion-body">
-              <p>
-                {activeDish.servingSuggestion?.text || 
-                  `Serve piping hot with freshly steamed Gobindobhog or aged basmati rice, letting the aromatic, traditional flavours soak through every grain.`}
-              </p>
             </div>
           </div>
         </div>

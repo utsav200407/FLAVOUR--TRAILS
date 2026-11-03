@@ -616,9 +616,7 @@
 }
 
 .editorial-card-wrapper.cultural-card {
-  background: 
-    url('/images/wb/rural_lore_bg.png') no-repeat right 0px bottom -10px / auto 85%,
-    linear-gradient(180deg, #1C100A 0%, #150B06 100%);
+  background: linear-gradient(180deg, #1C100A 0%, #150B06 100%);
   border: 1.5px solid rgba(229, 168, 66, 0.45);
   box-shadow: 0 0 25px rgba(229, 168, 66, 0.08);
   position: relative;
