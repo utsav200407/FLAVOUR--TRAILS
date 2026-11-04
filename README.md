@@ -60,9 +60,7 @@ The application supports native **hash-based routing and deep-linking**:
   - *The 90-Minute Local Train Quest: The Spiciest Misal Challenge* (0:37) — College friends embarking on a local train journey across Maharashtra hunting fiery misal.
   - *The 7th Birthday Revelation: Chole Bhature* (0:19) — Childhood birthday celebration falling in love with classic North Indian chickpeas and puffed bhatura.
   - *Hostel Days & Mom's Crispy Ghee Dosa* (2:20) — Personal reflection on mom's fermented batter as an emotional cure and comfort food.
-  - *The Dum Fragrance That Stole The House: Father’s Sunday Biryani* (0:52) — Paternal cooking rituals, teamwork, and waiting for the dough seal to break.
   - *Beyond The Famous Restaurants: Why Mom’s Biryani Still Reigns Supreme* (1:19) — Hyderabad food lore on why no restaurant can beat home-cooked maternal biryani.
-  - *The Street-Corner Burst: Childhood Holidays & Pani Puri* (0:40) — The explosion of street-side flavours and the thrill of homecoming holidays.
   - *Sacred Cow-Dung Embers & Sattu: The Timeless Resilience of Litti Chokha* (1:05) — Rural Magadhan resilience and the earthen nourishment of ember-roasted litti.
 - 🗺️ **Interactive Vector Map of India**: Dynamic SVG map (`@svg-maps/india`) allowing exploratory browsing across all 28 states and union territories with real-time hover cards displaying culinary philosophies, staple grains, and representative dishes.
 - 📜 **Parchment & Leather Manuscript Design**: Aesthetic inspired by classical Indian manuscripts, natural terracotta, antique brass, and deckle-edged polaroid photography.
